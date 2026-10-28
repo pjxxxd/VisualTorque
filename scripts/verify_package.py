@@ -72,7 +72,7 @@ def verify(original_root=None, downloads=None):
     docs = [ROOT / 'README.md', *sorted((ROOT / 'notebooks').rglob('README.md')),
             *[ROOT / 'docs' / n for n in ('CLAIM_TO_NOTEBOOK.md', 'RUNNING.md', 'COVERAGE.md', 'VALIDATION.md', 'CHANGELOG_20261028.md')],
             ROOT / 'docs/original_run_guides/README.md', ROOT / 'evidence/deepseek/README.md',
-            ROOT / 'docs/SIMPLIFICATION.md', ROOT / 'docs/EXPERIMENT_NOTES.md',
+            ROOT / 'docs/NOTEBOOKS.md', ROOT / 'docs/EXPERIMENT_NOTES.md',
             *sorted((ROOT / 'docs/experiment_notes').rglob('*.md'))]
     links_checked = 0
     for path in docs:
@@ -151,7 +151,7 @@ def verify(original_root=None, downloads=None):
                     errors.append('Previous notebook missing or changed: ' + r['destination'])
                 previous_checked += 1
         baseline = original_root / 'VisualTorque_GitHub_20261028'
-        for change in read_json('docs/simplification_manifest.json'):
+        for change in read_json('docs/notebook_provenance.json'):
             path = baseline / change['destination']
             if not path.is_file() or digest(path) != change['original_sha256']:
                 errors.append('Original organized notebook changed: ' + change['destination'])
@@ -164,7 +164,7 @@ def verify(original_root=None, downloads=None):
             after_code = [c for c in after['cells'] if c['cell_type'] != 'markdown']
             if before_other != after_other or before_code != after_code:
                 errors.append('Code/output/metadata changed: ' + change['destination'])
-            for old_index, new_index in change['original_to_simplified_cell_index'].items():
+            for old_index, new_index in change['source_to_repository_cell_index'].items():
                 if new_index is None:
                     continue
                 a = before['cells'][int(old_index)]

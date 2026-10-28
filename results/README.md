@@ -1,3 +1,5 @@
-# 运行结果与历史输入
+# 运行结果
 
-此目录供运行时存放结果。整理包内可直接查看的保存结果位于各分类的 `notebooks/*/runs/`；历史逐题记录、冻结方向、激活及原结果 ZIP 未复制到此目录。请依照 `docs/RUNNING.md` 恢复目标实验需要的历史输入。
+此目录用于保存实验运行输出。已有 notebook 输出位于 notebooks/*/runs/，DeepSeek 结果汇总位于 evidence/deepseek/。
+
+逐题记录、冻结方向和激活缓存等外部输入的要求见 [运行说明](../docs/RUNNING.md)。

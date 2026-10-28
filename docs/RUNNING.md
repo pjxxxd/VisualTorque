@@ -2,7 +2,7 @@
 
 ## 先查看保存结果
 
-从 [结论对照](CLAIM_TO_NOTEBOOK.md) 进入 runs/ 或 [DeepSeek 精简结果](../evidence/deepseek/README.md)。notebooks 保留计算代码和原始输出，因此路径、旧名称、下载编号及历史报错也保留。code/ 表示源码入口；执行编号或无异常记录不等于科学条件全部通过。
+从 [结论对照](CLAIM_TO_NOTEBOOK.md) 进入 runs/ 或 [DeepSeek 结果汇总](../evidence/deepseek/README.md)。notebooks 保留计算代码和原始输出，因此路径、旧名称、下载编号及历史报错也保留。code/ 表示源码入口；执行编号或无异常记录不等于科学条件全部通过。
 
 ## Qwen / Gemma 主实验
 
@@ -28,6 +28,6 @@ DeepSeek 使用独立环境。当前入口的兼容组合为 Python 3.11.11、To
 
 ## 外部输入与发布范围
 
-notebooks 保留原 Colab/Drive 路径。使用前按配置单元格设置自己的路径、模型访问及输入；避免直接批量替换整个文件。模型权重、原始图片数据、激活缓存与完整逐试次结果不随本整理包提供。data/ 和 results/ 的说明保留相关位置；精简结果可用于阅读和对照，不能替代重算全部统计所需的原始产物。
+notebooks 保留原 Colab/Drive 路径。使用前按配置单元格设置自己的路径、模型访问及输入；避免直接批量替换整个文件。模型权重、原始图片数据、激活缓存与完整逐试次结果不随仓库提供。data/ 和 results/ 的说明保留相关位置；结果汇总可用于阅读和对照，不能替代重算全部统计所需的原始产物。
 
 只做文件完整性核查时，Python 标准库即可运行 python scripts/verify_package.py。它不执行 notebook，不需要 GPU，也不会检查模型效果能否复现。

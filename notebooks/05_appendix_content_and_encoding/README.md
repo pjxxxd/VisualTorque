@@ -56,6 +56,6 @@ CrossQuery_FactorDecision_Transport → ResponseState_Remapping / SemanticToLabe
 | [VisualTorque_SemanticToLabel_Depth_Localization_A100 (1).ipynb](runs/VisualTorque_SemanticToLabel_Depth_Localization_A100%20%281%29.ipynb) | runs | 有输出（18/18 个代码单元） | Qwen/Qwen3.5-27B / Qwen/Qwen3.5-9B |
 | [VisualTorque_SemanticToLabel_Depth_Localization_A100.ipynb](runs/VisualTorque_SemanticToLabel_Depth_Localization_A100.ipynb) | runs | 有输出（18/18 个代码单元） | Qwen/Qwen3.5-27B / Qwen/Qwen3.5-9B |
 
-本阅读版精简 Markdown 说明；代码单元格、参数、保存输出与元数据保留原样。完整说明见 notebook 开头链接。数据和模型环境仍按相应原协议准备。
+实验设置和运行要求见各 notebook 开头的说明链接。
 
 [结论对照](../../docs/CLAIM_TO_NOTEBOOK.md) · [运行说明](../../docs/RUNNING.md) · [覆盖范围](../../docs/COVERAGE.md) · [来源清单](../../docs/source_to_copy.csv)

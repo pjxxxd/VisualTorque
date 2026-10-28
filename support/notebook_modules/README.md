@@ -1,3 +1,3 @@
-# Notebook 辅助模块源码
+# 实验模块
 
-这些 `.py` 文件原样复制自 `VisualTorque/notebooks/`，便于审阅和后续重构。多数 notebook 已把所需模块嵌入单元格，因此无需从这里另行导入。它们不是新增实验结果，也不保证能脱离对应 notebook 的初始化单独执行。
+各 notebook 使用的 Python 实现。多数 notebook 已内嵌所需模块；单独运行这些文件时，需要先完成对应 notebook 的环境和数据初始化。

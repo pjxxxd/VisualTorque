@@ -24,6 +24,6 @@ Qwen-27B L49 的变化更符合来源语义；Qwen L63 和 Gemma-12B L37/L47 更
 | [VisualTorque_Intervention_Prediction_Validation_GPU (1).ipynb](runs/VisualTorque_Intervention_Prediction_Validation_GPU%20%281%29.ipynb) | runs | 有输出（15/15 个代码单元） | google/gemma-4-12B-it |
 | [VisualTorque_Intervention_Prediction_Validation_GPU.ipynb](runs/VisualTorque_Intervention_Prediction_Validation_GPU.ipynb) | runs | 有输出（15/15 个代码单元） | Qwen/Qwen3.5-27B |
 
-本阅读版精简 Markdown 说明；代码单元格、参数、保存输出与元数据保留原样。完整说明见 notebook 开头链接。数据和模型环境仍按相应原协议准备。
+实验设置和运行要求见各 notebook 开头的说明链接。
 
 [结论对照](../../docs/CLAIM_TO_NOTEBOOK.md) · [运行说明](../../docs/RUNNING.md) · [覆盖范围](../../docs/COVERAGE.md) · [来源清单](../../docs/source_to_copy.csv)

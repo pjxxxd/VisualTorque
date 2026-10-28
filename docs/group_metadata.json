@@ -263,8 +263,8 @@
     ]
   },
   "13_deepseek_extension": {
-    "title": "新增 DeepSeek-VL2-small：4.2–4.5 扩展与恢复版",
-    "paper": "对应当前稿件 4.2–4.5；截至本次整理尚未写入 VisualTorque_revision 正文",
+    "title": "DeepSeek-VL2-small：4.2–4.5 模型扩展",
+    "paper": "对应当前稿件 4.2–4.5；2026-10-28 稿件尚未纳入该模型结果",
     "role": "新增已完成实验、历史中断记录及协议修订",
     "claim": "最新结果包确认迁移预测、跨符号验证、读出修准及 52 家族修复确认已完成。符号预测有支持；读出纠正修好 3、损坏 4，未建立净准确率收益；L13/L20 初始准确率修复未确认，L20→L23 有分数层面的依赖。",
     "order": "01_DeepSeek_Transfer → 02_DeepSeek_Readout → 03_DeepSeek_Repair_4_5_fixed。保持 RUN_ID=blackwell_cu128；fixed 读取已冻结方向，使用 52 家族修订，不重新选点。原 64 家族版置于 versions，三份中断运行置于 runs。已完成结果见 evidence/deepseek，不能仅看中断 notebook 判断完成性。",

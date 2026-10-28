@@ -1,6 +1,6 @@
 # DeepSeek 新增实验：结果与 notebook 对应
 
-这些结果来自最新 blackwell_cu128_results (2).zip，RUN_ID 为 blackwell_cu128。当前论文尚未纳入它们。代码入口位于 [DeepSeek notebook 目录](../../notebooks/13_deepseek_extension/README.md)。本目录保留 44 份精简结果与协议记录；来源哈希见 [support_manifest](../../docs/support_manifest.json)。
+这些结果来自最新 blackwell_cu128_results (2).zip，RUN_ID 为 blackwell_cu128。当前论文尚未纳入它们。代码入口位于 [DeepSeek notebook 目录](../../notebooks/13_deepseek_extension/README.md)。本目录保留 44 份结果汇总与协议记录；来源哈希见 [support_manifest](../../docs/support_manifest.json)。
 
 ## 从哪个文件查看
 
@@ -31,4 +31,4 @@ ua/ub 两个下游条件的等范数随机移除共有 154 条技术失败：ua 
 
 输出头 replay 有 1/1728 不一致；主分数测量使用完整前向，不受这项 replay 近似直接替代。跨模型合并的 18 项 Holm 校正属于已有审计中的事后整合，需与各实验原主检验区分。
 
-已有审阅材料：[10 月 26 日迁移结果复核](review_20261026/RESULTS_REVIEW_ZH.md)、[10 月 27 日结论一致性核对](claim_consistency_20261027.md)。这些文档按原样复制，其中旧绝对路径与建议的论文改写是历史上下文。本次只整理对应关系与证据，没有改写论文，也没有重新运行模型。
+已有审阅材料：[10 月 26 日迁移结果复核](review_20261026/RESULTS_REVIEW_ZH.md)、[10 月 27 日结论一致性核对](claim_consistency_20261027.md)。审阅记录保留了当时使用的文件路径和论文修改建议；实验数值以对应运行结果为准。

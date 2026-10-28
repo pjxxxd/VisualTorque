@@ -1,12 +1,9 @@
-# 核验说明
+# 文件完整性检查
 
-本阅读版仅修改 Markdown 说明。notebook_manifest.json 记录精简副本的 sha256 与原文件的 source_sha256；来源清单保留全部 481 个路径。
+运行 python scripts/verify_package.py，检查 notebook 格式、文件哈希、来源映射和文档链接。
 
-核验结果见 [validation.json](validation.json)。核验包括：
+已有核验记录见 [validation.json](validation.json)。核验覆盖 351 份 notebooks、210 份支持文件与配套说明。5,591 个代码单元格的源代码、输出、执行编号及元数据与来源记录一致；5 份包含异常输出的历史运行仍保留。
 
-- 351 份精简副本与完整整理版逐一比较：5,591 个代码单元格、保存输出、执行编号和元数据一致。
-- 全部原 notebook、两份原始压缩包及 210 份支持文件的来源与原清单匹配。上传准备仅为 .gitattributes 增加了禁止换行转换的规则，其原哈希另存为 source_sha256。
-- 精简版文件哈希、来源映射、文档和 notebook 内的说明链接有效。
-- 历史整理包与原件保持原样。5 份保存异常的运行记录保留。
+notebook_manifest.json 中 sha256 对应仓库文件，source_sha256 对应来源文件。Git 配置禁止自动转换换行符，以保持文件哈希一致。
 
-核验不执行 notebook，也不重算模型结果。说明文字改动见 [SIMPLIFICATION](SIMPLIFICATION.md)。
+本检查不执行模型推理或重新计算统计结果。外部数据与模型环境要求见 [运行说明](RUNNING.md)。

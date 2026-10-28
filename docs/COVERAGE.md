@@ -1,18 +1,17 @@
-# 扫描与收录范围
+# Notebook 来源与收录范围
 
-| 范围 | 原路径数 |
+| 来源 | 文件路径数 |
 |---|---:|
-| 当前 VisualTorque 工作区内可读取、已展开的 notebooks，排除整理输出目录 | 435 |
+| VisualTorque 项目中的 notebooks | 435 |
 | Downloads 中 VisualTorque 开头的 notebooks | 43 |
-| Downloads 中本次新增 DeepSeek notebooks | 3 |
+| Downloads 中 DeepSeek notebooks | 3 |
 | 合计 | 481 |
-| 按完整文件 SHA-256 去重后的副本 | 351 |
-| 合并到同一副本的完全相同路径 | 130 |
+| 按文件内容去重后的 notebooks | 351 |
 
-相对于上一版，474 个已有源文件均未改变；新增 7 个源文件也都是新内容。159 份 code、176 份 runs、16 份 versions 均已复制，未按是否支持论文结论删去文件。完整来源见 [source_to_copy.csv](source_to_copy.csv)，内容身份见 [notebook_manifest.json](notebook_manifest.json)。
+130 个完全相同的来源路径合并到同一仓库文件；不同内容的版本分别保留。按用途分为 159 份运行入口、176 份运行记录和 16 份历史版本。
 
-此次扫描不是整台电脑的无遗漏盘点。工作区内 25 个演示文稿/临时/缓存目录无法读取，详细位置见 [coverage_scan.json](coverage_scan.json)。未扫描其他硬盘，也未穷举所有压缩包。Downloads 仅检查项目相关文件名。
+完整路径与哈希见 [来源表](source_to_copy.csv) 和 [文件清单](notebook_manifest.json)。来源范围限于可读取的项目目录和相关下载文件；25 个临时、缓存或演示目录无法读取，记录见 [coverage_scan.json](coverage_scan.json)。
 
-另定向读取了 experiment_source.zip 与最新 blackwell_cu128_results (2).zip，分别取得 DeepSeek 源码和完成结果。最新结果包不含 notebook。压缩包身份见 [archive_sources.json](archive_sources.json)，所选成员与副本哈希见 [support_manifest.json](support_manifest.json)。未将整个结果包、模型权重或大型中间缓存复制进发布目录。
+DeepSeek 源码与结果分别来自 experiment_source.zip 和 blackwell_cu128_results (2).zip。结果包不含 notebook。压缩包身份与所收录文件见 [archive_sources.json](archive_sources.json) 和 [support_manifest.json](support_manifest.json)。
 
-这些计数说明本次整理覆盖了哪些可见文件；不能用未收录或未出现在主结果目录来判断某项实验不重要。
+模型权重、大型激活缓存和完整结果压缩包未纳入仓库。

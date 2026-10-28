@@ -13,5 +13,5 @@
 - [历史探索 跨背景组合、乘法规律与正确性门控](10_exploratory_composition_and_gating/README.md)
 - [历史开发 匹配队列、修复方向与序贯阻断](11_handoff_development_and_matching/README.md)
 - [历史汇总与其他机制试验](12_cross_study_audits_and_pilots/README.md)
-- [新增 DeepSeek-VL2-small：4.2–4.5 扩展与恢复版](13_deepseek_extension/README.md)
+- [DeepSeek-VL2-small：4.2–4.5 模型扩展](13_deepseek_extension/README.md)
 - [后续探索 视觉信息、问法与物理关系使用](90_followup_visual_and_relation_use/README.md)

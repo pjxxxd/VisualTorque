@@ -2,7 +2,7 @@
 
 本表按当前稿件 **Beyond Physical Readouts: Explaining Answer Changes in Vision–Language Models** 整理。对照源为 VisualTorque_revision/main.tex 及该目录方法、实验与附录文件，文件身份见 [paper_reference.json](paper_reference.json)。
 
-当前顺序为 4.1 实验设置、4.2 答案编码与迁移收益、4.3 跨场景和编码的迁移预测、4.4 读出与修准、4.5 指导改善的下游依赖。C1–C9 保留上一版结论编号便于追溯，表格按当前论文顺序排列。旧 Qwen/Gemma 结论与新增 DeepSeek 结果分别列出；截至本次整理，DeepSeek 尚未并入正文。
+当前顺序为 4.1 实验设置、4.2 答案编码与迁移收益、4.3 跨场景和编码的迁移预测、4.4 读出与修准、4.5 指导改善的下游依赖。C1–C9 为结论编号，表格按论文实验顺序排列。旧 Qwen/Gemma 结论与新增 DeepSeek 结果分别列出；2026-10-28 稿件尚未纳入 DeepSeek 结果。
 
 
 ## 正文结论
@@ -22,7 +22,7 @@
 
 ## 新增 DeepSeek：对应 4.2–4.5 的扩展
 
-当前论文正文仍是 Qwen/Gemma 的结果。下面是本次新增实验的对应关系，不能直接把上表数值理解成已含 DeepSeek。
+当前论文正文仍是 Qwen/Gemma 的结果。下面是 DeepSeek 实验的对应关系，不能直接把上表数值理解成已含 DeepSeek。
 
 | 论文位置 | 新 notebook 入口 | 最新结果支持什么 | 需要保留的边界 |
 |---|---|---|---|

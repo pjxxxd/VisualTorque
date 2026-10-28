@@ -32,6 +32,6 @@ EqualMagnitude_Blocking 提供冻结方向 → ThreePath_Confirmation 给正文�
 | [VisualTorque_Qwen27B_ThreePath_Confirmation_A100.ipynb](code/VisualTorque_Qwen27B_ThreePath_Confirmation_A100.ipynb) | code | 源码无保存输出 | 见配置 |
 | [VisualTorque_Qwen27B_ThreePath_Confirmation_A100.ipynb](runs/VisualTorque_Qwen27B_ThreePath_Confirmation_A100.ipynb) | runs | 有输出（14/14 个代码单元） | Qwen/Qwen3.5-27B |
 
-本阅读版精简 Markdown 说明；代码单元格、参数、保存输出与元数据保留原样。完整说明见 notebook 开头链接。数据和模型环境仍按相应原协议准备。
+实验设置和运行要求见各 notebook 开头的说明链接。
 
 [结论对照](../../docs/CLAIM_TO_NOTEBOOK.md) · [运行说明](../../docs/RUNNING.md) · [覆盖范围](../../docs/COVERAGE.md) · [来源清单](../../docs/source_to_copy.csv)

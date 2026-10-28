@@ -1,6 +1,6 @@
 # 原运行协议
 
-以下文件按原样复制。其“尚未运行”“下一轮”等表述属于生成时点，DeepSeek 当前完成状态请看 [最新结果索引](../../evidence/deepseek/README.md)。旧版 DeepSeek 64 家族参数已由恢复说明明确修订为 52 家族。
+以下为各实验阶段的运行记录，其中的进度描述对应文档日期。DeepSeek 当前完成状态请看 [最新结果索引](../../evidence/deepseek/README.md)。旧版 DeepSeek 64 家族参数已由恢复说明明确修订为 52 家族。
 
 - [ALIGNED_READOUT_README_ZH.md](ALIGNED_READOUT_README_ZH.md)
 - [CLOSURE_DIAGNOSTICS_README_ZH.md](CLOSURE_DIAGNOSTICS_README_ZH.md)
