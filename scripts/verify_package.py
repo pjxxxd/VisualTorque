@@ -9,6 +9,8 @@ from collections import Counter
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
+from notebook_runtime_tools import check_bootstrap, load_catalog, load_checks, transform_cell
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -26,6 +28,10 @@ def read_json(rel):
 
 def verify(original_root=None, downloads=None):
     errors = []
+    catalog, checks = load_catalog(), load_checks()
+    for key, value in catalog.items():
+        if hashlib.sha256(value['source'].encode()).hexdigest() != key:
+            errors.append('Helper definition does not match its recorded hash.')
     manifest = read_json('docs/notebook_manifest.json')
     support = read_json('docs/support_manifest.json')
     expected = {r['destination'] for r in manifest}
@@ -46,6 +52,8 @@ def verify(original_root=None, downloads=None):
                 raise ValueError('invalid notebook container')
             if len(nb['cells']) != r['cells']:
                 raise ValueError('cell count differs')
+            if not check_bootstrap(nb):
+                raise ValueError('notebook utilities differ from support module')
             for i, cell in enumerate(nb['cells']):
                 valid = cell.get('cell_type') in ('code', 'markdown', 'raw') and isinstance(cell.get('source'), (str, list)) and isinstance(cell.get('metadata'), dict)
                 if not valid or (cell['cell_type'] == 'code' and not isinstance(cell.get('outputs'), list)):
@@ -105,7 +113,7 @@ def verify(original_root=None, downloads=None):
                     errors.append('Broken notebook link: ' + entry['destination'] + ' -> ' + value)
 
     originals_checked = support_originals_checked = archives_checked = previous_checked = 0
-    code_unchanged = reading_copies_checked = 0
+    experiment_cells_checked = repository_copies_checked = helper_imports = compacted_outputs = 0
     if original_root:
         def source_path(source):
             if source.startswith('Downloads/'):
@@ -161,9 +169,23 @@ def verify(original_root=None, downloads=None):
             before_other = {k:v for k,v in before.items() if k != 'cells'}
             after_other = {k:v for k,v in after.items() if k != 'cells'}
             before_code = [c for c in before['cells'] if c['cell_type'] != 'markdown']
-            after_code = [c for c in after['cells'] if c['cell_type'] != 'markdown']
-            if before_other != after_other or before_code != after_code:
-                errors.append('Code/output/metadata changed: ' + change['destination'])
+            after_code = [c for c in after['cells'] if c['cell_type'] != 'markdown'
+                          and c.get('metadata', {}).get('visualtorque', {}).get('role') != 'notebook_utilities']
+            expected_code = []
+            for cell in before_code:
+                expected_cell, replacements, hashes = transform_cell(cell, catalog, checks)
+                expected_code.append(expected_cell)
+                helper_imports += len(replacements)
+                compacted_outputs += bool(hashes)
+            if before_other != after_other or expected_code != after_code:
+                errors.append('Unexpected experiment code/output/metadata change: ' + change['destination'])
+            if digest(ROOT / change['destination']) != change['repository_sha256']:
+                errors.append('Provenance hash differs: ' + change['destination'])
+            mapped_indices = {i for i in change['source_to_repository_cell_index'].values() if i is not None}
+            expected_indices = {i for i,c in enumerate(after['cells'])
+                                if c.get('metadata', {}).get('visualtorque', {}).get('role') != 'notebook_utilities'}
+            if mapped_indices != expected_indices:
+                errors.append('Cell mapping is incomplete: ' + change['destination'])
             for old_index, new_index in change['source_to_repository_cell_index'].items():
                 if new_index is None:
                     continue
@@ -171,8 +193,10 @@ def verify(original_root=None, downloads=None):
                 b = after['cells'][new_index]
                 if a['cell_type'] == 'markdown' and {k:v for k,v in a.items() if k != 'source'} != {k:v for k,v in b.items() if k != 'source'}:
                     errors.append('Markdown metadata changed: ' + change['destination'])
-            code_unchanged += sum(c['cell_type']=='code' for c in before_code)
-            reading_copies_checked += 1
+                if a['cell_type'] != b['cell_type']:
+                    errors.append('Cell mapping has different types: ' + change['destination'])
+            experiment_cells_checked += sum(c['cell_type']=='code' for c in before_code)
+            repository_copies_checked += 1
 
     # Conservative pattern check; report paths only, never matching token text.
     credential_patterns = [
@@ -204,8 +228,10 @@ def verify(original_root=None, downloads=None):
         'original_support_files_checked': support_originals_checked,
         'original_archives_checked': archives_checked,
         'previous_package_notebooks_unchanged': previous_checked,
-        'reading_copies_compared_with_original_package': reading_copies_checked,
-        'code_cells_and_saved_outputs_unchanged': code_unchanged,
+        'repository_notebooks_compared_with_original_package': repository_copies_checked,
+        'original_experiment_code_cells_checked': experiment_cells_checked,
+        'shared_helper_imports_checked': helper_imports,
+        'cells_with_compacted_hash_outputs': compacted_outputs,
         'local_links_checked': links_checked,
         'notebooks_with_saved_errors': sum(bool(r['errors']) for r in manifest),
         'credential_pattern_flags': flagged,

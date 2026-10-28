@@ -42,7 +42,7 @@
 
 | 实验 | Qwen 运行记录 | Gemma 运行记录 | 结果定位 |
 |---|---|---|---|
-| 4.4 统一捕获读出 | [Qwen-9B（原文件后缀 1）](../notebooks/03_section44_readout_correction/runs/VisualTorque_Aligned_Readout_Validation_GPU%20%281%29.ipynb) | [Gemma-12B（原文件无后缀）](../notebooks/03_section44_readout_correction/runs/VisualTorque_Aligned_Readout_Validation_GPU.ipynb) | 单元格索引 15 为 1007 场景汇总，17 为 304 场景修准汇总；索引从 0 开始。 |
+| 4.4 统一捕获读出 | [Qwen-9B（原文件后缀 1）](../notebooks/03_section44_readout_correction/runs/VisualTorque_Aligned_Readout_Validation_GPU%20%281%29.ipynb) | [Gemma-12B（原文件无后缀）](../notebooks/03_section44_readout_correction/runs/VisualTorque_Aligned_Readout_Validation_GPU.ipynb) | 单元格索引 16 为 1007 场景汇总，18 为 304 场景修准汇总；索引从 0 开始。 |
 | 4.2–4.3 前瞻验证 | [Qwen-27B 验证输出](../notebooks/01_section42_43_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Validation_GPU.ipynb) | [Gemma-12B 验证输出](../notebooks/01_section42_43_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Validation_GPU%20%281%29.ipynb) | 最后的汇总与图表；区分内容模块、物理模块、分数误差、选项预测和物理正确率。 |
 | 4.2–4.3 跨符号验证 | [Qwen-27B 格式输出](../notebooks/02_section43_format_generalization/runs/VisualTorque_Frozen_Format_Transfer_GPU.ipynb) | [Gemma-12B 格式输出](../notebooks/02_section43_format_generalization/runs/VisualTorque_Frozen_Format_Transfer_GPU%20%281%29.ipynb) | ABC/XYZ/123 比较与跨模型多重比较校正。 |
 | 4.5 独立修复 | [Qwen-27B 三路径输出](../notebooks/04_section45_guided_repair/runs/VisualTorque_Qwen27B_ThreePath_Confirmation_A100.ipynb) | [Gemma-12B L31 输出](../notebooks/04_section45_guided_repair/runs/VisualTorque_Gemma12B_L31_FixedCandidate_A100.ipynb) | repair/harm、primary tests、各路径技术检查；汇总见下项。 |

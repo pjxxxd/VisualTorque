@@ -1,0 +1,57 @@
+{
+  "3c5504a42bf4bddd8434078b8e110ba514624b1441321932ffe99a92a6a2c2c3": {
+    "name": "file_hash",
+    "source": "def file_hash(path):\n    h = hashlib.sha256()\n    with Path(path).open('rb') as f:\n        for chunk in iter(lambda: f.read(1024 * 1024), b''):\n            h.update(chunk)\n    return h.hexdigest()\n",
+    "import": "from visualtorque_checks import file_hash"
+  },
+  "8c8828b208f38c4c134a721e5f4b8b363753d1312959ebc77c3a12d971ce9712": {
+    "name": "sha256_file",
+    "source": "def sha256_file(path):\n    digest = hashlib.sha256()\n    with Path(path).open('rb') as handle:\n        for chunk in iter(lambda: handle.read(1024 * 1024), b''):\n            digest.update(chunk)\n    return 'sha256:' + digest.hexdigest()\n",
+    "import": "from visualtorque_checks import sha256_file"
+  },
+  "c2ec6ca897c8b8686c0c559a9127089e5238b040129c075a6ddb371c33e254f4": {
+    "name": "normalize_sha",
+    "source": "def normalize_sha(value):\n    return str(value).removeprefix('sha256:')\n",
+    "import": "from visualtorque_checks import normalize_sha"
+  },
+  "2faf260a202dd9f9ca74f2d717289e5250a6f860a595b160f18639c1ca6a605b": {
+    "name": "sha256_file",
+    "source": "def sha256_file(file_path):\n    digest = hashlib.sha256()\n    with Path(file_path).open('rb') as handle:\n        for chunk in iter(lambda: handle.read(1024 * 1024), b''):\n            digest.update(chunk)\n    return 'sha256:' + digest.hexdigest()\n",
+    "import": "from visualtorque_checks import sha256_file_by_name as sha256_file"
+  },
+  "09b544dbafb0253ac67473b21b22256a9edf4f38056fa946c51b85a5c848e909": {
+    "name": "bytes_sha",
+    "source": "def bytes_sha(data):return 'sha256:'+hashlib.sha256(data).hexdigest()\n",
+    "import": "from visualtorque_checks import bytes_sha"
+  },
+  "df72bb67c71b9eb85b5b5b6bb6bf6bdc727c6fea47b3daf3115d0e9b7a7b6076": {
+    "name": "file_sha",
+    "source": "def file_sha(path):\n    h=hashlib.sha256()\n    with Path(path).open('rb') as f:\n        for chunk in iter(lambda:f.read(2**20),b''):h.update(chunk)\n    return 'sha256:'+h.hexdigest()\n",
+    "import": "from visualtorque_checks import file_sha"
+  },
+  "c824b900be49114ece54ea0234cf1d0b3d6d84735bb8e2f9862f8e3674ff7f9b": {
+    "name": "sha",
+    "source": "def sha(path):\n    h=hashlib.sha256()\n    with Path(path).open('rb') as f:\n        for chunk in iter(lambda:f.read(2**20),b''):h.update(chunk)\n    return 'sha256:'+h.hexdigest()\n",
+    "import": "from visualtorque_checks import sha"
+  },
+  "763be9432e72a760352ffc576d9f12c17891a4ee93e58eec01f8849d2e768226": {
+    "name": "sha256_file",
+    "source": "def sha256_file(path):\n    h=hashlib.sha256()\n    with Path(path).open('rb') as handle:\n        for chunk in iter(lambda:handle.read(1024*1024),b''):h.update(chunk)\n    return 'sha256:'+h.hexdigest()\n",
+    "import": "from visualtorque_checks import sha256_file"
+  },
+  "9cbb18d0b0e42a61ecbe58e83a88fff999b6dbe2d510116071d7d1e6e9ec0a70": {
+    "name": "sha256_file",
+    "source": "def sha256_file(path):\n    h = hashlib.sha256()\n    with Path(path).open('rb') as f:\n        for chunk in iter(lambda:f.read(1024*1024), b''): h.update(chunk)\n    return 'sha256:' + h.hexdigest()\n",
+    "import": "from visualtorque_checks import sha256_file"
+  },
+  "d7164da82c98cfc552c4ba04ef3dc046ed807298b04b81d5a14e8cb67adbe8ae": {
+    "name": "sha256_file",
+    "source": "def sha256_file(path):\n    digest = hashlib.sha256()\n    with Path(path).open('rb') as handle:\n        for chunk in iter(lambda: handle.read(1024 * 1024), b''): digest.update(chunk)\n    return 'sha256:' + digest.hexdigest()\n",
+    "import": "from visualtorque_checks import sha256_file"
+  },
+  "f49e171c650ca6a47e6cc81125eb1d5a555f6e6362c0b272f8c5b8a23aee0dad": {
+    "name": "file_hash",
+    "source": "def file_hash(path):\n    h = hashlib.sha256()\n    with Path(path).open('rb') as stream:\n        for block in iter(lambda: stream.read(1024 * 1024), b''):\n            h.update(block)\n    return h.hexdigest()\n",
+    "import": "from visualtorque_checks import file_hash"
+  }
+}

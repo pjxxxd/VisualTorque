@@ -2,7 +2,9 @@
 
 ## 先查看保存结果
 
-从 [结论对照](CLAIM_TO_NOTEBOOK.md) 进入 runs/ 或 [DeepSeek 结果汇总](../evidence/deepseek/README.md)。notebooks 保留计算代码和原始输出，因此路径、旧名称、下载编号及历史报错也保留。code/ 表示源码入口；执行编号或无异常记录不等于科学条件全部通过。
+从 [结论对照](CLAIM_TO_NOTEBOOK.md) 进入 runs/ 或 [DeepSeek 结果汇总](../evidence/deepseek/README.md)。notebooks 保留计算结果、路径、旧名称、下载编号及历史报错，长哈希以缩写显示。code/ 表示源码入口；执行编号或无异常记录不等于科学条件全部通过。
+
+按顺序执行，先运行首个辅助单元格。它加载通用校验函数与输出格式，无须额外安装依赖，也支持单独上传 notebook 到 Colab。安装环境触发重启时，按原有提示重新运行全部单元格。文件校验、冻结标识和断点续跑仍使用完整哈希。
 
 ## Qwen / Gemma 主实验
 
