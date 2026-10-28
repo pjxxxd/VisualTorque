@@ -225,6 +225,6 @@ if __name__ == '__main__':
     result = verify(args.original_root, args.downloads)
     output = json.dumps(result, ensure_ascii=False, indent=2)
     if args.report:
-        args.report.write_text(output + '\n', encoding='utf-8')
+        args.report.write_bytes((output + '\n').encode('utf-8'))
     print(output)
     raise SystemExit(0 if result['ok'] else 1)
