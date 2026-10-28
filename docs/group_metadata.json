@@ -1,0 +1,296 @@
+{
+  "00_dataset_and_behavior": {
+    "title": "任务构造与行为基线",
+    "paper": "Task and Analysis Framework；Experimental Setup",
+    "role": "数据与方法入口",
+    "claim": "构造杠杆场景并统计模型行为，为读出和干预提供输入与基线；行为准确率本身不确定内部算法。",
+    "order": "先准备 toolkit 与历史 Dataset v1，再运行 Behavior_A100；Behavior_Analysis_v3 汇总模型结果，v2 保留作历史版本。",
+    "families": [
+      "Behavior_A100",
+      "Behavior_Analysis_v2",
+      "Behavior_Analysis_v3"
+    ]
+  },
+  "01_section42_43_transfer_prediction": {
+    "title": "4.2–4.3 答案映射收益与前瞻迁移预测",
+    "paper": "4.2 Answer Encoding Changes Transfer Gains；4.3 Predicting Transfer Effects across Scenes and Encodings",
+    "role": "正文主结果",
+    "claim": "Qwen-27B L49 的变化更符合来源语义；Qwen L63 和 Gemma-12B L37/L47 更符合来源符号。Gemma 的迁移收益随答案映射改变。物理模块未确认接收距离项带来的可靠预测增益。",
+    "order": "每个模型先 Calibration，冻结预测器后再 Validation；两个模型分别运行。Validation 同时生成内容迁移和物理距离模块结果。",
+    "families": [
+      "Intervention_Prediction_Calibration_GPU",
+      "Intervention_Prediction_Validation_GPU"
+    ]
+  },
+  "02_section43_format_generalization": {
+    "title": "4.3 冻结预测器的新符号验证",
+    "paper": "4.3 Predicting Transfer Effects across Scenes and Encodings；app:prediction-results",
+    "role": "正文主结果",
+    "claim": "ABC 上拟合的系数保持冻结，更换 XYZ 或数字后，所测位点的语义或符号偏好仍可预测干预后果；这里复用同一批 96 个验证家族。",
+    "order": "接在 02 的 Calibration → Validation 后运行 Frozen_Format_Transfer；不要重新拟合 ABC 系数，也不要将格式变体计作独立家族。",
+    "families": [
+      "Frozen_Format_Transfer_GPU"
+    ]
+  },
+  "03_section44_readout_correction": {
+    "title": "4.4 Qwen/Gemma 读出与数值修准",
+    "paper": "4.4 Correcting Torque Readouts Leaves Answer Errors Intact；app:readout-protocol",
+    "role": "正文主结果及其前期诊断",
+    "claim": "统一捕获条件下，Qwen-9B/Gemma-12B 的错误中分别有 81.2%/80.4% 可被外部读出器正确判断；304 场景子集的读出类别修准到全部正确，却分别修复 0/150、0/129 个原有错误。",
+    "order": "正文数字直接看 Aligned_Readout_Validation_GPU 的两模型 runs。重新运行前需准备历史数据和读出输入；Activation_Discovery → Activation_Confirmatory 是早期拟合链，Readout_Correction → Repeatability/Capture_Bridge 是数值诊断，不能用旧捕获数字替换正文。",
+    "families": [
+      "Activation_Discovery_A100",
+      "Activation_Confirmatory_A100",
+      "Representation_Specificity_v1",
+      "Causal_Torque_Intervention_A100",
+      "CrossModel_Readout_Correction_A100",
+      "CrossModel_Readout_Repeatability_A100",
+      "Readout_Capture_Bridge_GPU",
+      "Aligned_Readout_Validation_GPU"
+    ]
+  },
+  "04_section45_guided_repair": {
+    "title": "4.5 Qwen/Gemma 指导修复与下游依赖",
+    "paper": "4.5 Downstream Dependencies of Guided Improvements；app:repair-settings",
+    "role": "正文主结果、候选开发与统计核查",
+    "claim": "Qwen-27B 在 64 个新家族的 512 次呈现中，L48/L49 分别修复 61/71 个错误；移除特定下游分量比等幅随机移除损失更大。Gemma L31 修复 7 个错误，但相对随机方向的准确率优势未确认。",
+    "order": "EqualMagnitude_Blocking 提供冻结方向 → ThreePath_Confirmation 给正文独立确认；Repair_Development 提供 Gemma 候选 → Gemma12B_L31_FixedCandidate 给独立验证；Independent_Results_Audit 汇总及技术敏感性核查。较早的 Repair_Confirmation 与正文独立确认分开阅读。",
+    "families": [
+      "Qwen27B_EqualMagnitude_Blocking_A100",
+      "Qwen27B_ThreePath_Confirmation_A100",
+      "CrossModel_Repair_Development_A100",
+      "CrossModel_Repair_Confirmation_A100",
+      "Gemma12B_L31_FixedCandidate_A100",
+      "Independent_Results_Audit_CPU",
+      "CrossModel_TargetedAudit_CPU"
+    ]
+  },
+  "05_appendix_content_and_encoding": {
+    "title": "附录 来源判断、语义、字母与选项位置的区分",
+    "paper": "app:content-diagnostics；Earlier Content Diagnostics；fig:vt-content；tab:vt-fixed-content",
+    "role": "附录结果与 Section 4.2–4.3 的前期位点选择",
+    "claim": "跨问题、跨映射与深度比较区分来源判断和符号偏好；Qwen-27B 的 16 场景字母×位置实验中，字母解释的移除效应变异份额为 94.27%。这不是模型决策的解释比例。",
+    "order": "CrossQuery_FactorDecision_Transport → ResponseState_Remapping / SemanticToLabel_Depth_Localization；跨模型看 CrossModel_CrossQuery_Transport、Gemma_Response_Depth、FixedSite_Content_Confirmation。ResponseCode_PositionFactorial 对应字母与位置的独立交叉。",
+    "families": [
+      "CrossQuery_FactorDecision_Transport_A100",
+      "CrossModel_CrossQuery_Transport_A100",
+      "CrossModel_FixedSite_Content_Confirmation_A100",
+      "Gemma_Response_Depth_A100",
+      "ResponseState_Remapping_A100",
+      "SemanticToLabel_Depth_Localization_A100",
+      "Qwen27B_ResponseCode_PositionFactorial_A100",
+      "Qwen27B_ResponseCode_Alphabet_Replication_A100",
+      "Qwen27B_ResponseSubspace_DimensionTransfer_A100",
+      "Qwen27B_CrossContext_ResponseCode_Subspace_A100",
+      "Qwen27B_L55_CodeSubspace_Mediation_A100",
+      "Qwen27B_SymmetricCodeAxis_A100",
+      "L55_CodeTransition_Asymmetry_Audit",
+      "ResponseCode_Bypass_Threshold_Audit",
+      "Qwen27B_RecipientConditioned_SemanticRecode_Rescue_A100",
+      "Qwen27B_RecipientRecode_DoseResponse_Confirmatory_A100"
+    ]
+  },
+  "06_appendix_physical_updates": {
+    "title": "附录 答案不变的物理差分迁移与分量分析",
+    "paper": "app:physical-transfer；tab:physical-controls",
+    "role": "附录主对照及同队列补充分析",
+    "claim": "24 家族的来源物理差分在 Qwen-27B L48 产生正向分数效应，主要对照差为 0.0601；准确率变化 0.26 个百分点的区间跨零。对齐、残差和条件子集分析复用该队列。",
+    "order": "Native_PhysicalUpdate_vs_AnswerCode_Confirmation_v2 → FamilyNeutrality_StateAlignment → AlignedResidual_Factorial → Native_AlignedResidual_Robustness。v1 保存的异常属于中断记录，不作阴性科学结论。",
+    "families": [
+      "Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v1",
+      "Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v2",
+      "Qwen27B_Native_PhysicalUpdate_FamilyNeutrality_StateAlignment_CPU_v1",
+      "Qwen27B_Native_PhysicalUpdate_AlignedResidual_Factorial_96GB_v1",
+      "Qwen27B_Native_AlignedResidual_Robustness_PairedAccuracy_BF16_CPU_v1"
+    ]
+  },
+  "07_appendix_lora_training": {
+    "title": "附录 LoRA 训练后的行为改善与干预变化",
+    "paper": "app:training-settings；sec:finetuning",
+    "role": "附录训练结果及机制边界",
+    "claim": "同一个 Qwen-27B LoRA adapter 在 1007 个保留场景上使六映射准确率从 52.23% 升至 88.68%；生成口径为 55.11%→87.39%。状态交换和冻结方向比较刻画训练前后变化，不等同于已确认通用力矩算法。",
+    "order": "BF16_LoRA_WeightShortcut → PostLoRA_Heldout_Evaluation → Base_vs_LoRA_Mechanism_Discovery → Blind_Causal_Validation；其余分别为子空间、距离、风格及方向×剂量边界。多个 notebook 复用同一 adapter 和部分测试集。",
+    "families": [
+      "Qwen27B_BF16_LoRA_WeightShortcut_96GB",
+      "Qwen27B_PostLoRA_Heldout_Evaluation_96GB",
+      "Qwen27B_Base_vs_LoRA_Mechanism_Discovery_96GB",
+      "Qwen27B_PostLoRA_Blind_Causal_Validation_96GB",
+      "Qwen27B_PostLoRA_L50_CausalSubspace_Decomposition_96GB",
+      "Qwen27B_PostLoRA_L50_FrozenRank4_BlindV3_96GB",
+      "Qwen27B_PostLoRA_L50_MetricRoute_BlindCausal_96GB",
+      "Qwen27B_PostLoRA_TorqueControl_StressTest_96GB",
+      "Qwen27B_PostLoRA_StyleCode_Crossover_Audit_96GB",
+      "Qwen27B_Base_vs_LoRA_DistanceFactorial_Audit_96GB",
+      "Qwen27B_Base_vs_LoRA_MetricVsOrdinal_Boundary_Audit_96GB",
+      "Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB",
+      "Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB_v2",
+      "Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB_v3",
+      "Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v1",
+      "Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v2",
+      "Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v3",
+      "Qwen27B_Handoff_AxisDose_Crossover_NewGeometry_96GB_v1",
+      "Qwen27B_AxisDose_ReviewBundle_Analysis_CPU_v1",
+      "Qwen27B_AxisDose_FailureFamilies_SignedTransport_CPU_v1",
+      "Qwen27B_LocalGeometry_OracleReadout_BidirectionalResponse_96GB_v1",
+      "Qwen27B_Native_LoRA_AlignedUpdate_Crossover_NewGeometry_96GB_v1"
+    ]
+  },
+  "08_appendix_error_structure": {
+    "title": "附录 物理题型、重量捷径与错误结构",
+    "paper": "app:error-structure；app:site-criteria；app:supporting-analyses",
+    "role": "附录描述性结果与竞争解释",
+    "claim": "分层统计区分左右方向、重量与距离冲突、求和与真实平衡；竞争物理线索和问法比较限定对模型错误策略的解释。",
+    "order": "WeightShortcut_Error_Decomposition / Error_Structure 读取已有结果；Competing_Causal_Abstraction 检验竞争线索。其他策略与计算诱导研究保留为补充，不自动作正文因果依据。",
+    "families": [
+      "Error_Structure_CPU",
+      "WeightShortcut_Error_Decomposition_A100",
+      "Competing_Causal_Abstraction_FinalConfirmatory_A100",
+      "LateSite_Strategy_Readout_Confirmatory_A100",
+      "Qwen27B_Calculation_Elicitation_A100",
+      "Qwen27B_Conditional_Strategy_PhaseMap_A100",
+      "Qwen27B_QueryConditional_TorqueUse_A100",
+      "Qwen27B_NetTorque_Aggregation_Invariance_A100",
+      "Qwen27B_NetTorque_Aggregation_Invariance_A100_v2"
+    ]
+  },
+  "09_appendix_factor_routes": {
+    "title": "附录 重量、距离与跨模型局部路径",
+    "paper": "app:site-criteria；app:supporting-analyses",
+    "role": "附录局部路径比较与历史发现",
+    "claim": "所测模型与位点的重量、距离作用不同；因素绑定和子空间恢复提供局部依赖证据，不能据此认定跨模型共享同一条物理计算链。",
+    "order": "Natural_Counterfactual_Causal_Tracing → Counterfactual_Causal_Tracing_Confirmatory → Task_Token_Component_Routing；Orthogonal_ValueBinding / SameManifest_Factorial 提供对照；后续 grouped-route、large-model、relocation 与 FactorPath 检验适用范围。",
+    "families": [
+      "Natural_Counterfactual_Causal_Tracing_A100",
+      "Counterfactual_Causal_Tracing_Confirmatory_A100",
+      "Task_Token_Component_Routing_A100",
+      "Orthogonal_ValueBinding_Control_A100",
+      "Orthogonal_Binding_Robustness_Audit",
+      "SameManifest_Factorial_Composition_A100",
+      "Factorial_Robustness_Paper_Audit",
+      "Competence_GroupedRoute_Confirmatory_A100",
+      "Competence_Mechanism_Audit",
+      "Gemma_Competence_GroupedRoute_Replication_A100",
+      "LargeModel_FrozenClaim_Replication_A100",
+      "CrossModel_CommonSupport_Audit",
+      "Qwen27B_Route_Relocation_Audit_A100",
+      "Qwen27B_Depth_Relocalization_Audit_A100",
+      "Qwen27B_FactorPath_TokenComponent_A100",
+      "ContextGated_WeightRoute_Confirmatory_A100",
+      "InverseQuery_WeightRoute_Specificity_A100",
+      "ModelAdaptive_InformativeSite_Replication_A100",
+      "Qwen_Gemma_Mechanism_Synthesis",
+      "Routing_Robustness_Audit"
+    ]
+  },
+  "10_exploratory_composition_and_gating": {
+    "title": "历史探索 跨背景组合、乘法规律与正确性门控",
+    "paper": "与 app:supporting-analyses 相关；不替代 Section 4.2–4.3 前瞻预测实验",
+    "role": "历史探索与机制边界",
+    "claim": "保留跨背景复用、因素纯度、乘法组合和门控检验的完整证据。不同实验包含部分支持、支持不足或未确认结果；不能仅凭名称将其视为乘法计算或门控机制成立。",
+    "order": "CrossContext_Factor_Recombination / ExpandedCrossContext_SourceReadiness → Final_CrossContext_Factor_Composition → Robustness_Audit；ProductLaw 与 FactorEquivalence 系列检验更强组合假说，OutcomeFlip 系列检验正确性门控。",
+    "families": [
+      "CrossContext_Factor_Recombination_A100",
+      "Qwen27B_ExpandedCrossContext_SourceReadiness_A100",
+      "Qwen27B_Final_CrossContext_Factor_Composition_A100",
+      "CrossContext_Composition_Paper_Robustness_Audit",
+      "Qwen27B_CrossContext_FactorEquivalence_ProductInteraction_A100",
+      "Qwen27B_CrossContext_FactorEquivalence_ProductInteraction_A100_v2",
+      "Qwen27B_CrossContext_FactorEquivalence_ProductInteraction_A100_v3",
+      "Qwen27B_Graded_ProductLaw_Composition_A100",
+      "Qwen27B_ProductLaw_BoundaryCalibration_Audit",
+      "Qwen27B_DecisionNeutral_FactorSemantic_Mediation_A100",
+      "Qwen27B_WeightRoute_CompetenceGating_Audit",
+      "Qwen27B_WeightRoute_MappingSide_Factorial_A100",
+      "Qwen27B_WeightRoute_WithinContext_Gating_Audit",
+      "Qwen27B_OutcomeFlip_WithinContext_RouteGating_Confirmatory_A100",
+      "Qwen27B_OutcomeFlip_ExpandedSupport_Confirmatory_A100_v2"
+    ]
+  },
+  "11_handoff_development_and_matching": {
+    "title": "历史开发 匹配队列、修复方向与序贯阻断",
+    "paper": "app:repair-settings 的历史方向来源；正文独立确认见 04",
+    "role": "历史开发、冻结方向来源与条件性复现",
+    "claim": "保留错误分型、支持集扩展、精确匹配、反向诱错、序贯阻断及复现链。旧筛选队列与正文 64 新家族确认不能混池，也不能把末层对齐统计称作阻断中介比例。",
+    "order": "Readiness / Targeted_CommonSupport_Expansion → ExactPhysics_ErrorSpecific_Handoff → ExactPhysics_SequentialHandoff → SequentialHandoff_IndependentReplication；再衔接 04 的等幅控制与 64 家族确认。其他子空间/对称性实验为路线发现和边界诊断。",
+    "families": [
+      "2x2_SideCorrectness_Cohort_Readiness_A100",
+      "2x2_SideCorrectness_Cohort_Readiness_A100_v2",
+      "2x2_SideCorrectness_Cohort_Readiness_A100_v3",
+      "RightSide_CommonSupport_Matching_Readiness",
+      "Qwen27B_CompetenceMatchedClearance_Readiness_A100",
+      "Qwen27B_Targeted_CommonSupport_Expansion_A100",
+      "Qwen27B_RightSide_ErrorSpecific_Handoff_A100",
+      "Qwen27B_RightSide_ErrorSpecific_Handoff_A100_v2",
+      "Qwen27B_ExactPhysics_ErrorSpecific_Handoff_Confirmatory_A100",
+      "Qwen27B_ExactPhysics_SequentialHandoff_Blocking_A100",
+      "Qwen27B_ExactPhysics_Handoff_Paper_Audit",
+      "Qwen27B_SequentialHandoff_IndependentReplication_A100",
+      "Qwen27B_ErrorConditioned_PhysicalState_Audit_A100",
+      "Qwen27B_CorrectSource_DistanceError_Rescue_A100",
+      "Qwen27B_MatchedClearance_FlipError_RescueInduction_A100",
+      "Qwen27B_MatchedClearance_FlipError_RescueInduction_A100_v2",
+      "Qwen27B_MatchedFracture_Localization_ReciprocalRepair_A100",
+      "Qwen27B_MediatorMatched_Handoff_Symmetry_A100",
+      "MediatorSymmetry_OrientationSpecific_Reanalysis",
+      "Qwen27B_NetTorqueToAnswer_Fracture_Rescue_A100",
+      "Qwen27B_NetTorqueToSemantic_Handoff_Mediation_A100",
+      "Qwen27B_Torque_to_Answer_Bridge_A100",
+      "Qwen27B_Distributed_FactorMediator_Subspace_A100",
+      "Qwen27B_SemanticError_Mediation_Confirmatory_A100",
+      "Targeted_Shortcut_Error_Rescue_Induction_A100"
+    ]
+  },
+  "12_cross_study_audits_and_pilots": {
+    "title": "历史汇总与其他机制试验",
+    "paper": "跨实验证据梳理；不单独生成当前 Section 4.4–Section 4.5 主结论",
+    "role": "CPU 汇总、试验性方法与外推边界",
+    "claim": "汇总 notebook 重新分析已有数据，不增加独立实验样本；机制指标预测自然错误、TorqueTangent 与更大模型试验各保留自己的方法和范围。",
+    "order": "先生成各 notebook 声明的输入结果，再运行对应 synthesis/audit。Qwen35B 是另一架构研究，不视作正文 Qwen-27B 的直接规模复现。",
+    "families": [
+      "CrossModel_Results_FullAudit_CPU",
+      "Paper_Evidence_Synthesis_v1",
+      "PhysicalHandoff_FractureMap_PaperSynthesis_v2",
+      "Edgewise_CausalFidelity_OOD_Readiness",
+      "Fidelity_ErrorAlignment_Reanalysis",
+      "Mechanism_Error_Prediction_Audit",
+      "ModelAdaptive_Fidelity_StressPrediction_A100",
+      "TorqueTangent_Pilot_A100",
+      "PathIntegrated_TorqueTangent_A100",
+      "Qwen35B_A3B_Fracture_Readiness_A100",
+      "Qwen35B_A3B_BF16_Fracture_Replication_96GB",
+      "Qwen35B_A3B_BF16_NetTorque_Reciprocal_Causal_96GB",
+      "Qwen35B_A3B_BF16_NetTorque_Reciprocal_Causal_96GB_v2"
+    ]
+  },
+  "13_deepseek_extension": {
+    "title": "新增 DeepSeek-VL2-small：4.2–4.5 扩展与恢复版",
+    "paper": "对应当前稿件 4.2–4.5；截至本次整理尚未写入 VisualTorque_revision 正文",
+    "role": "新增已完成实验、历史中断记录及协议修订",
+    "claim": "最新结果包确认迁移预测、跨符号验证、读出修准及 52 家族修复确认已完成。符号预测有支持；读出纠正修好 3、损坏 4，未建立净准确率收益；L13/L20 初始准确率修复未确认，L20→L23 有分数层面的依赖。",
+    "order": "01_DeepSeek_Transfer → 02_DeepSeek_Readout → 03_DeepSeek_Repair_4_5_fixed。保持 RUN_ID=blackwell_cu128；fixed 读取已冻结方向，使用 52 家族修订，不重新选点。原 64 家族版置于 versions，三份中断运行置于 runs。已完成结果见 evidence/deepseek，不能仅看中断 notebook 判断完成性。",
+    "families": [
+      "01_DeepSeek_Transfer_4_2_4_3",
+      "02_DeepSeek_Readout_4_4",
+      "03_DeepSeek_Repair_4_5"
+    ]
+  },
+  "90_followup_visual_and_relation_use": {
+    "title": "后续探索 视觉信息、问法与物理关系使用",
+    "paper": "未纳入本次对照的正文 Section 4.4–Section 4.5",
+    "role": "后续探索，执行状态以各文件保存记录为准",
+    "claim": "分别检验视觉信息供给、方向与平衡选项、生成问法、视觉机制迁移和 facts/products/totals 条件。不能把尚无本地输出的源码当成已生成论文结果。",
+    "order": "各子项目按自己的说明运行。Relation_Use 的 Gemma/Qwen GPU notebook → Relation_Use_Results_Audit_CPU；VisualMechanism_Bridge → Frozen_VisualMechanism_Transfer → Results_Audit。",
+    "families": [
+      "VisualInformationSupport_GPU",
+      "Direction_Balance_Diagnostic_GPU",
+      "Frozen_Visual_Validation_GPU",
+      "Gemma_Generation_Recheck_GPU",
+      "VisualMechanism_Bridge_GPU",
+      "Frozen_VisualMechanism_Transfer_GPU",
+      "VisualMechanism_Results_Audit_CPU",
+      "Relation_Use_gemma12b_GPU",
+      "Relation_Use_qwen27b_GPU",
+      "Relation_Use_Results_Audit_CPU"
+    ]
+  }
+}

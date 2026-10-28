@@ -1,0 +1,34 @@
+{
+  "status": "technical_check_passed_not_scientific_evidence",
+  "example": {
+    "example_id": "image_rule:q_multi_04a02ac076c6eb66_outcome_p0",
+    "prompt": "Solve this balance-scale question using only the supplied scene.\n\nEach square is one unit of weight. Distance is measured in tick intervals from the central pivot. A stack's turning effect is its number of squares multiplied by its distance. Add the turning effects on each side and compare the two side totals.\n\nQuestion: What happens to the balance scale?\n\nOptions:\nA. The left side moves downward\nB. The right side moves downward\nC. The beam remains level\n\nDo not explain your reasoning. Reply with exactly one option letter and nothing else. Valid replies are: A, B, C.",
+    "image": "f9b06bebdd60097fd25996ebde86d68fb259d8f4c6e5fdbd4c862fd043287f58",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "semantics": [
+      "left",
+      "right",
+      "balanced"
+    ],
+    "gold": "left",
+    "torque": 6,
+    "split": "probe_train"
+  },
+  "noop_score_error": 0.0,
+  "tail_max_abs_error": 3.1789143872806847e-07,
+  "plans": {
+    "A,B,C": {
+      "prefix": [],
+      "tokens": {
+        "A": 32,
+        "B": 33,
+        "C": 34
+      }
+    }
+  },
+  "prepared_input_sha256": "2ae54d99b2e0a40139b9032d7ebdea4760f3f2a8960f53a0bab797e0267fddb0"
+}

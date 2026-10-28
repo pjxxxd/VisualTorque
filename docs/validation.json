@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "notebooks": 351,
+  "source_paths": 481,
+  "byte_identical_aliases": 130,
+  "groups": 15,
+  "roles": {
+    "runs": 176,
+    "versions": 16,
+    "code": 159
+  },
+  "copied_support_files": 210,
+  "original_notebooks_checked": 481,
+  "original_support_files_checked": 210,
+  "original_archives_checked": 2,
+  "previous_package_notebooks_unchanged": 344,
+  "reading_copies_compared_with_original_package": 351,
+  "code_cells_and_saved_outputs_unchanged": 5591,
+  "local_links_checked": 1457,
+  "notebooks_with_saved_errors": 5,
+  "credential_pattern_flags": [],
+  "max_file_bytes": 4010162,
+  "max_file_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Handoff_AxisDose_Crossover_NewGeometry_96GB_v1.ipynb",
+  "experiments_executed": false,
+  "errors": []
+}

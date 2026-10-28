@@ -1,0 +1,7 @@
+codebook,operation,all_trials,non_tied_trials,changed_trials,changed_prediction_matches,changed_match_fraction
+ABC,content:L20,576,496,135,131,0.9703703703703703
+ABC,content:L26,576,497,164,164,1.0
+DIGITS,content:L20,576,432,128,117,0.9140625
+DIGITS,content:L26,576,443,160,158,0.9875
+XYZ,content:L20,576,434,113,109,0.9646017699115044
+XYZ,content:L26,576,453,151,150,0.9933774834437086

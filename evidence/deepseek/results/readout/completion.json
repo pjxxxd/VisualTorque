@@ -1,0 +1,17 @@
+{
+  "status": "heldout_readout_validation_complete",
+  "test_scenes": 1007,
+  "intervention_scenes": 304,
+  "random_scenes": 72,
+  "technical": {
+    "oracle_attempted": 304,
+    "oracle_achieved": 289,
+    "oracle_failed": 15,
+    "zero_or_tiny_edits": 0,
+    "random_attempted": 288,
+    "random_invalid": 2,
+    "common_valid_control_scenes": 69,
+    "all_attempts_retained": true
+  },
+  "selected_layer": 8
+}

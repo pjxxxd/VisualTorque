@@ -1,0 +1,42 @@
+{
+  "status": "heldout_repair_confirmation_complete",
+  "families": 52,
+  "presentations": 416,
+  "condition_records": 14560,
+  "original_planned_families": 64,
+  "capacity_amendment": {
+    "path": "/content/drive/MyDrive/VisualTorque/results/deepseek_vl2_small/blackwell_cu128/repair/confirmation_capacity52_v1/capacity_amendment.json",
+    "sha256": "409f21b2434227270d24123ce58f2325b5f34fc58ab19dda248f8224e41b0a61",
+    "original_planned_families": 64,
+    "amended_families": 52,
+    "families_per_stratum": 13,
+    "recovery_script_sha256": "260cf445788d4e8923c19b37db1a26e99ad0f17d75955165465bf782a9da3aff"
+  },
+  "development_eligible": false,
+  "fully_valid_families": 7,
+  "decisions": {
+    "accuracy_change": {
+      "repair_confirmed": {
+        "u": false,
+        "a": false
+      },
+      "selective_dependence_confirmed": {
+        "ua": false,
+        "ub": false,
+        "ab": false
+      }
+    },
+    "margin_change": {
+      "repair_confirmed": {
+        "u": false,
+        "a": true
+      },
+      "selective_dependence_confirmed": {
+        "ua": false,
+        "ub": false,
+        "ab": true
+      }
+    }
+  },
+  "interpretation": "truth-guided local intervention; not a demonstration of a complete native physics circuit"
+}

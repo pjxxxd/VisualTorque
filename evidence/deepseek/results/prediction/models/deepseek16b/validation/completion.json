@@ -1,0 +1,10 @@
+{
+  "status": "heldout_validation_complete",
+  "n_families": 192,
+  "n_trials": 3456,
+  "control_status": {
+    "random_writes": 3456,
+    "unmatched_random_writes": 0
+  },
+  "prediction_sha256": "50609023882bf277fbed30147f7ac47be54c992b92bfbb55ea252d4e3cdf00c1"
+}

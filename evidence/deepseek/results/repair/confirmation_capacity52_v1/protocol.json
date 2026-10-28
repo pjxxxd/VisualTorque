@@ -1,0 +1,26 @@
+{
+  "bootstrap_unit": "physical_family",
+  "capacity_amendment": {
+    "amended_families": 52,
+    "families_per_stratum": 13,
+    "original_planned_families": 64,
+    "path": "/content/drive/MyDrive/VisualTorque/results/deepseek_vl2_small/blackwell_cu128/repair/confirmation_capacity52_v1/capacity_amendment.json",
+    "recovery_script_sha256": "260cf445788d4e8923c19b37db1a26e99ad0f17d75955165465bf782a9da3aff",
+    "sha256": "409f21b2434227270d24123ce58f2325b5f34fc58ab19dda248f8224e41b0a61"
+  },
+  "conditions": 35,
+  "families": 52,
+  "gate": "repair advantage over zero and matched random before interpreting selective dependence",
+  "implementation": "d417f6419af55b3f9252238c4a43015fa95b54a21453ef671c93e4e98c3cb1a4",
+  "layers": [
+    13,
+    20,
+    23
+  ],
+  "model": "deepseek-ai/deepseek-vl2-small",
+  "primary_tests": 14,
+  "replicates": 10000,
+  "revision": "6033e16432a1d771cf9fe4a6f894ff5e5e1459af",
+  "seed": 2026102601,
+  "selection": "0e6f39d4de883e3b311432b30193ce9b9a65a680c98193ad6e0fbe70dd809a59"
+}

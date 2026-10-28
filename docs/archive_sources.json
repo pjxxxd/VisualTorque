@@ -1,0 +1,14 @@
+[
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "sha256": "8de67968ca026fc274d8e305577d63f57f06f16b99de197d4862dc77ff6d9ccb",
+    "bytes": 151091,
+    "whole_archive_included": false
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip",
+    "sha256": "b5a4716ba4b9a1f0a4f79d3815eb61f616578e8d9d341735ce722787314043de",
+    "bytes": 278579761,
+    "whole_archive_included": false
+  }
+]

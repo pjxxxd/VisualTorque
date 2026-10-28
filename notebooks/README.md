@@ -1,0 +1,17 @@
+# Notebook 主题索引
+
+- [任务构造与行为基线](00_dataset_and_behavior/README.md)
+- [4.2–4.3 答案映射收益与前瞻迁移预测](01_section42_43_transfer_prediction/README.md)
+- [4.3 冻结预测器的新符号验证](02_section43_format_generalization/README.md)
+- [4.4 Qwen/Gemma 读出与数值修准](03_section44_readout_correction/README.md)
+- [4.5 Qwen/Gemma 指导修复与下游依赖](04_section45_guided_repair/README.md)
+- [附录 来源判断、语义、字母与选项位置的区分](05_appendix_content_and_encoding/README.md)
+- [附录 答案不变的物理差分迁移与分量分析](06_appendix_physical_updates/README.md)
+- [附录 LoRA 训练后的行为改善与干预变化](07_appendix_lora_training/README.md)
+- [附录 物理题型、重量捷径与错误结构](08_appendix_error_structure/README.md)
+- [附录 重量、距离与跨模型局部路径](09_appendix_factor_routes/README.md)
+- [历史探索 跨背景组合、乘法规律与正确性门控](10_exploratory_composition_and_gating/README.md)
+- [历史开发 匹配队列、修复方向与序贯阻断](11_handoff_development_and_matching/README.md)
+- [历史汇总与其他机制试验](12_cross_study_audits_and_pilots/README.md)
+- [新增 DeepSeek-VL2-small：4.2–4.5 扩展与恢复版](13_deepseek_extension/README.md)
+- [后续探索 视觉信息、问法与物理关系使用](90_followup_visual_and_relation_use/README.md)

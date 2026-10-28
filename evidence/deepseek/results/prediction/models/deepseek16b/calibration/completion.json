@@ -1,0 +1,9 @@
+{
+  "status": "calibration_complete_not_heldout_evidence",
+  "n_families": 64,
+  "n_trials": 1152,
+  "control_status": {
+    "random_writes": 1152,
+    "unmatched_random_writes": 0
+  }
+}

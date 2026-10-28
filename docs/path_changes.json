@@ -1,0 +1,1722 @@
+[
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100.ipynb",
+    "sha256": "edbbd9ee8fc7fc061274b1349a3033596f0a40fcdf159ca77e195a95afc63f35"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100_v2.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100_v2.ipynb",
+    "sha256": "67cfee4aa512fa3c8c0b020697f3b067fe43edd1bfc76b857e5bb00f41501c83"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100_v3.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100_v3.ipynb",
+    "sha256": "6a090b802abb3123d73729195206062c2c877178862abdc8dfe2c792f6c14ca0"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/code/VisualTorque_Activation_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/code/VisualTorque_Activation_Confirmatory_A100.ipynb",
+    "sha256": "64d1b10586c93f5c32a5e373845dd77ddd50f4ff224716a0747ce32dc76a2c12"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/code/VisualTorque_Activation_Discovery_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/code/VisualTorque_Activation_Discovery_A100.ipynb",
+    "sha256": "e156ba27f67302ffd68f8949bab1cd796a1dc6e158d632e2dd678fb2c7b0a41d"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/code/VisualTorque_Aligned_Readout_Validation_GPU.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/code/VisualTorque_Aligned_Readout_Validation_GPU.ipynb",
+    "sha256": "21209fa86a6de252ca22719f85b0c489c15677d2e6afe2e867e880ac6b501cb0"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/code/VisualTorque_Behavior_A100.ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/code/VisualTorque_Behavior_A100.ipynb",
+    "sha256": "c9077f96704873fe11bda2e3529f0b93c655b714a16ea562fd8f4123361e5b9b"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/code/VisualTorque_Behavior_Analysis_v2.ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/code/VisualTorque_Behavior_Analysis_v2.ipynb",
+    "sha256": "8779b15343be98933db0e693da373c06e09bc25a0caa2db7a16e165200161678"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/code/VisualTorque_Behavior_Analysis_v3.ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/code/VisualTorque_Behavior_Analysis_v3.ipynb",
+    "sha256": "59fe7753614f5520dc47cb36d89f0dbeacd3a17019029da0a73744afaf352a09"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/code/VisualTorque_Causal_Torque_Intervention_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/code/VisualTorque_Causal_Torque_Intervention_A100.ipynb",
+    "sha256": "1ed8b073e7b40a56e3129f23da43ef075e834b8681dd77bb37efdea9a590c0f2"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Competence_GroupedRoute_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Competence_GroupedRoute_Confirmatory_A100.ipynb",
+    "sha256": "6243626bba0169f88e800b9687146631d3d0ed0e7f925234e56b22d05407f503"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Competence_Mechanism_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Competence_Mechanism_Audit.ipynb",
+    "sha256": "428b781191164bde64f49d0c819d8fe8b0ee1daa9025fd51de582f54f9e2b3c3"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Competing_Causal_Abstraction_FinalConfirmatory_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Competing_Causal_Abstraction_FinalConfirmatory_A100.ipynb",
+    "sha256": "02d9a958286e182fac027bb51f406a94449b265dc241230c93502a18005a58f5"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_ContextGated_WeightRoute_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_ContextGated_WeightRoute_Confirmatory_A100.ipynb",
+    "sha256": "0f8826a0202537411fa3ac7264a1ba475a7c64e94c82c6aad056fb37ec3b2d2e"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Counterfactual_Causal_Tracing_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Counterfactual_Causal_Tracing_Confirmatory_A100.ipynb",
+    "sha256": "bc53b4a1d7f7e30afea658316df5ae6264078ba4dae9551b8e952a738dc56ea3"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_CrossContext_Composition_Paper_Robustness_Audit.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_CrossContext_Composition_Paper_Robustness_Audit.ipynb",
+    "sha256": "38890f2cfa2dd045f4a4c5cbb4bb7eb61a30963df071530c96e7db79cbaba01c"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_CrossContext_Factor_Recombination_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_CrossContext_Factor_Recombination_A100.ipynb",
+    "sha256": "da6857d012aede768e9f7096b6bc7094fb4dd6f554718fa6be7ccd46eb1e2ef5"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_CrossModel_CommonSupport_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_CrossModel_CommonSupport_Audit.ipynb",
+    "sha256": "5c0d61855cf6e70c6d699ecb83277c2648d6d1d4af9fa043cfdec6bfe5a43621"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_CrossModel_CrossQuery_Transport_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_CrossModel_CrossQuery_Transport_A100.ipynb",
+    "sha256": "9cd15077c302cfc6e5456bc22a1598cc0d61a9e1fd95f145785ef0d0d81cd609"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_CrossModel_FixedSite_Content_Confirmation_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_CrossModel_FixedSite_Content_Confirmation_A100.ipynb",
+    "sha256": "2b8daf35495c33b04a22179e24821d61de6cb14aeeaab06cc02cd2c17831d4b0"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/code/VisualTorque_CrossModel_Readout_Correction_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/code/VisualTorque_CrossModel_Readout_Correction_A100.ipynb",
+    "sha256": "a66914c6f807f366679790408ba794d7dc24ce62c2489bee3002b367d67adb6e"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/code/VisualTorque_CrossModel_Readout_Repeatability_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/code/VisualTorque_CrossModel_Readout_Repeatability_A100.ipynb",
+    "sha256": "dda48c5758df920c66f3e84f5a214c053aac3f09c7cabb3a43783bb08bb735b9"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/code/VisualTorque_CrossModel_Repair_Confirmation_A100.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/code/VisualTorque_CrossModel_Repair_Confirmation_A100.ipynb",
+    "sha256": "19ce6d55d36b4d11488c275c6958ef01d3ab4dcd80d19027fe91eab24035634c"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/code/VisualTorque_CrossModel_Repair_Development_A100.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/code/VisualTorque_CrossModel_Repair_Development_A100.ipynb",
+    "sha256": "454f2f99cf681624f69bc49e61c11ed297e40b660ebc34ada21578de17792cdc"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_CrossModel_Results_FullAudit_CPU.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_CrossModel_Results_FullAudit_CPU.ipynb",
+    "sha256": "9027776dda76fc3a321b081beebd1fa69cb93be0c6d086cffbb1fc7b9225f696"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/code/VisualTorque_CrossModel_TargetedAudit_CPU.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/code/VisualTorque_CrossModel_TargetedAudit_CPU.ipynb",
+    "sha256": "4a9906870fcb1e64eaf4c24e12a8a1f56aa4076c3cbea5815926d1ad34007adf"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_CrossQuery_FactorDecision_Transport_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_CrossQuery_FactorDecision_Transport_A100.ipynb",
+    "sha256": "a9376e62adf528288646dd29036788a48b827d9c9cb3411942cc2ca543d59a7d"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Direction_Balance_Diagnostic_GPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Direction_Balance_Diagnostic_GPU.ipynb",
+    "sha256": "d82181a5e860f28e277baa3b8d4160e6c40ffc61abde15c09a210ea01f93ae1e"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Edgewise_CausalFidelity_OOD_Readiness.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Edgewise_CausalFidelity_OOD_Readiness.ipynb",
+    "sha256": "5191c0c7824d2229c6c5f59c52de056539f32c975fbc7ac4f1513a37fabce4f4"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Error_Structure_CPU.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Error_Structure_CPU.ipynb",
+    "sha256": "aad4444c7b2bb828e075f3185031fc76eba96666423d66aa0160ee511b5cadf8"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Factorial_Robustness_Paper_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Factorial_Robustness_Paper_Audit.ipynb",
+    "sha256": "e0df4b2ebfae0ff4f35b97f70c73ef6a58fa7fea96ea119f8608dd0428588cc8"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Fidelity_ErrorAlignment_Reanalysis.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Fidelity_ErrorAlignment_Reanalysis.ipynb",
+    "sha256": "e8d3e6671a150c51e20276d2832b2872f1d6827931bec4c0787a3dae51550aa3"
+  },
+  {
+    "previous_path": "notebooks/03_rq2_format_generalization/code/VisualTorque_Frozen_Format_Transfer_GPU.ipynb",
+    "current_path": "notebooks/02_section43_format_generalization/code/VisualTorque_Frozen_Format_Transfer_GPU.ipynb",
+    "sha256": "dd4d747512c874573988b3c424a73d8d8902535432602b75a2e6cbf4a7df3167"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Frozen_VisualMechanism_Transfer_GPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Frozen_VisualMechanism_Transfer_GPU.ipynb",
+    "sha256": "a1b049b74a4da106c7b6df805d499fba2d7dfe81bbf1f3fec2f4e02662154662"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Frozen_Visual_Validation_GPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Frozen_Visual_Validation_GPU.ipynb",
+    "sha256": "4044fa650de5b4ddc1afddf41847066f3a0e56bf7f33ab2d3fcf9b0b6845937d"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/code/VisualTorque_Gemma12B_L31_FixedCandidate_A100.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/code/VisualTorque_Gemma12B_L31_FixedCandidate_A100.ipynb",
+    "sha256": "5d5d0f433252b539c03990bcd959a66ec0b104438dc7963726af1f58c80c0ee9"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Gemma_Competence_GroupedRoute_Replication_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Gemma_Competence_GroupedRoute_Replication_A100.ipynb",
+    "sha256": "798f329ab478137e9a8ba94aa4d9aa42cc3a0609fce369e0ea532c3172d0c358"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Gemma_Generation_Recheck_GPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Gemma_Generation_Recheck_GPU.ipynb",
+    "sha256": "ff6001f7e1a741398dec36a9da9222c260016cc94305199f2f6d0647e78a9457"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Gemma_Response_Depth_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Gemma_Response_Depth_A100.ipynb",
+    "sha256": "ab3856c61a8c2805d13288d7dbfda72e69c71c8ddc7e1bf549818a061181a842"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/code/VisualTorque_Independent_Results_Audit_CPU.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/code/VisualTorque_Independent_Results_Audit_CPU.ipynb",
+    "sha256": "28cff47b8d05976c617471f07e4aa6a6d8c0216bf30dd4d3fc9b5f864d375a67"
+  },
+  {
+    "previous_path": "notebooks/02_rq2_transfer_prediction/code/VisualTorque_Intervention_Prediction_Calibration_GPU.ipynb",
+    "current_path": "notebooks/01_section42_43_transfer_prediction/code/VisualTorque_Intervention_Prediction_Calibration_GPU.ipynb",
+    "sha256": "34cf365887134e46f27f4b741f65ceef740d6ebb117aa591febf7be051b8d820"
+  },
+  {
+    "previous_path": "notebooks/02_rq2_transfer_prediction/code/VisualTorque_Intervention_Prediction_Validation_GPU.ipynb",
+    "current_path": "notebooks/01_section42_43_transfer_prediction/code/VisualTorque_Intervention_Prediction_Validation_GPU.ipynb",
+    "sha256": "191a4b1c75a895b07fd030027be2975061dcb12680787bc6ea58e118036dc498"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_InverseQuery_WeightRoute_Specificity_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_InverseQuery_WeightRoute_Specificity_A100.ipynb",
+    "sha256": "553c61fc7a5ffbdd608ece19476b9b25065b426f695afd62050a4f2eea48f39e"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_L55_CodeTransition_Asymmetry_Audit.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_L55_CodeTransition_Asymmetry_Audit.ipynb",
+    "sha256": "14a18c590df5910ad0be847e8a573a37d4f4ee0de226db7ef1724304f2da115a"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_LargeModel_FrozenClaim_Replication_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_LargeModel_FrozenClaim_Replication_A100.ipynb",
+    "sha256": "d74bec60412321dec3dd7e420571ed8c5fe4522773bbe5c75d654769e03a4a2b"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/code/VisualTorque_LateSite_Strategy_Readout_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/code/VisualTorque_LateSite_Strategy_Readout_Confirmatory_A100.ipynb",
+    "sha256": "3a3b25de4f8a520a5f96ca8b05399e411347a56e16cefa8e1a1af45fb8a4fe79"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Mechanism_Error_Prediction_Audit.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Mechanism_Error_Prediction_Audit.ipynb",
+    "sha256": "6d9c2f11dc10b59da6532bb8ce3feddda95b512e8d6f89ddb24b9f90079d5680"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_MediatorSymmetry_OrientationSpecific_Reanalysis.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_MediatorSymmetry_OrientationSpecific_Reanalysis.ipynb",
+    "sha256": "5c55fa7751d0403f2927b8b844f5fa30fd95c1cd01128241201b47ff2e413ea1"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_ModelAdaptive_Fidelity_StressPrediction_A100.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_ModelAdaptive_Fidelity_StressPrediction_A100.ipynb",
+    "sha256": "d4447f69072ac69d314ca078d1b014fc8fa8c18b26a12db58bc78bfd4234d9ce"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_ModelAdaptive_InformativeSite_Replication_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_ModelAdaptive_InformativeSite_Replication_A100.ipynb",
+    "sha256": "b9e925b8d67e281ad397fb63e6fe0ade1e16a3c389e1016154aa8083269b07fa"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Natural_Counterfactual_Causal_Tracing_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Natural_Counterfactual_Causal_Tracing_A100.ipynb",
+    "sha256": "e17cdcec34e6b3a0103ddc03f6174e798f139f2e5b8ba7504903af86ed9c0bdd"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Orthogonal_Binding_Robustness_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Orthogonal_Binding_Robustness_Audit.ipynb",
+    "sha256": "27350f178c457e56f88afa9b5a03de59406061ffc8a05410afd860f2fc01087b"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Orthogonal_ValueBinding_Control_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Orthogonal_ValueBinding_Control_A100.ipynb",
+    "sha256": "ad108aa56e400a765d352cdc3d8610b88449302c736256729751a1a743b0672f"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Paper_Evidence_Synthesis_v1.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Paper_Evidence_Synthesis_v1.ipynb",
+    "sha256": "09acda3420deac4e1b8e4b91c9ac752d6dab7d82986b5c2948ffdf35a0427e93"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_PathIntegrated_TorqueTangent_A100.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_PathIntegrated_TorqueTangent_A100.ipynb",
+    "sha256": "b4fa38760ea1596fd016555dfcea3f44d6ccd49dc9cdd5cdc4d8a50c02f514a4"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_PhysicalHandoff_FractureMap_PaperSynthesis_v2.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_PhysicalHandoff_FractureMap_PaperSynthesis_v2.ipynb",
+    "sha256": "fa9054aa069df9bc674ffe1e404ed38d1575035e75f71e34977f8f8bbc9ba4c4"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_AxisDose_FailureFamilies_SignedTransport_CPU_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_AxisDose_FailureFamilies_SignedTransport_CPU_v1.ipynb",
+    "sha256": "9c7b81df23cf407db62684627533571ec2d50882f88ab2673effb6b8d150e52f"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_AxisDose_ReviewBundle_Analysis_CPU_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_AxisDose_ReviewBundle_Analysis_CPU_v1.ipynb",
+    "sha256": "f38a123e679ff20efdbae0745465339f55762c12909f4e1753ba0cdbdefb26d9"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_BF16_LoRA_WeightShortcut_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_BF16_LoRA_WeightShortcut_96GB.ipynb",
+    "sha256": "049c42bad9244a4a4ada438b71e3d489cd2b5c11d4780cdd3ead28f5e375bce6"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_DistanceFactorial_Audit_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_DistanceFactorial_Audit_96GB.ipynb",
+    "sha256": "193ba24e9476b6cc5ebdcdbcf8265f90f7927ebe1f9cd3a2ba415f1a8f906a0a"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB.ipynb",
+    "sha256": "bf1dd371654438e367ff03ed9966987769aa9e8681f10b8061b7ef1165458dd4"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB_v2.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB_v2.ipynb",
+    "sha256": "669c28a29f5968b20b7bda36155030b0ac05cbb87088e46d58bf06ba5f6cd632"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB_v3.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB_v3.ipynb",
+    "sha256": "f581dd7fcd9ac6fae922f4a283f5fb35c4b00e438ca0070bdd8641a248038727"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_Mechanism_Discovery_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_Mechanism_Discovery_96GB.ipynb",
+    "sha256": "70216c37252d3522fc6b54e165070d339a6d252e19b9f18f52924b21ca1da5ef"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_MetricVsOrdinal_Boundary_Audit_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Base_vs_LoRA_MetricVsOrdinal_Boundary_Audit_96GB.ipynb",
+    "sha256": "396c4394d35d689cff1e239dbca85ee9fd5fc5cb1b8262a29fd4b9296cda79e3"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_Calculation_Elicitation_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_Calculation_Elicitation_A100.ipynb",
+    "sha256": "50012f4d631f8e130e26d8d8fcb7bfbae443fa64caad3c2b9bfc0cc66b3271a4"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_CompetenceMatchedClearance_Readiness_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_CompetenceMatchedClearance_Readiness_A100.ipynb",
+    "sha256": "e3339be581cf361ddcf92367d19596da1a485b0d689cfe9f28531ed3c0e8b2b5"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_Conditional_Strategy_PhaseMap_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_Conditional_Strategy_PhaseMap_A100.ipynb",
+    "sha256": "266cfb826ca104e7bc7c0aa0d91e630895b74adb6b1a4e848a29e3169a81b048"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_CorrectSource_DistanceError_Rescue_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_CorrectSource_DistanceError_Rescue_A100.ipynb",
+    "sha256": "527762ac17ac02d560983a3d730e6931ca4de796d8bd0d8f26381760ab89b7d1"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_CrossContext_FactorEquivalence_ProductInteraction_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_CrossContext_FactorEquivalence_ProductInteraction_A100.ipynb",
+    "sha256": "6848800243ad88293d4b1627d7692c9de44851893f99e9460f44167e5d941956"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_CrossContext_FactorEquivalence_ProductInteraction_A100_v2.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_CrossContext_FactorEquivalence_ProductInteraction_A100_v2.ipynb",
+    "sha256": "cec5fc75fad79a5fccf341c9fa690f8a311f88d15995b615459117f9f13d541f"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_CrossContext_FactorEquivalence_ProductInteraction_A100_v3.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_CrossContext_FactorEquivalence_ProductInteraction_A100_v3.ipynb",
+    "sha256": "1e56967f96d1fae9d192b18e1c8cb94d62752265a4bd895e935b616be6c54197"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_CrossContext_ResponseCode_Subspace_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_CrossContext_ResponseCode_Subspace_A100.ipynb",
+    "sha256": "7037402068d2e4b684990499a49b2a49239ede54f1f43a4637748a5b5aba32f5"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_DecisionNeutral_FactorSemantic_Mediation_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_DecisionNeutral_FactorSemantic_Mediation_A100.ipynb",
+    "sha256": "99c147fbb6519c284b1da16bef308dae6794f4e8ab2af6d3e93aab15344e158c"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Qwen27B_Depth_Relocalization_Audit_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Qwen27B_Depth_Relocalization_Audit_A100.ipynb",
+    "sha256": "8937ac4926dbff8c0275d4414f6316cb6aecb2d46ce5adfdd86f50891355b495"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_Distributed_FactorMediator_Subspace_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_Distributed_FactorMediator_Subspace_A100.ipynb",
+    "sha256": "dcc4ae6fd91916e93dc819cf5a5ac062eea44c163badd11753b609f64baebea6"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/code/VisualTorque_Qwen27B_EqualMagnitude_Blocking_A100.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/code/VisualTorque_Qwen27B_EqualMagnitude_Blocking_A100.ipynb",
+    "sha256": "065ca886b38aa7eeac538a879ea4c2ebf84f9fbd775cdb9da9b87b618cc30379"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_ErrorConditioned_PhysicalState_Audit_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_ErrorConditioned_PhysicalState_Audit_A100.ipynb",
+    "sha256": "77940ca95b7586389a85daf3a4cff1916b0fe6bb6af57d55023f9deec932bb99"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_ExactPhysics_ErrorSpecific_Handoff_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_ExactPhysics_ErrorSpecific_Handoff_Confirmatory_A100.ipynb",
+    "sha256": "4acab7dbf2b1f502d55d59fb0c9302a3121b5221009c51ceae79ff402eb258c3"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_ExactPhysics_Handoff_Paper_Audit.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_ExactPhysics_Handoff_Paper_Audit.ipynb",
+    "sha256": "d6b35a89e097e0604d96982a41c99e00924dd463d0a9ac8f3bc4a468e326c129"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_ExactPhysics_SequentialHandoff_Blocking_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_ExactPhysics_SequentialHandoff_Blocking_A100.ipynb",
+    "sha256": "9b36b01ecc24c2530fbd37fa5ff753cb02e49e242625188e097bab1c25f28dff"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_ExpandedCrossContext_SourceReadiness_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_ExpandedCrossContext_SourceReadiness_A100.ipynb",
+    "sha256": "c2fab3005f47a8385cd24fd56fa95d455c8f7e4e1ac9e48dae1e773d663a95eb"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Qwen27B_FactorPath_TokenComponent_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Qwen27B_FactorPath_TokenComponent_A100.ipynb",
+    "sha256": "b9b07e1343635903b2fc14e096b240e62cc0439030cbae4654e024eaa5a57b42"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_Final_CrossContext_Factor_Composition_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_Final_CrossContext_Factor_Composition_A100.ipynb",
+    "sha256": "478467d9ea69b8e770b5dd5da5cc2d0ea58eb5bbfdbcd8e7f38e33b776222e2f"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v1.ipynb",
+    "sha256": "0226a3c2df2777e34d43d1d85f410e843d3915c541401ae6e6748a9589699439"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v2.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v2.ipynb",
+    "sha256": "23e46ec25efab4991e905b209ac759f27025ca9cb64be7c32475977a1e11ddee"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v3.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v3.ipynb",
+    "sha256": "9f7795872f16921a6b85cb8b05bbb4e4d1da37094bce66b3ac436c231e5212d9"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_Graded_ProductLaw_Composition_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_Graded_ProductLaw_Composition_A100.ipynb",
+    "sha256": "4b26661ebef92e1c252b1375add109322d575023e4c7b339e3fc9135780da4a6"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Handoff_AxisDose_Crossover_NewGeometry_96GB_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Handoff_AxisDose_Crossover_NewGeometry_96GB_v1.ipynb",
+    "sha256": "fb2e94936b235598c6f185b433875403b1ee33a88c6c2e015c98e559b35730b0"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_L55_CodeSubspace_Mediation_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_L55_CodeSubspace_Mediation_A100.ipynb",
+    "sha256": "535fe1a4e550a5e04345fc6e9b26496365283fa48c4a003298010f5e880f7c21"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_LocalGeometry_OracleReadout_BidirectionalResponse_96GB_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_LocalGeometry_OracleReadout_BidirectionalResponse_96GB_v1.ipynb",
+    "sha256": "c0cba77fb87b66779224529ae8140d03c56106604a27436bdc5287092437dad7"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_MatchedClearance_FlipError_RescueInduction_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_MatchedClearance_FlipError_RescueInduction_A100.ipynb",
+    "sha256": "fadc7b62303be0a30c9c6dffb63b32a935ed4c8cd4890bf7d5d2ca7bcdfb74fa"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_MatchedClearance_FlipError_RescueInduction_A100_v2.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_MatchedClearance_FlipError_RescueInduction_A100_v2.ipynb",
+    "sha256": "a166f04383b06c756b894b58272d6d86b79f6f1472c370ba75544c17a12d9cd2"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_MatchedFracture_Localization_ReciprocalRepair_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_MatchedFracture_Localization_ReciprocalRepair_A100.ipynb",
+    "sha256": "8db6bb6a0a320794fc2a46b97a668906b75d087a4e1145c92442af097f300481"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_MediatorMatched_Handoff_Symmetry_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_MediatorMatched_Handoff_Symmetry_A100.ipynb",
+    "sha256": "0e4572095e40fb2369c4083af5eced25572a5b686312e59c414d2fafe1da0e58"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_AlignedResidual_Robustness_PairedAccuracy_BF16_CPU_v1.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_AlignedResidual_Robustness_PairedAccuracy_BF16_CPU_v1.ipynb",
+    "sha256": "7aefa8b05d5e0acf7d390f84ec8cc9d5249ad0ca8dd64717b0b4359543690cb5"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Native_LoRA_AlignedUpdate_Crossover_NewGeometry_96GB_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_Native_LoRA_AlignedUpdate_Crossover_NewGeometry_96GB_v1.ipynb",
+    "sha256": "db9e81623927c4967c049d703025d113ab2ae4cc7c99bfe745417705a30d1218"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_PhysicalUpdate_AlignedResidual_Factorial_96GB_v1.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_PhysicalUpdate_AlignedResidual_Factorial_96GB_v1.ipynb",
+    "sha256": "67c9ab5e73523c96161136a547a372c5211f102ef08c51179f9a540350f51ce0"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_PhysicalUpdate_FamilyNeutrality_StateAlignment_CPU_v1.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_PhysicalUpdate_FamilyNeutrality_StateAlignment_CPU_v1.ipynb",
+    "sha256": "ca7e5684027065042039789bf8805ebe325d1dd31a8540ec921fc94d7cbf9a36"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v1.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v1.ipynb",
+    "sha256": "97b4bb979f153ad0515995660e2265471c34d231ee14577fe423580017357dcd"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v2.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/code/VisualTorque_Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v2.ipynb",
+    "sha256": "6c8fdb5b144078e425d90a0b5fc51724099be40c907d8997981963f93a4b30ed"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_NetTorqueToAnswer_Fracture_Rescue_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_NetTorqueToAnswer_Fracture_Rescue_A100.ipynb",
+    "sha256": "21171229ab2d5344e28e6ab3227dd428256c1ce92e2e085a19699d430ea8e032"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_NetTorqueToSemantic_Handoff_Mediation_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_NetTorqueToSemantic_Handoff_Mediation_A100.ipynb",
+    "sha256": "2eaea1a0f8d93341b824a39adec7277934c6a77dc676c0e9f7195842444060b0"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_NetTorque_Aggregation_Invariance_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_NetTorque_Aggregation_Invariance_A100.ipynb",
+    "sha256": "8ff149e353df0eab58cc73843a6aa81eac90588c329588a6dfd5aef481784081"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_NetTorque_Aggregation_Invariance_A100_v2.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_NetTorque_Aggregation_Invariance_A100_v2.ipynb",
+    "sha256": "a9d2e6cd5347fa77b514da33a8bd63db20c8822bab3c1652b2be147a1196b566"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_OutcomeFlip_ExpandedSupport_Confirmatory_A100_v2.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_OutcomeFlip_ExpandedSupport_Confirmatory_A100_v2.ipynb",
+    "sha256": "d8f6a32033edca0e1547e8950d31d98f2123dd4f3febc780a21e7d15b656649b"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_OutcomeFlip_WithinContext_RouteGating_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_OutcomeFlip_WithinContext_RouteGating_Confirmatory_A100.ipynb",
+    "sha256": "9e77598bcf19fbbd2a15e16cd7a7dee429d39bbde38fbaf93b4b74a50bc1aeb0"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_Blind_Causal_Validation_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_Blind_Causal_Validation_96GB.ipynb",
+    "sha256": "1a1d985081460c7ab587d0005607f461a4108f0da8d884fe774714c7c51919af"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_Heldout_Evaluation_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_Heldout_Evaluation_96GB.ipynb",
+    "sha256": "41705f155fd414f757e4008be9c9c0b48dbae06826ad02ba219bec7ff0a5601a"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_L50_CausalSubspace_Decomposition_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_L50_CausalSubspace_Decomposition_96GB.ipynb",
+    "sha256": "c24aa66eceff775ce88857985a4cfd8db36b3b9b1302e5cedfd2b90dbe295bfe"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_L50_FrozenRank4_BlindV3_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_L50_FrozenRank4_BlindV3_96GB.ipynb",
+    "sha256": "7e0d974c67a90c27345ec42ed1d830cd8d9d717298f64e311523ad118d291541"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_L50_MetricRoute_BlindCausal_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_L50_MetricRoute_BlindCausal_96GB.ipynb",
+    "sha256": "9d21f8253e46444c37413b46fd5a62e2b92f355df9cb1d714644bb820a88ee86"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_StyleCode_Crossover_Audit_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_StyleCode_Crossover_Audit_96GB.ipynb",
+    "sha256": "f9f06b0ad50ad687dd65853b5ff5fe16f803e5a908b3297cac1074f94cef3a6c"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_TorqueControl_StressTest_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/code/VisualTorque_Qwen27B_PostLoRA_TorqueControl_StressTest_96GB.ipynb",
+    "sha256": "28c1a5c6846eb083911d36a62cc0047cb969868d5cb41c4cfde40cecc29363da"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_ProductLaw_BoundaryCalibration_Audit.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_ProductLaw_BoundaryCalibration_Audit.ipynb",
+    "sha256": "472427f0f63a0957ccacba836079610270f4ebbd6afaa1f0cfcea8b012d3edfd"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_QueryConditional_TorqueUse_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/code/VisualTorque_Qwen27B_QueryConditional_TorqueUse_A100.ipynb",
+    "sha256": "58689666618c34ec55376589a0c84bf0db3487593cc13802d991c16db4f083dd"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_RecipientConditioned_SemanticRecode_Rescue_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_RecipientConditioned_SemanticRecode_Rescue_A100.ipynb",
+    "sha256": "998f20ba930364e8186c95bdcbf6c3b60642744332cd999d12c4d3d0b5da82ce"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_RecipientRecode_DoseResponse_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_RecipientRecode_DoseResponse_Confirmatory_A100.ipynb",
+    "sha256": "9c7fa2d8b5fc255f13907814da75d453a332e1315468ce24f21d8032961e8333"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_ResponseCode_PositionFactorial_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_ResponseCode_PositionFactorial_A100.ipynb",
+    "sha256": "19fe5dea56c2c3c83c3c389fd7bc86981bd98e736b4fa02b0bdb63e21ff638ef"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_ResponseSubspace_DimensionTransfer_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_ResponseSubspace_DimensionTransfer_A100.ipynb",
+    "sha256": "c241e7040ca7e7e2159ce582f410bcfa7813201f3908a326205d483bedad2f19"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_RightSide_ErrorSpecific_Handoff_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_RightSide_ErrorSpecific_Handoff_A100.ipynb",
+    "sha256": "0dc6c0cb00851a047e44776aa7399bb37c52461617c68ff8c72ea654faf5753a"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_RightSide_ErrorSpecific_Handoff_A100_v2.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_RightSide_ErrorSpecific_Handoff_A100_v2.ipynb",
+    "sha256": "5aba048c0fd56b5cdab813b6c61959e893b4c8028067faf07426d2bea14f8cee"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Qwen27B_Route_Relocation_Audit_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Qwen27B_Route_Relocation_Audit_A100.ipynb",
+    "sha256": "7ade06f3db3329df855f441b4553aa2a65a2f0ea4bbc7def31e98789008e6db0"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_SemanticError_Mediation_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_SemanticError_Mediation_Confirmatory_A100.ipynb",
+    "sha256": "225801949c9c05dfe7117c2d766358b22c21af533b27e64a5d56ad64e0270110"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_SymmetricCodeAxis_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_SymmetricCodeAxis_A100.ipynb",
+    "sha256": "75748386498c752163d1cb99db97488f9fa0c57998811797cc894064f0f1cdda"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_Targeted_CommonSupport_Expansion_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_Targeted_CommonSupport_Expansion_A100.ipynb",
+    "sha256": "10c86025d0ba664d4932896684b14a06660b902b4d9b016725a5282f14fdda67"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/code/VisualTorque_Qwen27B_ThreePath_Confirmation_A100.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/code/VisualTorque_Qwen27B_ThreePath_Confirmation_A100.ipynb",
+    "sha256": "e339bb5e9b9500ccb79e4cac5977a880f025070d37fa0e87e1b2e3940ec8f0ff"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_Torque_to_Answer_Bridge_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_Torque_to_Answer_Bridge_A100.ipynb",
+    "sha256": "bb59d4d1b1c61e5aca1a6ddb720332edecf307625f93cb8d782eb4ba5e14186e"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_WeightRoute_CompetenceGating_Audit.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_WeightRoute_CompetenceGating_Audit.ipynb",
+    "sha256": "a41f249a179124602057b5561b4c7ba80135b6fd6961a10d4c7268e251587723"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_WeightRoute_MappingSide_Factorial_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_WeightRoute_MappingSide_Factorial_A100.ipynb",
+    "sha256": "0e7de266bfb57f222374416af2aceaa5be0fb33f9aa523999acfbebe773d3ea2"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_WeightRoute_WithinContext_Gating_Audit.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/code/VisualTorque_Qwen27B_WeightRoute_WithinContext_Gating_Audit.ipynb",
+    "sha256": "f498e97a35d3e149e6c39cc8e487aca19b668c6e967fbf96b110b483d85920c0"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Qwen35B_A3B_BF16_Fracture_Replication_96GB.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Qwen35B_A3B_BF16_Fracture_Replication_96GB.ipynb",
+    "sha256": "28755439f71e29779fdac031a29b1e6c6e2f6353340acdb788b64220e8a1d37e"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Qwen35B_A3B_BF16_NetTorque_Reciprocal_Causal_96GB.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Qwen35B_A3B_BF16_NetTorque_Reciprocal_Causal_96GB.ipynb",
+    "sha256": "ea7ceca13aa3504a309eb269919cf9ba96b0e00eb894fde2fee2b24d7bc4d117"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Qwen35B_A3B_BF16_NetTorque_Reciprocal_Causal_96GB_v2.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Qwen35B_A3B_BF16_NetTorque_Reciprocal_Causal_96GB_v2.ipynb",
+    "sha256": "bee32959897d3b70611b1e38ffeae2bf557569d897dc8ee798728f1d4e934ae1"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Qwen35B_A3B_Fracture_Readiness_A100.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_Qwen35B_A3B_Fracture_Readiness_A100.ipynb",
+    "sha256": "9a271222fb44d887e878fd9f664d8cb6a1bedeae6eafc80f3205b03af0ca81f4"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Qwen_Gemma_Mechanism_Synthesis.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Qwen_Gemma_Mechanism_Synthesis.ipynb",
+    "sha256": "55254ee5d90b86ca77f4f4c5148970d360a6b4885e5b182c86c537d5050428e9"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/code/VisualTorque_Readout_Capture_Bridge_GPU.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/code/VisualTorque_Readout_Capture_Bridge_GPU.ipynb",
+    "sha256": "197dab9410fcfd3f87bd0766b0af6ecc1a4a61eb4cc223d60523ac14a82c7f1a"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Relation_Use_Results_Audit_CPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Relation_Use_Results_Audit_CPU.ipynb",
+    "sha256": "017f0d6d3008b6d37025b77ca7def0e781a8f0461c997b8160517d8260c4ea80"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Relation_Use_gemma12b_GPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Relation_Use_gemma12b_GPU.ipynb",
+    "sha256": "8044036b4d56d545f745eb54c493aaed0fa03172cf64f0f7e74b8913286658e2"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Relation_Use_qwen27b_GPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_Relation_Use_qwen27b_GPU.ipynb",
+    "sha256": "bb2925c39a54177711059200bb0cf3c32c65b8149e8beb39ebb3f5b1b8aeaef9"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/code/VisualTorque_Representation_Specificity_v1.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/code/VisualTorque_Representation_Specificity_v1.ipynb",
+    "sha256": "0816f9fdd6d1e6ad95d09904299cbe13b8bffb6a0f794f40a6f1ed4a6e915a88"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_ResponseCode_Bypass_Threshold_Audit.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_ResponseCode_Bypass_Threshold_Audit.ipynb",
+    "sha256": "f790782c2b4b23064d1a2357e4cab5e049ef30f33fd804e6e7688c3ab259a24f"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_ResponseState_Remapping_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_ResponseState_Remapping_A100.ipynb",
+    "sha256": "86d355eaa95ca4b0eb45d476515dea559e9e68485d7c225db3a9ea191254acaa"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_RightSide_CommonSupport_Matching_Readiness.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_RightSide_CommonSupport_Matching_Readiness.ipynb",
+    "sha256": "f339bb162df1e5e3290086c8ed119f0935cc30c6b197e3524cf3a68117056b94"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Routing_Robustness_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Routing_Robustness_Audit.ipynb",
+    "sha256": "7e26ed1c72bce970b2cb1b2531c945f606eab1ef97bec268eae3d16ffbf4641c"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_SameManifest_Factorial_Composition_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_SameManifest_Factorial_Composition_A100.ipynb",
+    "sha256": "2e98b71112baeb8d0063b11cfe59ce91ca538aef12e56a285d6145fe9f0e96ec"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_SemanticToLabel_Depth_Localization_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_SemanticToLabel_Depth_Localization_A100.ipynb",
+    "sha256": "8e3e480b92430151d34e7d02ce5d480bb5db01d5eef0a90a40e2e0863e50c6f9"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Targeted_Shortcut_Error_Rescue_Induction_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Targeted_Shortcut_Error_Rescue_Induction_A100.ipynb",
+    "sha256": "4db6cf79991bfae601852550594344ddc3eecbc1a9a2d62cef3ca8b58a9310a3"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Task_Token_Component_Routing_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/code/VisualTorque_Task_Token_Component_Routing_A100.ipynb",
+    "sha256": "d908916c80d0a0d0f449e3a7ea7c1cfa1471dcdf88ff891af8c3248e23bccaad"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_TorqueTangent_Pilot_A100.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/code/VisualTorque_TorqueTangent_Pilot_A100.ipynb",
+    "sha256": "0cb9616377bbe5670ef7fee3e5637298089645bfd99547aa946509ad2dbe0c85"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_VisualInformationSupport_GPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_VisualInformationSupport_GPU.ipynb",
+    "sha256": "6032537db07e39a598ddf3267b9b92877f2a71b8328fb54e0df0738228744cf8"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_VisualMechanism_Bridge_GPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_VisualMechanism_Bridge_GPU.ipynb",
+    "sha256": "494e208ec0642be738f73b5a002c39432e9fd38397988dea34545c027876ee20"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_VisualMechanism_Results_Audit_CPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/code/VisualTorque_VisualMechanism_Results_Audit_CPU.ipynb",
+    "sha256": "7c1a11057528b0ad213d054768410f45c4999af10f20666fa8d2c9182cb35da5"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/code/VisualTorque_WeightShortcut_Error_Decomposition_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/code/VisualTorque_WeightShortcut_Error_Decomposition_A100.ipynb",
+    "sha256": "769d7b006fdda7b50ee790000d4a8320cc6e8e7da3d9a7e84f0ce7b825ce9055"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_ResponseCode_Alphabet_Replication_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/code/VisualTorque_Qwen27B_ResponseCode_Alphabet_Replication_A100.ipynb",
+    "sha256": "a0937bdb02dacc720bb0790c2ad54f8e73d73a2213a226309b3385c1f8f1e2f8"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_SequentialHandoff_IndependentReplication_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/code/VisualTorque_Qwen27B_SequentialHandoff_IndependentReplication_A100.ipynb",
+    "sha256": "f7b62993e0bfd4bc8e5d2a5a159bdc661b47cde4fd6f0b5700abc3fa6098a73c"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Activation_Discovery_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Activation_Discovery_A100.ipynb",
+    "sha256": "7dc7528ee3be0c80a1fd8156d43f09ad32aefd83652b8124cbd59652589676d1"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Aligned_Readout_Validation_GPU (1).ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Aligned_Readout_Validation_GPU (1).ipynb",
+    "sha256": "20a98e6f7160e9a54b24361729db0236f48f965545835053a25da80c99bab46b"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Aligned_Readout_Validation_GPU.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Aligned_Readout_Validation_GPU.ipynb",
+    "sha256": "e40548174ce6643160628b2835bf98c6345b109acd0830e6d282c6a6638eb6f2"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_A100 (1).ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_A100 (1).ipynb",
+    "sha256": "f0939a3bd071ee7d6bcae70514946f0c9ed4642050d00b5a60ce81f6a88b907c"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_A100 (2).ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_A100 (2).ipynb",
+    "sha256": "b95700f53fc1b458d29b8ecd0ed7b6c4f68c9256e074efc5ab13a1effe4b8f66"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_A100 (3).ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_A100 (3).ipynb",
+    "sha256": "685f00d3e19ec88cdd30a462ab4a6b6683edfc71538d2817214ddc045161eb30"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_A100.ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_A100.ipynb",
+    "sha256": "3ac0ce0bc3d7d7625c968dcfd83c7ecd63b97245d814945513b6abf8cec81767"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_Analysis_v2.ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_Analysis_v2.ipynb",
+    "sha256": "a48c068c61f7b341798c042073bf754747d77ed815aa0eb0c602ace316977f16"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_Analysis_v3.ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/runs/VisualTorque_Behavior_Analysis_v3.ipynb",
+    "sha256": "66852866181907146de58a47144abb5c1ba69432e54858934a1e6740f874ff63"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_CrossQuery_Transport_A100_gemma12B.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_CrossQuery_Transport_A100_gemma12B.ipynb",
+    "sha256": "2f0826ba3132cc2790d70b06716f9599d6a7b51586dbc3618ad12281771732a2"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_CrossQuery_Transport_A100_qwen27B.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_CrossQuery_Transport_A100_qwen27B.ipynb",
+    "sha256": "a07a79d58e0368d8a5f48ddc4937a3824fbdf1593d3b60b406e55db5ad6ec73d"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_CrossQuery_Transport_A100_qwen9B.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_CrossQuery_Transport_A100_qwen9B.ipynb",
+    "sha256": "6283d1d4239864fe4a98a3f965972c20385bd5a50200e602b3248bfa3456a3f2"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_FixedSite_Content_Confirmation_A100_gemma.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_FixedSite_Content_Confirmation_A100_gemma.ipynb",
+    "sha256": "cf755be25010c3fb7fc38415d65ad3d0ede7e96f8dac89fa61be089a4ba84f7c"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_FixedSite_Content_Confirmation_A100_qwen27B.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_FixedSite_Content_Confirmation_A100_qwen27B.ipynb",
+    "sha256": "5253f05a2762362d97b6670ccdfe0ade4e637b5c782581a08a1bb3476ed8c9c4"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_FixedSite_Content_Confirmation_A100_qwen9B.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossModel_FixedSite_Content_Confirmation_A100_qwen9B.ipynb",
+    "sha256": "1cd429cd8a479c028863c4ac38fe8ce4d9466d257313aa56fe3588db85d445c8"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_CrossModel_Readout_Correction_A100_gemma12B.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_CrossModel_Readout_Correction_A100_gemma12B.ipynb",
+    "sha256": "90081b4871babf3c878a9cfb93b496cb1d6d8d8c3a256c44c4b6408dccc67344"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_CrossModel_Readout_Correction_A100_qwen27B.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_CrossModel_Readout_Correction_A100_qwen27B.ipynb",
+    "sha256": "723c0e6eb3ed51baa1e498b62bb31ba2c04cfd56c2b5fa97288149d4a5dfe3ca"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_CrossModel_Readout_Correction_A100_qwen9B.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_CrossModel_Readout_Correction_A100_qwen9B.ipynb",
+    "sha256": "c83ee9f18565bca96e1a050a22b54bb89824a4e4535b56c172ae9eddb1b4486c"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_CrossModel_Readout_Repeatability_A100 (1).ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_CrossModel_Readout_Repeatability_A100 (1).ipynb",
+    "sha256": "0e0b308f780b704de3d19ec7fb1513602c6114a7d10999e85b2f9c06e3c24291"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_CrossModel_Readout_Repeatability_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_CrossModel_Readout_Repeatability_A100.ipynb",
+    "sha256": "1fa250eb89fef2ed07d406ce7956042760ccf58a1b68185a2964566152955e4a"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/runs/VisualTorque_CrossModel_Repair_Confirmation_A100.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/runs/VisualTorque_CrossModel_Repair_Confirmation_A100.ipynb",
+    "sha256": "f43ed78703b8c13ebfefc7d1652bfd326d05876b59d61c9f474f6f25139de685"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/runs/VisualTorque_CrossModel_Repair_Development_A100_gemma12B.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/runs/VisualTorque_CrossModel_Repair_Development_A100_gemma12B.ipynb",
+    "sha256": "63552d76514e70cabf2cc95e8dac1e37b548a6c450dabe5bf4cf0cfa6c765818"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/runs/VisualTorque_CrossModel_Repair_Development_A100_qwen9B.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/runs/VisualTorque_CrossModel_Repair_Development_A100_qwen9B.ipynb",
+    "sha256": "ed5b4e78a473330bccde8a9bf155684cf859ec22c3de30dc71c941d6234a10e4"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_CrossModel_Results_FullAudit_CPU.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_CrossModel_Results_FullAudit_CPU.ipynb",
+    "sha256": "fdf6ebc025f2d4143539e8264465001fa3756fe4b0e4051424b88db0c19479fc"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/runs/VisualTorque_CrossModel_TargetedAudit_CPU.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/runs/VisualTorque_CrossModel_TargetedAudit_CPU.ipynb",
+    "sha256": "86131d4ccba09199a1415bb0dbaa2c3b64f3945d28449e1beee0405eea81b9d7"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Error_Structure_CPU.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Error_Structure_CPU.ipynb",
+    "sha256": "b6eabf2b3d643a2fb0a37c64fdaa7d1e5be5ec862bf697f5eaaa05d1074d86c1"
+  },
+  {
+    "previous_path": "notebooks/03_rq2_format_generalization/runs/VisualTorque_Frozen_Format_Transfer_GPU (1).ipynb",
+    "current_path": "notebooks/02_section43_format_generalization/runs/VisualTorque_Frozen_Format_Transfer_GPU (1).ipynb",
+    "sha256": "d083e99dd6a70173633571105a2e9c9b205b2a9ed882e9fddf091358415cf5f7"
+  },
+  {
+    "previous_path": "notebooks/03_rq2_format_generalization/runs/VisualTorque_Frozen_Format_Transfer_GPU.ipynb",
+    "current_path": "notebooks/02_section43_format_generalization/runs/VisualTorque_Frozen_Format_Transfer_GPU.ipynb",
+    "sha256": "d98665ccbc9ef370858183a5855f89eb924673e28303705e874d1600b3fd0373"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/runs/VisualTorque_Gemma12B_L31_FixedCandidate_A100.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/runs/VisualTorque_Gemma12B_L31_FixedCandidate_A100.ipynb",
+    "sha256": "a766cf2d10608e4c295461ce5c9440c6ebdffedc275c37e1f05bda3810f44810"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Gemma_Response_Depth_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Gemma_Response_Depth_A100.ipynb",
+    "sha256": "97cc8ae744fc0fe568df9461d0181feffc0f379fd95cc3c36ad6246dcf493e50"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/runs/VisualTorque_Independent_Results_Audit_CPU.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/runs/VisualTorque_Independent_Results_Audit_CPU.ipynb",
+    "sha256": "2edf82816321dbeaa664e040d8d176fcb455d11830b48c4dfb977d2e3a106850"
+  },
+  {
+    "previous_path": "notebooks/02_rq2_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Calibration_GPU (1).ipynb",
+    "current_path": "notebooks/01_section42_43_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Calibration_GPU (1).ipynb",
+    "sha256": "4789dddcfbf80ac7d018f91fa39f0bfc981b79e136f3a82e23462738cff6b2b6"
+  },
+  {
+    "previous_path": "notebooks/02_rq2_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Calibration_GPU (2).ipynb",
+    "current_path": "notebooks/01_section42_43_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Calibration_GPU (2).ipynb",
+    "sha256": "01275983f81b61fb15cf9a06a96b0487a78709768b7ed3ec7e3938ac9a34593e"
+  },
+  {
+    "previous_path": "notebooks/02_rq2_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Calibration_GPU.ipynb",
+    "current_path": "notebooks/01_section42_43_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Calibration_GPU.ipynb",
+    "sha256": "afc65e618a1029cdac0bcaf8f1d9ac5e08893e06ee4ebbbd288f5096fbd9a39b"
+  },
+  {
+    "previous_path": "notebooks/02_rq2_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Validation_GPU (1).ipynb",
+    "current_path": "notebooks/01_section42_43_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Validation_GPU (1).ipynb",
+    "sha256": "b43dac3c1dc4fe3fbfa0fab5088d79d5d67781856df506140c3bcd6fa7414c40"
+  },
+  {
+    "previous_path": "notebooks/02_rq2_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Validation_GPU.ipynb",
+    "current_path": "notebooks/01_section42_43_transfer_prediction/runs/VisualTorque_Intervention_Prediction_Validation_GPU.ipynb",
+    "sha256": "2b07a15374cda6786a1dfa26e916e789451fef4f51e6a299f1dedb1e6fffdb14"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/runs/VisualTorque_Qwen27B_EqualMagnitude_Blocking_A100.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/runs/VisualTorque_Qwen27B_EqualMagnitude_Blocking_A100.ipynb",
+    "sha256": "1e14cea2d270e6bd8facb158e224a7468698463f6b61e5c2f27e48f79c385c8d"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Native_LoRA_AlignedUpdate_Crossover_NewGeometry_96GB_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Native_LoRA_AlignedUpdate_Crossover_NewGeometry_96GB_v1.ipynb",
+    "sha256": "908fe29d1a4a28abc6a53f297ac69c80521bb0dd2fe806c28e5c6a41d24c383d"
+  },
+  {
+    "previous_path": "notebooks/04_rq3_guided_repair/runs/VisualTorque_Qwen27B_ThreePath_Confirmation_A100.ipynb",
+    "current_path": "notebooks/04_section45_guided_repair/runs/VisualTorque_Qwen27B_ThreePath_Confirmation_A100.ipynb",
+    "sha256": "84c1615b80ee4cded2ee5e945b4d1d370554910640ab100f84fe388039999a70"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Readout_Capture_Bridge_GPU (1).ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Readout_Capture_Bridge_GPU (1).ipynb",
+    "sha256": "3d5f2040eb8c39dd65506f28497245c6c544c7a38c4041089bad602602bd4e84"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Readout_Capture_Bridge_GPU (2).ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Readout_Capture_Bridge_GPU (2).ipynb",
+    "sha256": "38981a3b8ccc57354398ecb03864de48408114f3c50a2ecc2600c73a519273f0"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Readout_Capture_Bridge_GPU.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Readout_Capture_Bridge_GPU.ipynb",
+    "sha256": "8ce6605fce27325690c4d33af73c35f517097da8748323215e8a44c48fcac41d"
+  },
+  {
+    "previous_path": "notebooks/90_followup_visual_and_relation_use/runs/VisualTorque_VisualInformationSupport_GPU.ipynb",
+    "current_path": "notebooks/90_followup_visual_and_relation_use/runs/VisualTorque_VisualInformationSupport_GPU.ipynb",
+    "sha256": "f28d6e9d9e01f8346f8bf5ef3d813e3e075657a99282842523b27609ba3ac6a9"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100.ipynb",
+    "sha256": "80577f41714974284a883edf945cf6198b9894b0481ec0b7585bcec479c5b7e3"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100_v3.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_2x2_SideCorrectness_Cohort_Readiness_A100_v3.ipynb",
+    "sha256": "2b5a41c43167283d28b15424c54ee340ef95179ad33d736778fd0921a5f55bed"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Activation_Confirmatory_A100 (1).ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Activation_Confirmatory_A100 (1).ipynb",
+    "sha256": "0039638e8255c2fe7cd8740708bf8fcf89fccd784b6b4ae149ec752b254baef4"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Activation_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Activation_Confirmatory_A100.ipynb",
+    "sha256": "e4318587c2af917f02d691088fcda3cdbf2ea1c3f90e39a4273e3ed8fb80c0a6"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Causal_Torque_Intervention_A100 (1).ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Causal_Torque_Intervention_A100 (1).ipynb",
+    "sha256": "f2a92d9f7643d117895dbfa0e72cee04a3b352d469667e265e2f0cbbee7756d1"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Causal_Torque_Intervention_A100 (2).ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Causal_Torque_Intervention_A100 (2).ipynb",
+    "sha256": "ffa69d5a787e3e2d1c4ab3418a05a411fcfd3875a0cf8f8cde9caca2c058b1a1"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Causal_Torque_Intervention_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Causal_Torque_Intervention_A100.ipynb",
+    "sha256": "82d82cb2c4bbc6d64c3a90081c1237b4b8a0ae666a40ab514b9b6eed222ab2d9"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Competence_GroupedRoute_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Competence_GroupedRoute_Confirmatory_A100.ipynb",
+    "sha256": "c25a870385097d4d944a295fa4554f6719afdae1b95fda8d13cc08878d104222"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Competence_Mechanism_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Competence_Mechanism_Audit.ipynb",
+    "sha256": "defae34493636af3f1fe815060a0e3f53c1ff11163645b01a6ae2df0c1e38c94"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Competing_Causal_Abstraction_FinalConfirmatory_A100 (1).ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Competing_Causal_Abstraction_FinalConfirmatory_A100 (1).ipynb",
+    "sha256": "bd3fbf67d2fa03798e902575264afd56eed428e008dd539b40f4074ad2c20e59"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Competing_Causal_Abstraction_FinalConfirmatory_A100 (2).ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Competing_Causal_Abstraction_FinalConfirmatory_A100 (2).ipynb",
+    "sha256": "9994dfb1d68ea5b8406e972b4182169248d8021c582ab535c6bacc10e9f5e05a"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Competing_Causal_Abstraction_FinalConfirmatory_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Competing_Causal_Abstraction_FinalConfirmatory_A100.ipynb",
+    "sha256": "40c134fae2c385d797f9f124f5b71a29ea9de37b208193d98837cd525607e3df"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ContextGated_WeightRoute_Confirmatory_A100 (1).ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ContextGated_WeightRoute_Confirmatory_A100 (1).ipynb",
+    "sha256": "73e0926df5e7068d3de67766a3731d9844e3bd7c3e586cd2d260fa2a8cf54229"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ContextGated_WeightRoute_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ContextGated_WeightRoute_Confirmatory_A100.ipynb",
+    "sha256": "11be0092d10e24d1d2257b9283c0a46d809a43943a53b37b4ee3efdc3baccb74"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Counterfactual_Causal_Tracing_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Counterfactual_Causal_Tracing_Confirmatory_A100.ipynb",
+    "sha256": "4c464a07314d45352ce2c59964ad799dd56ea08faeeeea2be472ccccbb1e0e26"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_CrossContext_Composition_Paper_Robustness_Audit.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_CrossContext_Composition_Paper_Robustness_Audit.ipynb",
+    "sha256": "4fe0d49730b0f3eeccd76a5bd2e1474218317caa112edb491abf60bb0ab1d921"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_CrossContext_Factor_Recombination_A100 (1).ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_CrossContext_Factor_Recombination_A100 (1).ipynb",
+    "sha256": "39c683427d8b825544715310de321c93485fec220b683d63ee43e7b51c38795e"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_CrossContext_Factor_Recombination_A100 (2).ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_CrossContext_Factor_Recombination_A100 (2).ipynb",
+    "sha256": "afb89503e9ac10c95244e24c3deab0528bba7a8abac9bd1e8d40d5e9869dbfff"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_CrossContext_Factor_Recombination_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_CrossContext_Factor_Recombination_A100.ipynb",
+    "sha256": "f0d1bcac31acb7c09a31027c16beab2784af8cf03f4d1e3beb8d877a777d98ad"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_CrossModel_CommonSupport_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_CrossModel_CommonSupport_Audit.ipynb",
+    "sha256": "9fc48c0a76d0e05adf04cb1b3bed49a8bd6163f0c32db801b241685766cd1814"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossQuery_FactorDecision_Transport_A100 (1).ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossQuery_FactorDecision_Transport_A100 (1).ipynb",
+    "sha256": "5f664c68f8a66a4e4fcb0ad482150f3d96cc310373256e2f1420dc25e72cee55"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossQuery_FactorDecision_Transport_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_CrossQuery_FactorDecision_Transport_A100.ipynb",
+    "sha256": "f718c7b819b58c25999fc3382eb0d6abffd786651a47d1272d4c17bb4504112a"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_Edgewise_CausalFidelity_OOD_Readiness.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_Edgewise_CausalFidelity_OOD_Readiness.ipynb",
+    "sha256": "621ef47ebe34c6e0697f5182ae60106581e0f8396fa3e5aee6e2d9d24396f960"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Factorial_Robustness_Paper_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Factorial_Robustness_Paper_Audit.ipynb",
+    "sha256": "47a3985ee7185eecace152f95230ab5139c0b05a44161fd6fa1ea341594e3deb"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Gemma_Competence_GroupedRoute_Replication_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Gemma_Competence_GroupedRoute_Replication_A100.ipynb",
+    "sha256": "93a88a8dbfe59c48e2de63c489115b734cc78f2665aeb2c5041763b9619d2676"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_InverseQuery_WeightRoute_Specificity_A100 (1).ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_InverseQuery_WeightRoute_Specificity_A100 (1).ipynb",
+    "sha256": "d1d2f6c42591a837e45b63b44b757dd159939ae886aae4fc1bb61593925876e8"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_InverseQuery_WeightRoute_Specificity_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_InverseQuery_WeightRoute_Specificity_A100.ipynb",
+    "sha256": "83c7ba9266a386fb0459bdf8738f61bde10a74beeb0b06bdcb779fd9bcf10774"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_L55_CodeTransition_Asymmetry_Audit.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_L55_CodeTransition_Asymmetry_Audit.ipynb",
+    "sha256": "ae37b6f56b08e8a5091f117a19bdbb4f3c1917d07e6aa1983054c3ef851d4947"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_LargeModel_FrozenClaim_Replication_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_LargeModel_FrozenClaim_Replication_A100.ipynb",
+    "sha256": "693adb1df0b0035b3353cb81e8f3c58ff3b5d30b1432a7e15fb604e7c147c22f"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_LateSite_Strategy_Readout_Confirmatory_A100 (1).ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_LateSite_Strategy_Readout_Confirmatory_A100 (1).ipynb",
+    "sha256": "8897811a9b192905f4c9d9cca5d76ea7ce04d056fd182c3bd3c25973e58fc062"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_LateSite_Strategy_Readout_Confirmatory_A100 (2).ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_LateSite_Strategy_Readout_Confirmatory_A100 (2).ipynb",
+    "sha256": "6d9d893a7cc6a5c701d0145e505aadc321f355f79aa3ad0b111d9cdcf9babbef"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_LateSite_Strategy_Readout_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_LateSite_Strategy_Readout_Confirmatory_A100.ipynb",
+    "sha256": "db8c20f9929f14d4aeb3afb36f9eced974300ada7d47365aafba5bf245a94d42"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_Mechanism_Error_Prediction_Audit.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_Mechanism_Error_Prediction_Audit.ipynb",
+    "sha256": "b8b16081fb6ff4fe62eaffe3144ce0e85bd5ab02ee1d57ca4c5ffb205859a0ba"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_MediatorSymmetry_OrientationSpecific_Reanalysis.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_MediatorSymmetry_OrientationSpecific_Reanalysis.ipynb",
+    "sha256": "ed32e817adbbf4375c100a8a6b581ae92d06643ff52330bba7bad929fc5693f1"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_ModelAdaptive_Fidelity_StressPrediction_A100 (1).ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_ModelAdaptive_Fidelity_StressPrediction_A100 (1).ipynb",
+    "sha256": "5d24f8f1fca0b9e10e40de0830e3425c645daf16286f9d169bb9f534f69cfd1a"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_ModelAdaptive_Fidelity_StressPrediction_A100 (2).ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_ModelAdaptive_Fidelity_StressPrediction_A100 (2).ipynb",
+    "sha256": "ee12ba91e65acc06a757ff30f41fb1c4c1b42ab67c000260623e499d8ff8227a"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_ModelAdaptive_Fidelity_StressPrediction_A100.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_ModelAdaptive_Fidelity_StressPrediction_A100.ipynb",
+    "sha256": "0ccf00d8fe5aa15c717ad4f1bdf26dd13ffc97681a45aed3a8e6927f2793b03f"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ModelAdaptive_InformativeSite_Replication_A100 (1).ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ModelAdaptive_InformativeSite_Replication_A100 (1).ipynb",
+    "sha256": "0cf688212d99f59e0a7975aa27362a43b71e2724e2f42878d23b93ad03edd9f5"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ModelAdaptive_InformativeSite_Replication_A100 (2).ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ModelAdaptive_InformativeSite_Replication_A100 (2).ipynb",
+    "sha256": "b8096071f9924789c0bff49ce6cc6ac7f925555b330aadef77c2c5f2208f57e3"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ModelAdaptive_InformativeSite_Replication_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_ModelAdaptive_InformativeSite_Replication_A100.ipynb",
+    "sha256": "d3eebef6b9ec0a2c98cd3ce10308d65e9139f678b9e002425e5fd77bf9a007bd"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Natural_Counterfactual_Causal_Tracing_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Natural_Counterfactual_Causal_Tracing_A100.ipynb",
+    "sha256": "436ce9d6db99ce522dccf3bd940db02fd8dd5d9dbb111fb083829de7ecff0ab2"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Orthogonal_Binding_Robustness_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Orthogonal_Binding_Robustness_Audit.ipynb",
+    "sha256": "5897a5bc81003e7d9b3ee5b348033801fb1d8c12f35ec68cadfef41b5273c6a4"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Orthogonal_ValueBinding_Control_A100 (1).ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Orthogonal_ValueBinding_Control_A100 (1).ipynb",
+    "sha256": "0b8d7666c33f532b84a7bc8de7672648a9a23699ad3f36437b9386ddb23b0fc9"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Orthogonal_ValueBinding_Control_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Orthogonal_ValueBinding_Control_A100.ipynb",
+    "sha256": "c83f3822e3e164eb46e6f017d389a3de4efb88ed8f91625558fd3fec3b179b16"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_Paper_Evidence_Synthesis_v1.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_Paper_Evidence_Synthesis_v1.ipynb",
+    "sha256": "d1cb0d2b811a894c2f8b5e6d677c0b4abd3d894b8bee1fe14f7209f6c7c481b2"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_PathIntegrated_TorqueTangent_A100.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_PathIntegrated_TorqueTangent_A100.ipynb",
+    "sha256": "423ac0654ae7139fac5c8f5cf045c5f717bd9f4bc70d05d3798980d5ab84b9d4"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_PhysicalHandoff_FractureMap_PaperSynthesis_v2.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_PhysicalHandoff_FractureMap_PaperSynthesis_v2.ipynb",
+    "sha256": "0db682de06d06b742bed50d8bf644b43dbcc5c3a9d32f7911463dccf3450df01"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_AxisDose_FailureFamilies_SignedTransport_CPU_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_AxisDose_FailureFamilies_SignedTransport_CPU_v1.ipynb",
+    "sha256": "00fc3d33939618e4c5608318236314ca7c78b225b41c61e83033106512b96eb4"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_AxisDose_ReviewBundle_Analysis_CPU_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_AxisDose_ReviewBundle_Analysis_CPU_v1.ipynb",
+    "sha256": "e75646239f391b969377ab63a3fd636db1b8144769e07c2a2f906f18a535bb57"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_BF16_LoRA_WeightShortcut_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_BF16_LoRA_WeightShortcut_96GB.ipynb",
+    "sha256": "509018ffc3cb460306e346268ebc0f850c72e384f615c3a4a71fdf3d08d0249d"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Base_vs_LoRA_DistanceFactorial_Audit_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Base_vs_LoRA_DistanceFactorial_Audit_96GB.ipynb",
+    "sha256": "2f8b88dd3779080095a848ba6c3431990a3e2d918ba5a3a56923f1fe707c4c14"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB_v3.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Base_vs_LoRA_FrozenHandoff_Comparison_96GB_v3.ipynb",
+    "sha256": "aa107afdbcd2fd9fd004136f647e998cb9ae2a3f2dc25c4216fbf989f23a3b59"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Base_vs_LoRA_Mechanism_Discovery_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Base_vs_LoRA_Mechanism_Discovery_96GB.ipynb",
+    "sha256": "3c4f18128c99e619c9e4fd568838bb2cdfaf6c4f456ad265b2293a44763efc31"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Base_vs_LoRA_MetricVsOrdinal_Boundary_Audit_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Base_vs_LoRA_MetricVsOrdinal_Boundary_Audit_96GB.ipynb",
+    "sha256": "4194d1ea035b2f411012233178372d1df4098ea2aa0157f242c14ac23ab89fe2"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Qwen27B_Calculation_Elicitation_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Qwen27B_Calculation_Elicitation_A100.ipynb",
+    "sha256": "b84923172e7dc41365aea1ebf6e3f6aeed9e0430f3b44427682902c8027ad378"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_CompetenceMatchedClearance_Readiness_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_CompetenceMatchedClearance_Readiness_A100.ipynb",
+    "sha256": "e2cee60b1db29eef922752d5e77e18e4f4133f0d775311f95da92904f902e1ad"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Qwen27B_Conditional_Strategy_PhaseMap_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Qwen27B_Conditional_Strategy_PhaseMap_A100.ipynb",
+    "sha256": "9bc296305971401215d65584c22deba958df951bb6705bd38d0b8d0bdc4d6d0b"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_CorrectSource_DistanceError_Rescue_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_CorrectSource_DistanceError_Rescue_A100.ipynb",
+    "sha256": "f266e0d25287b8e29a4f1c57113d4a0cbaf65fea6a2122aac70133c9b0e1ff52"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_CrossContext_ResponseCode_Subspace_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_CrossContext_ResponseCode_Subspace_A100.ipynb",
+    "sha256": "a0baebc2b605784dd8dcb4ecdb847c71216f9fe8180af8e6c28a32e8dd9eebf0"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_DecisionNeutral_FactorSemantic_Mediation_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_DecisionNeutral_FactorSemantic_Mediation_A100.ipynb",
+    "sha256": "840a46d225bf0f0edf2133077623007494b6e8e849c8928acd0ef0cc86386fb6"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Qwen27B_Depth_Relocalization_Audit_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Qwen27B_Depth_Relocalization_Audit_A100.ipynb",
+    "sha256": "094e1806a378d3b4d7186a3e4d324c8adb48c8524939246e20047d6b604e7164"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_Distributed_FactorMediator_Subspace_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_Distributed_FactorMediator_Subspace_A100.ipynb",
+    "sha256": "ced3ccefe3e12586baeb413f1a649bb59f7738fa27a78c6fce5ff8162adf58a6"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ErrorConditioned_PhysicalState_Audit_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ErrorConditioned_PhysicalState_Audit_A100.ipynb",
+    "sha256": "566c831d956ff724c4ac3339a2abc52c8742c1b986d660e886f308c86144af06"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ExactPhysics_ErrorSpecific_Handoff_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ExactPhysics_ErrorSpecific_Handoff_Confirmatory_A100.ipynb",
+    "sha256": "d58834fc17804ed1ecad74b9f48758ab9db49d300bdabec6c31001a325a9a45a"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ExactPhysics_Handoff_Paper_Audit.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ExactPhysics_Handoff_Paper_Audit.ipynb",
+    "sha256": "c3451d36d406f112c3fa04fa92b0845172941df52f24088ef54125bf52fd4b37"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ExactPhysics_SequentialHandoff_Blocking_A100 (1).ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ExactPhysics_SequentialHandoff_Blocking_A100 (1).ipynb",
+    "sha256": "de0fde95ce519b5cfb79683527a00d34201370d22c33aea54264855311e2b274"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ExactPhysics_SequentialHandoff_Blocking_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_ExactPhysics_SequentialHandoff_Blocking_A100.ipynb",
+    "sha256": "1d3de8d90c8f00cd54171f6b75d153846ddec6b58bb162a2749af4a2fb572496"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_ExpandedCrossContext_SourceReadiness_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_ExpandedCrossContext_SourceReadiness_A100.ipynb",
+    "sha256": "3ef4ee37444162592aad3e7fc647f321f498a2e1b49d60da0bd01f00ea5a27d0"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Qwen27B_FactorPath_TokenComponent_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Qwen27B_FactorPath_TokenComponent_A100.ipynb",
+    "sha256": "0767e01dd0a8fd66c385e465b3822067db159b5c3f4225320f332998b95f7a60"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_Final_CrossContext_Factor_Composition_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_Final_CrossContext_Factor_Composition_A100.ipynb",
+    "sha256": "6518906e02daecb1db08c7f634dcda6fcd59ee6e4f89dd6af690bb22b8359cc3"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v3.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_FrozenHandoff_BoundaryScale_Audit_CPU_v3.ipynb",
+    "sha256": "1ed79262e94e0b01f939f09516ce41143590ab8d225a0736a7d8bbbceb62dbbe"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_Graded_ProductLaw_Composition_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_Graded_ProductLaw_Composition_A100.ipynb",
+    "sha256": "ac082c4cd19c12efbb38929675344d0f0a25d643effb9ef4ba96fe7fa1586fc5"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Handoff_AxisDose_Crossover_NewGeometry_96GB_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_Handoff_AxisDose_Crossover_NewGeometry_96GB_v1.ipynb",
+    "sha256": "7248761a7bbf4a9350e8dc99eff23ff16640d9e2bcd3e7a4d7d5c36743a46ad9"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_L55_CodeSubspace_Mediation_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_L55_CodeSubspace_Mediation_A100.ipynb",
+    "sha256": "ba97b72ba26f4bbd0132b5dcda5a553e0bbbeafed0da171564082ae23486f1ca"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_LocalGeometry_OracleReadout_BidirectionalResponse_96GB_v1.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_LocalGeometry_OracleReadout_BidirectionalResponse_96GB_v1.ipynb",
+    "sha256": "75b116e967d5d98da22031183d4316d0f432bd5ed89c018acf481d8055e8da2f"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_MatchedClearance_FlipError_RescueInduction_A100_v2.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_MatchedClearance_FlipError_RescueInduction_A100_v2.ipynb",
+    "sha256": "64c522d764191f83e2485694f67dc33f7afaa1b4e0ca34757f31828b2bf02e41"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_MatchedFracture_Localization_ReciprocalRepair_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_MatchedFracture_Localization_ReciprocalRepair_A100.ipynb",
+    "sha256": "a6992229bd39550f24f9cc549a7617bcfe355d25b7075e81d8be95e32c3f7c40"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_MediatorMatched_Handoff_Symmetry_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_MediatorMatched_Handoff_Symmetry_A100.ipynb",
+    "sha256": "53ce0c70eb4e9a829488ffbb1cdc33aeb3dcd16a0fe9e24e18c072413144be22"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_AlignedResidual_Robustness_PairedAccuracy_BF16_CPU_v1.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_AlignedResidual_Robustness_PairedAccuracy_BF16_CPU_v1.ipynb",
+    "sha256": "4609f3207999fee3d819a163733d39ddf7ed7df2da43273df6c0cd880ebc3913"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_PhysicalUpdate_AlignedResidual_Factorial_96GB_v1.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_PhysicalUpdate_AlignedResidual_Factorial_96GB_v1.ipynb",
+    "sha256": "91e7b28af2d0dd56c38993c3a237d64984add6101db6be6b02b60782a604c7d5"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_PhysicalUpdate_FamilyNeutrality_StateAlignment_CPU_v1.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_PhysicalUpdate_FamilyNeutrality_StateAlignment_CPU_v1.ipynb",
+    "sha256": "1563a482c7d196eecf26a320f217368058bbd4d2bd727efb23c10e135b853695"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v1.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v1.ipynb",
+    "sha256": "495e74d21814f7c815768231c507a7f40a2c082eb9e59c78d4001322fed6e33c"
+  },
+  {
+    "previous_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v2.ipynb",
+    "current_path": "notebooks/06_appendix_physical_updates/runs/VisualTorque_Qwen27B_Native_PhysicalUpdate_vs_AnswerCode_Confirmation_96GB_v2.ipynb",
+    "sha256": "fa89687685c06a5b2885b325be102a3b289980ab3f413ef7b910592c3d692d1e"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_NetTorqueToAnswer_Fracture_Rescue_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_NetTorqueToAnswer_Fracture_Rescue_A100.ipynb",
+    "sha256": "5a2eed5c017dbbeaf311b1b00073d0c4bf636a7bc8d941948601f25f0317d651"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_NetTorqueToSemantic_Handoff_Mediation_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_NetTorqueToSemantic_Handoff_Mediation_A100.ipynb",
+    "sha256": "fa4414323f98f63c9e663b34496918cb0af4acce493a13c4a60c845d1c9cd627"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Qwen27B_NetTorque_Aggregation_Invariance_A100_v2.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Qwen27B_NetTorque_Aggregation_Invariance_A100_v2.ipynb",
+    "sha256": "7dd2546a417ad48b4b6d7c0e920ec9142ad17d4fba2712f697219925dba9e01e"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_OutcomeFlip_ExpandedSupport_Confirmatory_A100_v2.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_OutcomeFlip_ExpandedSupport_Confirmatory_A100_v2.ipynb",
+    "sha256": "95eb84dc6c6a15821de16b1dfebb27693fa8cae1afcd8fc7f0b89d4c021d8901"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_Blind_Causal_Validation_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_Blind_Causal_Validation_96GB.ipynb",
+    "sha256": "34db48cb9ed324b29a16e9b41478e901abdd24ae3f88c110d7e8a12220f18ec0"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_Heldout_Evaluation_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_Heldout_Evaluation_96GB.ipynb",
+    "sha256": "cc9066768c1fb0d71b539338898ff5eea72885ff031a536e8c04644236c45f19"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_L50_CausalSubspace_Decomposition_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_L50_CausalSubspace_Decomposition_96GB.ipynb",
+    "sha256": "0ad70eafe0fe216f30599235169c10f240c33587652106b1304983bc6fa91995"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_L50_FrozenRank4_BlindV3_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_L50_FrozenRank4_BlindV3_96GB.ipynb",
+    "sha256": "4b7448ca24d63f28064e1a57015399a1a46de38a9b2f5b31307d91bb4ccd0f86"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_L50_MetricRoute_BlindCausal_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_L50_MetricRoute_BlindCausal_96GB.ipynb",
+    "sha256": "56e1652cf0007d0cdb4cc42eafb210d4c4690d9b7819798ae4f830ce2958ecf6"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_StyleCode_Crossover_Audit_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_StyleCode_Crossover_Audit_96GB.ipynb",
+    "sha256": "c95230f5801814f0b9684876d42cb47f0f5aec738dd5be29d961fc1bb51b8542"
+  },
+  {
+    "previous_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_TorqueControl_StressTest_96GB.ipynb",
+    "current_path": "notebooks/07_appendix_lora_training/runs/VisualTorque_Qwen27B_PostLoRA_TorqueControl_StressTest_96GB.ipynb",
+    "sha256": "4cbd344573c503016771e6037cab6ce7acaabea6716e4c1473a3b878c275c063"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_ProductLaw_BoundaryCalibration_Audit.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_ProductLaw_BoundaryCalibration_Audit.ipynb",
+    "sha256": "b65cc63d41d967b943527d5d79cfe5c468df5f9c4f4002ee5a421e9424f89f81"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Qwen27B_QueryConditional_TorqueUse_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_Qwen27B_QueryConditional_TorqueUse_A100.ipynb",
+    "sha256": "536535e452dff3f67848ca229e130c36557d58711ade76cbc315573aeaaa337d"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_RecipientConditioned_SemanticRecode_Rescue_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_RecipientConditioned_SemanticRecode_Rescue_A100.ipynb",
+    "sha256": "aabea6b02d7d7d7cd8974b0ac34707df621ae548663ef7dcb7d53f79e3cc3fad"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_RecipientRecode_DoseResponse_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_RecipientRecode_DoseResponse_Confirmatory_A100.ipynb",
+    "sha256": "81f63f7343faf45a2d164d6bedfdeb5f3192ea8ae9f167ce8256e2d4fc7b8ac5"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_ResponseCode_Alphabet_Replication_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_ResponseCode_Alphabet_Replication_A100.ipynb",
+    "sha256": "bdc5dd2e8729335aacf53fd24f8d58c1750e7c2203706a864801d418bb84fd68"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_ResponseCode_PositionFactorial_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_ResponseCode_PositionFactorial_A100.ipynb",
+    "sha256": "97c1d0403b791a53e6490cc36cb546b2d64f6a58e60c88f6e019b030f608e8d2"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_ResponseSubspace_DimensionTransfer_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_ResponseSubspace_DimensionTransfer_A100.ipynb",
+    "sha256": "538f84a59bc045054397a3c85169765819240e368cd39cb6a89567699f50097d"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_RightSide_ErrorSpecific_Handoff_A100_v2.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_RightSide_ErrorSpecific_Handoff_A100_v2.ipynb",
+    "sha256": "2214249c3eacf8b376036f1a4aeb86232f6b2c6cdcfd69472d9aa502f2f146ed"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Qwen27B_Route_Relocation_Audit_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Qwen27B_Route_Relocation_Audit_A100.ipynb",
+    "sha256": "6434ee41ccdcb7536b78b4148ad4efdd736e7e447106e7a3c9f43e36755d93de"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_SemanticError_Mediation_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_SemanticError_Mediation_Confirmatory_A100.ipynb",
+    "sha256": "7fc437832e3d9d0c154e831f8f87da8353c9cdbfb7874778062f5c886a6216c3"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_SequentialHandoff_IndependentReplication_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_SequentialHandoff_IndependentReplication_A100.ipynb",
+    "sha256": "ae10813e4d5b7ecca9f1860ec467c1ea676ef5a5dfe0c0fd17d637ba12699fcc"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_SymmetricCodeAxis_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_Qwen27B_SymmetricCodeAxis_A100.ipynb",
+    "sha256": "f38ac3befc604717757f30131c7163983a6eb7757a49a0dbc86eac3ab18d6907"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_Targeted_CommonSupport_Expansion_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_Targeted_CommonSupport_Expansion_A100.ipynb",
+    "sha256": "f5c07465ddffea3b9585579a3cd6bab65828124963b9ab2c796412f88d40b26c"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_Torque_to_Answer_Bridge_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Qwen27B_Torque_to_Answer_Bridge_A100.ipynb",
+    "sha256": "7c6fd7b9f2ede763408c1fb81561c7bfbe350e0045b7e24a6283d1dc41f305be"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_WeightRoute_CompetenceGating_Audit.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_WeightRoute_CompetenceGating_Audit.ipynb",
+    "sha256": "58b2aff635f88fac10ca08d6bb25a552d7d0b66b664bf3e1625eef60a71bf3db"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_WeightRoute_MappingSide_Factorial_A100.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_WeightRoute_MappingSide_Factorial_A100.ipynb",
+    "sha256": "3cbfb1bea18653501f4a9ee74152ec28a2325107596b6cbc9f31ca4326b717bc"
+  },
+  {
+    "previous_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_WeightRoute_WithinContext_Gating_Audit.ipynb",
+    "current_path": "notebooks/10_exploratory_composition_and_gating/runs/VisualTorque_Qwen27B_WeightRoute_WithinContext_Gating_Audit.ipynb",
+    "sha256": "8ce39a577cadbc2ed76f7de2be2a1f861f83b90aabbbaf12f9a2e6ad4ffc63cc"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_Qwen35B_A3B_BF16_Fracture_Replication_96GB.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_Qwen35B_A3B_BF16_Fracture_Replication_96GB.ipynb",
+    "sha256": "aa00797114ba12a36cf0b32eb70b210cb2c376b4b4e13fe81d58b86a56cb548c"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Qwen_Gemma_Mechanism_Synthesis.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Qwen_Gemma_Mechanism_Synthesis.ipynb",
+    "sha256": "bacf903484f9adf69a1665b4a8c672554fc68b5015ca8edda5450ad798aa875a"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/runs/VisualTorque_Representation_Specificity_v1.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/runs/VisualTorque_Representation_Specificity_v1.ipynb",
+    "sha256": "7e88c2cfd4ccc8aeef5251e1169379f1c0473e480189eae437b6e1f40ece3074"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_ResponseCode_Bypass_Threshold_Audit.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_ResponseCode_Bypass_Threshold_Audit.ipynb",
+    "sha256": "7976163a83f01d4715f1656db99c3a245c11152a0512aa9516533c78ca1f1519"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_ResponseState_Remapping_A100 (1).ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_ResponseState_Remapping_A100 (1).ipynb",
+    "sha256": "d526b10219b20f870357df05c28ef674e369b3a340855f175edfd78fd0f09086"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_ResponseState_Remapping_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_ResponseState_Remapping_A100.ipynb",
+    "sha256": "e92f3490bbbb6616236ba2ebb0360c8f26f0dd37bcf2acf2b721427b2b94b414"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_RightSide_CommonSupport_Matching_Readiness.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_RightSide_CommonSupport_Matching_Readiness.ipynb",
+    "sha256": "43798d86a76b66e09817a0940625bcf1b2c99886d7292da64a94212384c0a42d"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Routing_Robustness_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Routing_Robustness_Audit.ipynb",
+    "sha256": "1012fef3ea9aa970bdafe224ec7606e2b068167861a9d2ced140528f672042a9"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_SameManifest_Factorial_Composition_A100 (1).ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_SameManifest_Factorial_Composition_A100 (1).ipynb",
+    "sha256": "5fc079ac9655704926a46d2b7817ed0e4928709f7322733345dee5c5a9cf3987"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_SameManifest_Factorial_Composition_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_SameManifest_Factorial_Composition_A100.ipynb",
+    "sha256": "1566f047c87b09cdf275475f3261114f25e21d9cb42e4e271871c4f77c599f99"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_SemanticToLabel_Depth_Localization_A100 (1).ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_SemanticToLabel_Depth_Localization_A100 (1).ipynb",
+    "sha256": "a72eaf376b82ac7472e95ff96976a2838b85bfa940b0c7e3637ab6922e8d2290"
+  },
+  {
+    "previous_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_SemanticToLabel_Depth_Localization_A100.ipynb",
+    "current_path": "notebooks/05_appendix_content_and_encoding/runs/VisualTorque_SemanticToLabel_Depth_Localization_A100.ipynb",
+    "sha256": "1f946810322f4fb4e7be4c14c396f6332078fc69f54300ff04cca32c79e17dcc"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Targeted_Shortcut_Error_Rescue_Induction_A100 (1).ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Targeted_Shortcut_Error_Rescue_Induction_A100 (1).ipynb",
+    "sha256": "afa855e1ec363b288b9d8f8cce53ff9b688da8f1bf33df56c69907070f81606f"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Targeted_Shortcut_Error_Rescue_Induction_A100 (2).ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Targeted_Shortcut_Error_Rescue_Induction_A100 (2).ipynb",
+    "sha256": "4b9f158c0d2ac1be9f37396af46b720a88617b72ba6587f95ae623c57e47a04c"
+  },
+  {
+    "previous_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Targeted_Shortcut_Error_Rescue_Induction_A100.ipynb",
+    "current_path": "notebooks/11_handoff_development_and_matching/runs/VisualTorque_Targeted_Shortcut_Error_Rescue_Induction_A100.ipynb",
+    "sha256": "920d2d99c3710fb7936008e2e738b28b48e62dbe98850ac4b651deb74edfc506"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Task_Token_Component_Routing_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/runs/VisualTorque_Task_Token_Component_Routing_A100.ipynb",
+    "sha256": "a6502e31be2823c9871319bcd3f0ec983bce32a8c5574ecf30928731641b511a"
+  },
+  {
+    "previous_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_TorqueTangent_Pilot_A100.ipynb",
+    "current_path": "notebooks/12_cross_study_audits_and_pilots/runs/VisualTorque_TorqueTangent_Pilot_A100.ipynb",
+    "sha256": "848310a0af182306104d08e8e711ee13c215f72cf512cc35d9a647cbceb751a0"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_WeightShortcut_Error_Decomposition_A100 (1).ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_WeightShortcut_Error_Decomposition_A100 (1).ipynb",
+    "sha256": "206f1fbd484a236b32f3a3f9cb2e83a77f63098f9c9edffacf0974e2c4267ac1"
+  },
+  {
+    "previous_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_WeightShortcut_Error_Decomposition_A100.ipynb",
+    "current_path": "notebooks/08_appendix_error_structure/runs/VisualTorque_WeightShortcut_Error_Decomposition_A100.ipynb",
+    "sha256": "9d682a068e91bee7eab6fdc5ff806c38d2a90f736d7bcea31ea00566ba6f8aee"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/versions/VisualTorque_CrossModel_Readout_Correction_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/versions/VisualTorque_CrossModel_Readout_Correction_A100.ipynb",
+    "sha256": "9c954345dd12d58c3d62962263c5a46f006ed184c7190bb7631ffa0df3c224ca"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Task_Token_Component_Routing_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Task_Token_Component_Routing_A100.ipynb",
+    "sha256": "0f1d3ff378ea4aaca170960fa132da013b3c0430808da99b44019048b498c2d1"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_SameManifest_Factorial_Composition_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_SameManifest_Factorial_Composition_A100.ipynb",
+    "sha256": "ec6b6b4b11f46ad3cf9e1be82bdb1bff67fabd71fd2d9b0b76f54ad17a1a2241"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Routing_Robustness_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Routing_Robustness_Audit.ipynb",
+    "sha256": "77bb53ef6dbf11b14534e223c320851cc0c922c8433771e63a6448f62a4e59f1"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Orthogonal_ValueBinding_Control_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Orthogonal_ValueBinding_Control_A100.ipynb",
+    "sha256": "c7a66ad93b32a7242a4a2cbf8cca9f9bd0659d90c2982cc6a335409f42e1b802"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Natural_Counterfactual_Causal_Tracing_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Natural_Counterfactual_Causal_Tracing_A100.ipynb",
+    "sha256": "781cf4bfac6113416a01d1d4c862fae5001992959a5fee03f02c17ce48982ee2"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Gemma_Competence_GroupedRoute_Replication_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Gemma_Competence_GroupedRoute_Replication_A100.ipynb",
+    "sha256": "02088b1229afbb5c3050ce9c295bd1b96b97f537dc0c418297f5e735da5e49ac"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Counterfactual_Causal_Tracing_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Counterfactual_Causal_Tracing_Confirmatory_A100.ipynb",
+    "sha256": "d3eb1087001b72154123fcfef72c4d7568c56732a9a9f463926d5aeeb124ae62"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Competence_Mechanism_Audit.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Competence_Mechanism_Audit.ipynb",
+    "sha256": "ac4921d4b72884d8ce872eb65e08493770ed26695444fbac28b6880f1fea0bd9"
+  },
+  {
+    "previous_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Competence_GroupedRoute_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/09_appendix_factor_routes/versions/VisualTorque_Competence_GroupedRoute_Confirmatory_A100.ipynb",
+    "sha256": "ab3c6ec01ac5459fe7b112b5da60450fc6b91083533cb58b38f4f658201f8764"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/versions/VisualTorque_Representation_Specificity_v1.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/versions/VisualTorque_Representation_Specificity_v1.ipynb",
+    "sha256": "4d803633cd2d75c5ab2ea37232d53c2c52379169215fc46f12a79a5efc64d867"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/versions/VisualTorque_Behavior_Analysis_v3.ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/versions/VisualTorque_Behavior_Analysis_v3.ipynb",
+    "sha256": "dd77df7c54671c88627739c8e222e778e19ba7df48793e6ade32966f2d06aadc"
+  },
+  {
+    "previous_path": "notebooks/00_dataset_and_behavior/versions/VisualTorque_Behavior_A100.ipynb",
+    "current_path": "notebooks/00_dataset_and_behavior/versions/VisualTorque_Behavior_A100.ipynb",
+    "sha256": "52acf958d76b402e38f4a4a14d1e2ae3c836202e2cec057f2b57a70e1c497099"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/versions/VisualTorque_Activation_Discovery_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/versions/VisualTorque_Activation_Discovery_A100.ipynb",
+    "sha256": "b12adcbc35d3498c51831364af45a0ee1cd844d5d0f18228cf763fa88fe19048"
+  },
+  {
+    "previous_path": "notebooks/01_rq1_readout_and_correction/versions/VisualTorque_Activation_Confirmatory_A100.ipynb",
+    "current_path": "notebooks/03_section44_readout_correction/versions/VisualTorque_Activation_Confirmatory_A100.ipynb",
+    "sha256": "1c4a575a5f359c7684719742311fde416d34f4199ea36c1de1c2c9e32a05882b"
+  }
+]

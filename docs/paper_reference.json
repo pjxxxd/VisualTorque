@@ -1,0 +1,22 @@
+[
+  {
+    "source": "VisualTorque_revision/main.tex",
+    "sha256": "f8388ea447a99395fad99eb14e708f7ee7eb20eb1c5ca4d1c70de6ef690b6a95"
+  },
+  {
+    "source": "VisualTorque_revision/ICML_ABSTRACT_EN.tex",
+    "sha256": "f6329c0a0f9664dc6cd52c0efb04ff41831e6e321cd45ecdb54a56e5d4d55ce1"
+  },
+  {
+    "source": "VisualTorque_revision/ICML_METHODS_DRAFT_EN.tex",
+    "sha256": "64e5d608f2c75c5a03222c9385c6452bbfc3ac1044d4bbec96100a507fad3e01"
+  },
+  {
+    "source": "VisualTorque_revision/ICML_EXPERIMENTS_DRAFT_EN.tex",
+    "sha256": "992907575d2d890b83016b03160c12e5d672082b8e298e28de36918b3d5e9e56"
+  },
+  {
+    "source": "VisualTorque_revision/ICML_SECTIONS_3_4_APPENDIX_EN.tex",
+    "sha256": "8753266a484d82f923ce125c8d7b7a9e46897ab35be7e99e54078fd5c0f79280"
+  }
+]

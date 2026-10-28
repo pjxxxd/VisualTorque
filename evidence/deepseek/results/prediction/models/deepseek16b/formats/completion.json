@@ -1,0 +1,11 @@
+{
+  "status": "heldout_format_validation_complete",
+  "trials": 3456,
+  "no_refit": true,
+  "families": 96,
+  "formats": [
+    "ABC",
+    "XYZ",
+    "DIGITS"
+  ]
+}

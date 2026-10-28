@@ -1,0 +1,98 @@
+[
+  {
+    "section": "4.2–4.3 ABC",
+    "complete": true,
+    "details": {
+      "status": "heldout_validation_complete",
+      "n_families": 192,
+      "n_trials": 3456,
+      "control_status": {
+        "random_writes": 3456,
+        "unmatched_random_writes": 0
+      },
+      "prediction_sha256": "50609023882bf277fbed30147f7ac47be54c992b92bfbb55ea252d4e3cdf00c1"
+    }
+  },
+  {
+    "section": "4.3 XYZ/digits",
+    "complete": true,
+    "details": {
+      "status": "heldout_format_validation_complete",
+      "trials": 3456,
+      "no_refit": true,
+      "families": 96,
+      "formats": [
+        "ABC",
+        "XYZ",
+        "DIGITS"
+      ]
+    }
+  },
+  {
+    "section": "4.4 readout/correction",
+    "complete": true,
+    "details": {
+      "status": "heldout_readout_validation_complete",
+      "test_scenes": 1007,
+      "intervention_scenes": 304,
+      "random_scenes": 72,
+      "technical": {
+        "oracle_attempted": 304,
+        "oracle_achieved": 289,
+        "oracle_failed": 15,
+        "zero_or_tiny_edits": 0,
+        "random_attempted": 288,
+        "random_invalid": 2,
+        "common_valid_control_scenes": 69,
+        "all_attempts_retained": true
+      },
+      "selected_layer": 8
+    }
+  },
+  {
+    "section": "4.5 repair/removal",
+    "complete": true,
+    "details": {
+      "status": "heldout_repair_confirmation_complete",
+      "families": 52,
+      "presentations": 416,
+      "condition_records": 14560,
+      "original_planned_families": 64,
+      "capacity_amendment": {
+        "path": "/content/drive/MyDrive/VisualTorque/results/deepseek_vl2_small/blackwell_cu128/repair/confirmation_capacity52_v1/capacity_amendment.json",
+        "sha256": "409f21b2434227270d24123ce58f2325b5f34fc58ab19dda248f8224e41b0a61",
+        "original_planned_families": 64,
+        "amended_families": 52,
+        "families_per_stratum": 13,
+        "recovery_script_sha256": "260cf445788d4e8923c19b37db1a26e99ad0f17d75955165465bf782a9da3aff"
+      },
+      "development_eligible": false,
+      "fully_valid_families": 7,
+      "decisions": {
+        "accuracy_change": {
+          "repair_confirmed": {
+            "u": false,
+            "a": false
+          },
+          "selective_dependence_confirmed": {
+            "ua": false,
+            "ub": false,
+            "ab": false
+          }
+        },
+        "margin_change": {
+          "repair_confirmed": {
+            "u": false,
+            "a": true
+          },
+          "selective_dependence_confirmed": {
+            "ua": false,
+            "ub": false,
+            "ab": true
+          }
+        }
+      },
+      "interpretation": "truth-guided local intervention; not a demonstration of a complete native physics circuit"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+# Convenience dependencies for inspection and CPU analysis; not an exact experiment lock.
+# Install the CUDA-compatible torch/torchvision versions recorded by the target run separately.
+accelerate>=1.10
+huggingface_hub>=0.34
+ipython>=8.0
+jupyterlab>=4.0
+nbformat>=5.10
+matplotlib>=3.8
+numpy>=1.26
+pandas>=2.2
+Pillow>=10.0
+protobuf>=5.0
+scikit-learn>=1.5
+scipy
+joblib
+peft
+sentencepiece>=0.2
+tqdm>=4.66
+transformers==5.14.0

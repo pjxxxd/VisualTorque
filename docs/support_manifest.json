@@ -1,0 +1,1250 @@
+[
+  {
+    "source": "VisualTorque/toolkit/pyproject.toml",
+    "destination": "toolkit/pyproject.toml",
+    "sha256": "7873d7515fc23ad1347c5fc7adab8d657577815fb7802746142757772dbf6889"
+  },
+  {
+    "source": "VisualTorque/toolkit/README.md",
+    "destination": "toolkit/README.md",
+    "sha256": "e662ccf5239e8cd591436dbd913511a7103a3d8114c008d1108c1bb6d2e8405b"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/__init__.py",
+    "destination": "toolkit/src/visual_torque_toolkit/__init__.py",
+    "sha256": "231d9d7cb58f2070d46a6bc4ae7ab11760b75ea7e09b7350dcab0c06a4d79c1f"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/behavior/__init__.py",
+    "destination": "toolkit/src/visual_torque_toolkit/behavior/__init__.py",
+    "sha256": "c779483660e7cc22225c9b55ed943db8b5d5cbab991c22381976a6b76a01d56d"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/behavior/adapter.py",
+    "destination": "toolkit/src/visual_torque_toolkit/behavior/adapter.py",
+    "sha256": "c4463a81e6d2e079444d78e367cdb5209dafc979d6e9a9d9a6aa0acc0436b16d"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/behavior/comparison.py",
+    "destination": "toolkit/src/visual_torque_toolkit/behavior/comparison.py",
+    "sha256": "3b0682becdfc72c06268ef0f92de87895b7a64cb630727323f6c0a7c4b0de685"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/behavior/data.py",
+    "destination": "toolkit/src/visual_torque_toolkit/behavior/data.py",
+    "sha256": "c905739ad932ee2081af9984b104bdb4e24417ab76ce95451140323c203f4dcf"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/behavior/metrics.py",
+    "destination": "toolkit/src/visual_torque_toolkit/behavior/metrics.py",
+    "sha256": "090d9067ae1c2fe2ea480fb168cd55fe78f4e1d6d2516045e4ad3b559953b266"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/behavior/parsing.py",
+    "destination": "toolkit/src/visual_torque_toolkit/behavior/parsing.py",
+    "sha256": "8671182c0dec87f957e04a2833528dd09e6bcffd2eefb54afc8502649f2ee325"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/behavior/runner.py",
+    "destination": "toolkit/src/visual_torque_toolkit/behavior/runner.py",
+    "sha256": "4c8c1463e85a91dc56536007c820dec049b06c7b2153d92fb7acd2556ca660cc"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/behavior/schema.py",
+    "destination": "toolkit/src/visual_torque_toolkit/behavior/schema.py",
+    "sha256": "121eb1e29dd003fb89430df9b0ce451383400f87c56bcb33294bc14ab777437b"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/behavior_cli.py",
+    "destination": "toolkit/src/visual_torque_toolkit/behavior_cli.py",
+    "sha256": "5224bb40858b1556e63365614595441999a06581ad65028ba6ad777217350624"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/classify.py",
+    "destination": "toolkit/src/visual_torque_toolkit/classify.py",
+    "sha256": "1955c60ff673ad67e73f71036b50ad5de63dd92c2fdc64e142f4c204228b60bb"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/cli.py",
+    "destination": "toolkit/src/visual_torque_toolkit/cli.py",
+    "sha256": "05c5fe5904eed14a73673279a458d604f8dc92101903021f8bc1736ed540a646"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/contracts.py",
+    "destination": "toolkit/src/visual_torque_toolkit/contracts.py",
+    "sha256": "dc78c658b45cee00b7c810ec113aea0cb8434a0513ed3d3fa0d2c042bf4f2d02"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/dataset.py",
+    "destination": "toolkit/src/visual_torque_toolkit/dataset.py",
+    "sha256": "5df6c9de621c86ab18eb0f88e133bc66f282cfa8f3997e9c013a56f33e8c1442"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/demo.py",
+    "destination": "toolkit/src/visual_torque_toolkit/demo.py",
+    "sha256": "0a1ea4ec3fd05f2b6f1f7fbe750b0424ea8b0c48480da12084fde16aa60c8d14"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/edits.py",
+    "destination": "toolkit/src/visual_torque_toolkit/edits.py",
+    "sha256": "548d790fdc8b27e69cd766dbf6aecef32dc7b00dc1c29611db70f9988377b45f"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/generate.py",
+    "destination": "toolkit/src/visual_torque_toolkit/generate.py",
+    "sha256": "d15259cccd224370a52e5c6b3bd369807d9ca5ffcbd33eec7a60b758eb2ad7d1"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/prompts.py",
+    "destination": "toolkit/src/visual_torque_toolkit/prompts.py",
+    "sha256": "1b4f951bfb1202abc867d6f908839f073ed92a6cbe74b280828350a4d28a1b38"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/render.py",
+    "destination": "toolkit/src/visual_torque_toolkit/render.py",
+    "sha256": "90347b6088b8c3b3a2b145a4c594d09f5f99318670316bc6d58a33664ddf6e5b"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/splits.py",
+    "destination": "toolkit/src/visual_torque_toolkit/splits.py",
+    "sha256": "320c129498f909c67c7a8bc07f9743c12b6f68fe40164c57c233776285a6cc40"
+  },
+  {
+    "source": "VisualTorque/toolkit/src/visual_torque_toolkit/world.py",
+    "destination": "toolkit/src/visual_torque_toolkit/world.py",
+    "sha256": "082f48bcc93c28c66d46ee130f09539cb193176b8a5a1e41f39dd41ae8f3b72e"
+  },
+  {
+    "source": "VisualTorque/toolkit/tests/test_behavior.py",
+    "destination": "toolkit/tests/test_behavior.py",
+    "sha256": "5cb9c44b94088ab19a094868df73d2e4ff95a04c49c05934125d84b8bec48552"
+  },
+  {
+    "source": "VisualTorque/toolkit/tests/test_comparison.py",
+    "destination": "toolkit/tests/test_comparison.py",
+    "sha256": "28500124051c5518691dfbedaa95626194f650147ef68dbc0a8f78b101938ba1"
+  },
+  {
+    "source": "VisualTorque/toolkit/tests/test_dataset.py",
+    "destination": "toolkit/tests/test_dataset.py",
+    "sha256": "282f1dac8122ab1a9e59f700c0afaa5ee3561cdba19354dc0dae18cffd3100a3"
+  },
+  {
+    "source": "VisualTorque/toolkit/tests/test_edits.py",
+    "destination": "toolkit/tests/test_edits.py",
+    "sha256": "decbcb487d5f33963c56a56efbcb0431203b3dd0b312aa85b6ddc36717c52bf0"
+  },
+  {
+    "source": "VisualTorque/toolkit/tests/test_generation.py",
+    "destination": "toolkit/tests/test_generation.py",
+    "sha256": "7ee67c01812be755a9123aac4184c7346b3ae0b1f2d4e2b126773b9a3a2feb22"
+  },
+  {
+    "source": "VisualTorque/toolkit/tests/test_world.py",
+    "destination": "toolkit/tests/test_world.py",
+    "sha256": "e658826e212c9bf0c01c6e488ea9759ec09a50403ab43de5d7b577b1661b9991"
+  },
+  {
+    "source": "VisualTorque/notebooks/aligned_readout_cells.py",
+    "destination": "support/notebook_modules/aligned_readout_cells.py",
+    "sha256": "18451e117c86186d7c14ae686f7883c0856d808d24f3a2e8fd9573f1e8efee9c"
+  },
+  {
+    "source": "VisualTorque/notebooks/aligned_readout_core.py",
+    "destination": "support/notebook_modules/aligned_readout_core.py",
+    "sha256": "ec712f9e3b8368dc46e8c61f1dacfdcd826878a46fa614288be44c953ffe64f5"
+  },
+  {
+    "source": "VisualTorque/notebooks/aligned_readout_gpu.py",
+    "destination": "support/notebook_modules/aligned_readout_gpu.py",
+    "sha256": "31c7b22e16cbdc80e2e14640c1f9e65cf4b96a7ca40db61f401e3ab21702aed4"
+  },
+  {
+    "source": "VisualTorque/notebooks/capture_bridge_cells.py",
+    "destination": "support/notebook_modules/capture_bridge_cells.py",
+    "sha256": "56694831bffd8a87e53fc67be429dacd44d9b9615c5a308fd9b9ac1c3b0b4a8b"
+  },
+  {
+    "source": "VisualTorque/notebooks/capture_bridge_core.py",
+    "destination": "support/notebook_modules/capture_bridge_core.py",
+    "sha256": "c26a722c02908c9ea85ebfe6c136b9420cd271c276959216cd03c3e80539b42a"
+  },
+  {
+    "source": "VisualTorque/notebooks/capture_bridge_gpu.py",
+    "destination": "support/notebook_modules/capture_bridge_gpu.py",
+    "sha256": "49d180e0fb3a3a4845d3229c54ed85f07dd31058f04b90fafce8a63d00d9d0a5"
+  },
+  {
+    "source": "VisualTorque/notebooks/closure_error_cells.py",
+    "destination": "support/notebook_modules/closure_error_cells.py",
+    "sha256": "be94a619cbf451929f82dd69ca4df8fd02dfd2e650920f9ee0af7b18aa98a9a6"
+  },
+  {
+    "source": "VisualTorque/notebooks/closure_error_core.py",
+    "destination": "support/notebook_modules/closure_error_core.py",
+    "sha256": "c7e9ef40c075eae904441477ff97033864b3f4f37da0d3c2db1de3f113e84555"
+  },
+  {
+    "source": "VisualTorque/notebooks/closure_output_core.py",
+    "destination": "support/notebook_modules/closure_output_core.py",
+    "sha256": "0f132530c1c2a8d13aeb763182b2dafe1271a3d775adbb6585824313842b2465"
+  },
+  {
+    "source": "VisualTorque/notebooks/completion_audit_cells.py",
+    "destination": "support/notebook_modules/completion_audit_cells.py",
+    "sha256": "14103bc075e3c64692adaac78e95fe7fee2e87ee4b58e6d45b08052540586873"
+  },
+  {
+    "source": "VisualTorque/notebooks/completion_audit_core.py",
+    "destination": "support/notebook_modules/completion_audit_core.py",
+    "sha256": "88249597457a9c337c0793ec50566a400340ef51f68d86dcd5e66bfa687c0f5f"
+  },
+  {
+    "source": "VisualTorque/notebooks/cross_model_readout_cells.py",
+    "destination": "support/notebook_modules/cross_model_readout_cells.py",
+    "sha256": "19550aab0097edba388ef29b2a335ce374cdc6ef94746b6036c00e3b28108665"
+  },
+  {
+    "source": "VisualTorque/notebooks/direction_balance_diagnostic_core.py",
+    "destination": "support/notebook_modules/direction_balance_diagnostic_core.py",
+    "sha256": "6ba8b9b3208e81abb28fe7dc48924350dfb1bbeb2133a2c65a4cd26ac621311f"
+  },
+  {
+    "source": "VisualTorque/notebooks/direction_balance_diagnostic_gpu.py",
+    "destination": "support/notebook_modules/direction_balance_diagnostic_gpu.py",
+    "sha256": "cbc257f33c75ae80b631b102016bffea5adf7f2182d4b3efe2950d76000ff57c"
+  },
+  {
+    "source": "VisualTorque/notebooks/followup_audit_cells.py",
+    "destination": "support/notebook_modules/followup_audit_cells.py",
+    "sha256": "68d352f25f18fcbb6ce2efe76fd0171b4f0dbd69c5bd5150eccf8c52b906b225"
+  },
+  {
+    "source": "VisualTorque/notebooks/followup_content_cells.py",
+    "destination": "support/notebook_modules/followup_content_cells.py",
+    "sha256": "93e71865ed485b447eb7590fffb1955d03cdffbbf2b8d02ead86ff14ace56f06"
+  },
+  {
+    "source": "VisualTorque/notebooks/followup_core.py",
+    "destination": "support/notebook_modules/followup_core.py",
+    "sha256": "46079c0a41f50a6bcff8916cad6ebbe8a4a21d5060d05e039308657398613258"
+  },
+  {
+    "source": "VisualTorque/notebooks/followup_equal_cells.py",
+    "destination": "support/notebook_modules/followup_equal_cells.py",
+    "sha256": "71bbf3e98d47a4fb2b53958af280d4f3a2134c934a726a000ba77672356b0a1d"
+  },
+  {
+    "source": "VisualTorque/notebooks/followup_gpu.py",
+    "destination": "support/notebook_modules/followup_gpu.py",
+    "sha256": "f0fac88eebc1671f697a13279b01b06abae0eac500df32783f12ee84d8731800"
+  },
+  {
+    "source": "VisualTorque/notebooks/followup_repair_cells.py",
+    "destination": "support/notebook_modules/followup_repair_cells.py",
+    "sha256": "e63cbea3ae1bc0f5a8ce3d1c0b347ccf61b8e904132a22cc02884af9d8728825"
+  },
+  {
+    "source": "VisualTorque/notebooks/frozen_format_transfer_core.py",
+    "destination": "support/notebook_modules/frozen_format_transfer_core.py",
+    "sha256": "88263bb499b768f38c60c78a849ef43acfd25d08b11e30ea7a1579eafd41301d"
+  },
+  {
+    "source": "VisualTorque/notebooks/frozen_format_transfer_gpu.py",
+    "destination": "support/notebook_modules/frozen_format_transfer_gpu.py",
+    "sha256": "67939e20dd77ecf971ba6397ecf635d5c3934eedda09a7d9e6fcf61a24f09035"
+  },
+  {
+    "source": "VisualTorque/notebooks/frozen_visual_validation_core.py",
+    "destination": "support/notebook_modules/frozen_visual_validation_core.py",
+    "sha256": "f394224dfbe79b85a124db6dd6656794f76098449f6c638a1fb92bd0e7af8f45"
+  },
+  {
+    "source": "VisualTorque/notebooks/frozen_visual_validation_gpu.py",
+    "destination": "support/notebook_modules/frozen_visual_validation_gpu.py",
+    "sha256": "b039c9e13c3294b87aa42c2a94d1095c1c535074044f06ed154db834ad1562fd"
+  },
+  {
+    "source": "VisualTorque/notebooks/gemma_generation_recheck_core.py",
+    "destination": "support/notebook_modules/gemma_generation_recheck_core.py",
+    "sha256": "fcde04fb03a096587a0c6eec7231794a10ceb55eceb1a7ba1228ee661b530513"
+  },
+  {
+    "source": "VisualTorque/notebooks/gemma_generation_recheck_gpu.py",
+    "destination": "support/notebook_modules/gemma_generation_recheck_gpu.py",
+    "sha256": "49412d298621f3f48e9ba825d36b97da318c72cc55b12a735019f31c8f8b7859"
+  },
+  {
+    "source": "VisualTorque/notebooks/independent_cells.py",
+    "destination": "support/notebook_modules/independent_cells.py",
+    "sha256": "62e33b61eb606db323d530cc767bc50185750b33e9e38988f5cc4eb9b93a1ee0"
+  },
+  {
+    "source": "VisualTorque/notebooks/independent_core.py",
+    "destination": "support/notebook_modules/independent_core.py",
+    "sha256": "5798b2ccea8f231e34c0579901ba8c3fa23ed87f4601cf8f1bc8373852f01c18"
+  },
+  {
+    "source": "VisualTorque/notebooks/intervention_prediction_core.py",
+    "destination": "support/notebook_modules/intervention_prediction_core.py",
+    "sha256": "fa9263651498c6a230b3a692743d26544fd7ec21b23bb6a1aab0d0801353b602"
+  },
+  {
+    "source": "VisualTorque/notebooks/intervention_prediction_gpu.py",
+    "destination": "support/notebook_modules/intervention_prediction_gpu.py",
+    "sha256": "94cfb8e3313e1a6ad0bf62b62f715b0b37cc692bf60166b9b80dc2e54e1873be"
+  },
+  {
+    "source": "VisualTorque/notebooks/intervention_prediction_io.py",
+    "destination": "support/notebook_modules/intervention_prediction_io.py",
+    "sha256": "7126756f1b170caaab12637e9d90f5e828e0d6b84a2f93b2ee7efc9d02375f65"
+  },
+  {
+    "source": "VisualTorque/notebooks/readout_archive_reuse_cell.py",
+    "destination": "support/notebook_modules/readout_archive_reuse_cell.py",
+    "sha256": "29296b854a7bddbf2da6f51826290f448e4ec279eeaa425f226c862ddf5aa48a"
+  },
+  {
+    "source": "VisualTorque/notebooks/readout_edit_math.py",
+    "destination": "support/notebook_modules/readout_edit_math.py",
+    "sha256": "83274ac259400106c56228f9751e4cc66ec5a54ae7883d3a61d5ed8eed3d1ee1"
+  },
+  {
+    "source": "VisualTorque/notebooks/relation_use_audit.py",
+    "destination": "support/notebook_modules/relation_use_audit.py",
+    "sha256": "718212fa9b021d6b15e4f5810dbe8f71df6c091aa5edcd66dd6105bdd8792e3b"
+  },
+  {
+    "source": "VisualTorque/notebooks/relation_use_core.py",
+    "destination": "support/notebook_modules/relation_use_core.py",
+    "sha256": "39c21a05da84ce27ce148a39b813f57ec73225a6b4e947970f26766b70cac639"
+  },
+  {
+    "source": "VisualTorque/notebooks/relation_use_gpu.py",
+    "destination": "support/notebook_modules/relation_use_gpu.py",
+    "sha256": "14b4bb6d962ee66a2d64df9207936f902beaf7208064272786698274b091169a"
+  },
+  {
+    "source": "VisualTorque/notebooks/relation_use_primitives.py",
+    "destination": "support/notebook_modules/relation_use_primitives.py",
+    "sha256": "e4c7b11b8d0ebb40cff3b78df7264c37d9605fa9b812e95c8c87289248abc0d3"
+  },
+  {
+    "source": "VisualTorque/notebooks/visual_information_support_core.py",
+    "destination": "support/notebook_modules/visual_information_support_core.py",
+    "sha256": "c5bd9bbc582ab00c081c6813a7876df650e220dff1858c5c8df1c0d953052ef5"
+  },
+  {
+    "source": "VisualTorque/notebooks/visual_information_support_gpu.py",
+    "destination": "support/notebook_modules/visual_information_support_gpu.py",
+    "sha256": "6b7f5225cf8e96fa33566086ee586f6aa79ac929e3f72054c33d412ceedc249c"
+  },
+  {
+    "source": "VisualTorque/notebooks/visual_mechanism_audit.py",
+    "destination": "support/notebook_modules/visual_mechanism_audit.py",
+    "sha256": "a8b324e2db19d45ce3573eeb007964ee5145d70d4816d9d4eecb20e9e520d482"
+  },
+  {
+    "source": "VisualTorque/notebooks/visual_mechanism_core.py",
+    "destination": "support/notebook_modules/visual_mechanism_core.py",
+    "sha256": "b512de61277f6ef5f1695d15e2dfb0f686cb6df0611ba040f5d97c4d45919bc6"
+  },
+  {
+    "source": "VisualTorque/notebooks/visual_mechanism_gpu.py",
+    "destination": "support/notebook_modules/visual_mechanism_gpu.py",
+    "sha256": "43a705a64f99bd59fac3c38eec68aaecc86d5b750374673dbf4fd2bff446e3e2"
+  },
+  {
+    "source": "VisualTorque/notebooks/ALIGNED_READOUT_README_ZH.md",
+    "destination": "docs/original_run_guides/ALIGNED_READOUT_README_ZH.md",
+    "sha256": "f73199c339347dffcb4e875438be2a5770eb7d382f7367648355e49cee0e62a3"
+  },
+  {
+    "source": "VisualTorque/notebooks/INTERVENTION_PREDICTION_README_ZH.md",
+    "destination": "docs/original_run_guides/INTERVENTION_PREDICTION_README_ZH.md",
+    "sha256": "ae4f6b86ce987c4b5b161d81a6d0e25a53ec3517f28b88a9822323fa917b436e"
+  },
+  {
+    "source": "VisualTorque/notebooks/FROZEN_FORMAT_TRANSFER_README_ZH.md",
+    "destination": "docs/original_run_guides/FROZEN_FORMAT_TRANSFER_README_ZH.md",
+    "sha256": "67b47683458b4b1304e33e6b440e9b1f931cc8c3ab11f1861ba12d7392b86da0"
+  },
+  {
+    "source": "VisualTorque/notebooks/INDEPENDENT_CONFIRMATION_README_ZH.md",
+    "destination": "docs/original_run_guides/INDEPENDENT_CONFIRMATION_README_ZH.md",
+    "sha256": "b025030528625f56ffdee5f88a18a9da3335907d12fab851c0e2b4076a120f4b"
+  },
+  {
+    "source": "VisualTorque/notebooks/INDEPENDENT_RESULTS_AUDIT_README_ZH.md",
+    "destination": "docs/original_run_guides/INDEPENDENT_RESULTS_AUDIT_README_ZH.md",
+    "sha256": "ebe859f3a3da8f9d9326b21332e6f11ce1b90537de17f6ba74307fc51c46e059"
+  },
+  {
+    "source": "VisualTorque/notebooks/CROSS_MODEL_CONFIRMATION_README_ZH.md",
+    "destination": "docs/original_run_guides/CROSS_MODEL_CONFIRMATION_README_ZH.md",
+    "sha256": "0d1e77ab6811665f691054f4310b1ac9e7a19359245e5c67c3d6d54f20df1047"
+  },
+  {
+    "source": "VisualTorque/notebooks/CROSS_MODEL_NEXT_README_ZH.md",
+    "destination": "docs/original_run_guides/CROSS_MODEL_NEXT_README_ZH.md",
+    "sha256": "f370b23b6571341c819d589c62093f7cbb68dcebd53925dc4580c4ce6e03ee5e"
+  },
+  {
+    "source": "VisualTorque/notebooks/CLOSURE_DIAGNOSTICS_README_ZH.md",
+    "destination": "docs/original_run_guides/CLOSURE_DIAGNOSTICS_README_ZH.md",
+    "sha256": "dd7656b8a7ace73453d5c47488b0aaa4f21a03f48c13f72b67a1520a1b9ae5d2"
+  },
+  {
+    "source": "VisualTorque/notebooks/RELATION_USE_README_ZH.md",
+    "destination": "docs/original_run_guides/RELATION_USE_README_ZH.md",
+    "sha256": "f52bc7b643c7cc6632a55cf22c2c3f7637c988d8432955e0e4ab7a4727b4c105"
+  },
+  {
+    "source": "VisualTorque/notebooks/VISUAL_MECHANISM_README_ZH.md",
+    "destination": "docs/original_run_guides/VISUAL_MECHANISM_README_ZH.md",
+    "sha256": "ca325a2ac6a634ad88e9a081c11d373324c54e6d5b8acba6f40d4de50475c41e"
+  },
+  {
+    "source": "VisualTorque/notebooks/VISUAL_INFORMATION_SUPPORT_README_ZH.md",
+    "destination": "docs/original_run_guides/VISUAL_INFORMATION_SUPPORT_README_ZH.md",
+    "sha256": "0b184e453ba3ced97c8644fefa59e971ca01d18dbd635080c38941a0b4725a05"
+  },
+  {
+    "source": "VisualTorque/notebooks/DIRECTION_BALANCE_DIAGNOSTIC_README_ZH.md",
+    "destination": "docs/original_run_guides/DIRECTION_BALANCE_DIAGNOSTIC_README_ZH.md",
+    "sha256": "b0b4da06ae0652f9e1a41dfc50f12d58d3dea61b52f98855851c3ed72859dac4"
+  },
+  {
+    "source": "VisualTorque/notebooks/FROZEN_VISUAL_VALIDATION_README_ZH.md",
+    "destination": "docs/original_run_guides/FROZEN_VISUAL_VALIDATION_README_ZH.md",
+    "sha256": "3db35880c7f619052d095ebf626a9fa85eaf21540749921c5c1b28454607f4d7"
+  },
+  {
+    "source": "VisualTorque/notebooks/GEMMA_GENERATION_RECHECK_README_ZH.md",
+    "destination": "docs/original_run_guides/GEMMA_GENERATION_RECHECK_README_ZH.md",
+    "sha256": "14ee744cf63cbbd7668a6faa2d708b0a37da4a26325d4b186fe2af8b72362fd8"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/README_ZH.md",
+    "destination": "docs/original_run_guides/DEEPSEEK_README_ZH.md",
+    "sha256": "0632b1b9bd88a23490807b1649e0aa773836a18ce1ab6a61b81d60f5080c953d"
+  },
+  {
+    "source": "output/notebooks/DeepSeek_Repair_Recovery_20261027/README_ZH.md",
+    "destination": "docs/original_run_guides/DEEPSEEK_RECOVERY_README_ZH.md",
+    "sha256": "0c2abc495375500b35860da79979996e3230d382b5413d8e965ac8a04fdb6fa2"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/VALIDATION.md",
+    "destination": "docs/original_run_guides/DEEPSEEK_VALIDATION.md",
+    "sha256": "d80788333c2257d35aa5beffc417d888c554e4f5b8651e11a76e1423c046598b"
+  },
+  {
+    "source": "output/notebooks/DeepSeek_Repair_Recovery_20261027/VALIDATION.md",
+    "destination": "docs/original_run_guides/DEEPSEEK_RECOVERY_VALIDATION.md",
+    "sha256": "0369d04dac49d50f4994a98c68e673a1249f72b58d9369b6a66b20a70760c021"
+  },
+  {
+    "source": "output/notebooks/DeepSeek_Repair_Recovery_20261027/recover_repair.py",
+    "destination": "support/deepseek_recovery/recover_repair.py",
+    "sha256": "260cf445788d4e8923c19b37db1a26e99ad0f17d75955165465bf782a9da3aff"
+  },
+  {
+    "source": "output/notebooks/DeepSeek_Repair_Recovery_20261027/test_recovery.py",
+    "destination": "support/deepseek_recovery/test_recovery.py",
+    "sha256": "eab7b40863927be63c8c518215bde8c2bf45e6073a42d56b7c1145c884380541"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/audit.json",
+    "destination": "evidence/deepseek/review_20261026/audit.json",
+    "sha256": "ea32c2d82e6c0762a94637186c53a517753c7fe3caad78a795ebebecabc174af"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/audit_results.py",
+    "destination": "evidence/deepseek/review_20261026/audit_results.py",
+    "sha256": "81a209fb2758d5a915110adec6a7efafbbf155bbf7f46567b3c66f8e3f273e1d"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/formats_audited_predictions.csv",
+    "destination": "evidence/deepseek/review_20261026/formats_audited_predictions.csv",
+    "sha256": "13663db341e93a8f01c54389269938261d5d58c25aa18f2eb3b19f8af92fa143"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/formats_mapping_contrasts.csv",
+    "destination": "evidence/deepseek/review_20261026/formats_mapping_contrasts.csv",
+    "sha256": "82ea1a02c69247c074c0bd11a3d0b28c7985bd1e853e5ad87594d81d86b6f3f5"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/formats_mapping_gain_summary.csv",
+    "destination": "evidence/deepseek/review_20261026/formats_mapping_gain_summary.csv",
+    "sha256": "e73c697945eb037c3a059e5656599eb803acb4204be0b40bd4b1c6fb6bbbe19f"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/formats_primary_comparisons.csv",
+    "destination": "evidence/deepseek/review_20261026/formats_primary_comparisons.csv",
+    "sha256": "709693709cf3ff3c0de89646ea953664105ac88a4984ed9ed7b8994c057c864e"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/natural_counterfactual_summary.csv",
+    "destination": "evidence/deepseek/review_20261026/natural_counterfactual_summary.csv",
+    "sha256": "a8d7ccbfdab75d72ec2d0bee9dda287a6e6238639b31c6c0f9382d69b856ee41"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/non_tied_descriptive_sensitivity.csv",
+    "destination": "evidence/deepseek/review_20261026/non_tied_descriptive_sensitivity.csv",
+    "sha256": "b63b56e58db224c19720df46e6adda2c8551a5db79b6335f32935995a35ed1f7"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/physical_counterfactual_gain_audit.csv",
+    "destination": "evidence/deepseek/review_20261026/physical_counterfactual_gain_audit.csv",
+    "sha256": "4e8249e666d6d2d5dcebbe8d9b26605419194b35026268723014cf05cb344d5d"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/random_specificity_secondary.csv",
+    "destination": "evidence/deepseek/review_20261026/random_specificity_secondary.csv",
+    "sha256": "e5d411863d32e607d6822926636ab3ce0e8974580d33c98194ce4e44350875d1"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/RESULTS_REVIEW_ZH.md",
+    "destination": "evidence/deepseek/review_20261026/RESULTS_REVIEW_ZH.md",
+    "sha256": "202d0cc55f46adc0bf02597e89943a1ac4dd78ba8bf80d69dfc92241d51591c4"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/selected_content_predictors.csv",
+    "destination": "evidence/deepseek/review_20261026/selected_content_predictors.csv",
+    "sha256": "8df7f8f341e7ea10fd52f95c92b5593464ebb1631619e63d5d97fdce1e766abd"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/three_model_mapping_contrasts_18.csv",
+    "destination": "evidence/deepseek/review_20261026/three_model_mapping_contrasts_18.csv",
+    "sha256": "9d3ac34e0a111d238ef16e1770782af89e947bb357bbfd8082c84885cd34cd26"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/validation_audited_predictions.csv",
+    "destination": "evidence/deepseek/review_20261026/validation_audited_predictions.csv",
+    "sha256": "dcddf09a6a0c6b9bc798856e28012bba752aa0a07c05d91dbe099a53263a7bb8"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/validation_mapping_contrasts.csv",
+    "destination": "evidence/deepseek/review_20261026/validation_mapping_contrasts.csv",
+    "sha256": "dd74134934b810965d414861b8568178ef94ce9e81693d5adefa8ff2b1cbac57"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/validation_mapping_gain_summary.csv",
+    "destination": "evidence/deepseek/review_20261026/validation_mapping_gain_summary.csv",
+    "sha256": "d61918c6e6dfcd185fdbffe3e677cb50d6ad447301d7c925acc0c58407543d6d"
+  },
+  {
+    "source": "output/analysis/DeepSeek_Notebook01/validation_primary_comparisons.csv",
+    "destination": "evidence/deepseek/review_20261026/validation_primary_comparisons.csv",
+    "sha256": "99dc12f146bb8e0adcd35b4b67c8895e9a53018d818188e44053d1ebabc54410"
+  },
+  {
+    "source": "ccfa-review-reports/visualtorque-deepseek-claim-consistency-review.md",
+    "destination": "evidence/deepseek/claim_consistency_20261027.md",
+    "sha256": "ab7455b8fab5fc1904a2617da19e2c151b79f18f4ecffddfc17caadd7786e569"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::README_ZH.md",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "README_ZH.md",
+    "destination": "support/deepseek_source/README_ZH.md",
+    "sha256": "0632b1b9bd88a23490807b1649e0aa773836a18ce1ab6a61b81d60f5080c953d"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::VALIDATION.md",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "VALIDATION.md",
+    "destination": "support/deepseek_source/VALIDATION.md",
+    "sha256": "d80788333c2257d35aa5beffc417d888c554e4f5b8651e11a76e1423c046598b"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::adapter.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "adapter.py",
+    "destination": "support/deepseek_source/adapter.py",
+    "sha256": "9bd30629928fdcba6df81a1b9873ddebe7902d4330bb08d1cf255ec8ed53ad33"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::build_bundle.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "build_bundle.py",
+    "destination": "support/deepseek_source/build_bundle.py",
+    "sha256": "3ed0a05f6aca5b94344f9cbcece0bd3722e0c65318a0ce56504d4d2ad294ec6c"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::core.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "core.py",
+    "destination": "support/deepseek_source/core.py",
+    "sha256": "b73580b97808ba1c771f75c71ab4a6c73f3d130bb9145adb71a32eefdf9d66fb"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::gpu_check.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "gpu_check.py",
+    "destination": "support/deepseek_source/gpu_check.py",
+    "sha256": "d5038ef7800fa237e93a373c579842554edf1fb87b89a9fc76bba1a9b688bcfa"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::install.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "install.py",
+    "destination": "support/deepseek_source/install.py",
+    "sha256": "96d6e770817a0997152f77b714b36ac3530fe2e53489afd7d492401e0fff2098"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/aligned_readout_core.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/aligned_readout_core.py",
+    "destination": "support/deepseek_source/kernels/aligned_readout_core.py",
+    "sha256": "ec712f9e3b8368dc46e8c61f1dacfdcd826878a46fa614288be44c953ffe64f5"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/aligned_readout_gpu.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/aligned_readout_gpu.py",
+    "destination": "support/deepseek_source/kernels/aligned_readout_gpu.py",
+    "sha256": "31c7b22e16cbdc80e2e14640c1f9e65cf4b96a7ca40db61f401e3ab21702aed4"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/followup_core.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/followup_core.py",
+    "destination": "support/deepseek_source/kernels/followup_core.py",
+    "sha256": "46079c0a41f50a6bcff8916cad6ebbe8a4a21d5060d05e039308657398613258"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/followup_gpu.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/followup_gpu.py",
+    "destination": "support/deepseek_source/kernels/followup_gpu.py",
+    "sha256": "f0fac88eebc1671f697a13279b01b06abae0eac500df32783f12ee84d8731800"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/frozen_format_transfer_core.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/frozen_format_transfer_core.py",
+    "destination": "support/deepseek_source/kernels/frozen_format_transfer_core.py",
+    "sha256": "88263bb499b768f38c60c78a849ef43acfd25d08b11e30ea7a1579eafd41301d"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/frozen_format_transfer_gpu.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/frozen_format_transfer_gpu.py",
+    "destination": "support/deepseek_source/kernels/frozen_format_transfer_gpu.py",
+    "sha256": "67939e20dd77ecf971ba6397ecf635d5c3934eedda09a7d9e6fcf61a24f09035"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/independent_core.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/independent_core.py",
+    "destination": "support/deepseek_source/kernels/independent_core.py",
+    "sha256": "5798b2ccea8f231e34c0579901ba8c3fa23ed87f4601cf8f1bc8373852f01c18"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/intervention_prediction_core.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/intervention_prediction_core.py",
+    "destination": "support/deepseek_source/kernels/intervention_prediction_core.py",
+    "sha256": "fa9263651498c6a230b3a692743d26544fd7ec21b23bb6a1aab0d0801353b602"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/intervention_prediction_gpu.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/intervention_prediction_gpu.py",
+    "destination": "support/deepseek_source/kernels/intervention_prediction_gpu.py",
+    "sha256": "94cfb8e3313e1a6ad0bf62b62f715b0b37cc692bf60166b9b80dc2e54e1873be"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/intervention_prediction_io.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/intervention_prediction_io.py",
+    "destination": "support/deepseek_source/kernels/intervention_prediction_io.py",
+    "sha256": "7126756f1b170caaab12637e9d90f5e828e0d6b84a2f93b2ee7efc9d02375f65"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/readout_edit_math.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/readout_edit_math.py",
+    "destination": "support/deepseek_source/kernels/readout_edit_math.py",
+    "sha256": "83274ac259400106c56228f9751e4cc66ec5a54ae7883d3a61d5ed8eed3d1ee1"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::kernels/repair_examples.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "kernels/repair_examples.py",
+    "destination": "support/deepseek_source/kernels/repair_examples.py",
+    "sha256": "842d9c28f58076a21288e0117c9be955b9e447ddc09de951cb44454dbedf28fd"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::notebook_runner.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "notebook_runner.py",
+    "destination": "support/deepseek_source/notebook_runner.py",
+    "sha256": "96520159607ed112cb766ec85cbb8a6177d5f2f88afb859d7894e51659da0b30"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::prediction.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "prediction.py",
+    "destination": "support/deepseek_source/prediction.py",
+    "sha256": "d15231c7b004d986bc164a79e223d2ac0a31c4d584d98e36a610ea787031c489"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::readout.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "readout.py",
+    "destination": "support/deepseek_source/readout.py",
+    "sha256": "313965299f2023b2593343515ac03f622620d6eca3178fa423835f84e82318f1"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::repair.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "repair.py",
+    "destination": "support/deepseek_source/repair.py",
+    "sha256": "029252d72a679c250589386e2e1b768b62548e266bb66ba75108255589cb1576"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::requirements.txt",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "requirements.txt",
+    "destination": "support/deepseek_source/requirements.txt",
+    "sha256": "bd7ea97fca88eb73725247a0b100489b1348512eb62967972a69ca7bf63c85a1"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::run.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "run.py",
+    "destination": "support/deepseek_source/run.py",
+    "sha256": "ea3a08cbbb93311df6949cadff596818ddf222aff215d4ee51e59b421ee5471e"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::test_install.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "test_install.py",
+    "destination": "support/deepseek_source/test_install.py",
+    "sha256": "b28c6233f099037409d271b8f3096bb1425ba1cf1aae21ca7a9a2ffc5e984020"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::test_suite.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "test_suite.py",
+    "destination": "support/deepseek_source/test_suite.py",
+    "sha256": "03351ba3dfead2b67e52e30ba05576062a712e5640d5fafe75a5e089e1613be6"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/__init__.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/__init__.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/__init__.py",
+    "sha256": "231d9d7cb58f2070d46a6bc4ae7ab11760b75ea7e09b7350dcab0c06a4d79c1f"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/behavior/__init__.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/behavior/__init__.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/behavior/__init__.py",
+    "sha256": "c779483660e7cc22225c9b55ed943db8b5d5cbab991c22381976a6b76a01d56d"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/behavior/adapter.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/behavior/adapter.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/behavior/adapter.py",
+    "sha256": "c4463a81e6d2e079444d78e367cdb5209dafc979d6e9a9d9a6aa0acc0436b16d"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/behavior/comparison.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/behavior/comparison.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/behavior/comparison.py",
+    "sha256": "3b0682becdfc72c06268ef0f92de87895b7a64cb630727323f6c0a7c4b0de685"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/behavior/data.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/behavior/data.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/behavior/data.py",
+    "sha256": "c905739ad932ee2081af9984b104bdb4e24417ab76ce95451140323c203f4dcf"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/behavior/metrics.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/behavior/metrics.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/behavior/metrics.py",
+    "sha256": "090d9067ae1c2fe2ea480fb168cd55fe78f4e1d6d2516045e4ad3b559953b266"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/behavior/parsing.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/behavior/parsing.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/behavior/parsing.py",
+    "sha256": "8671182c0dec87f957e04a2833528dd09e6bcffd2eefb54afc8502649f2ee325"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/behavior/runner.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/behavior/runner.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/behavior/runner.py",
+    "sha256": "4c8c1463e85a91dc56536007c820dec049b06c7b2153d92fb7acd2556ca660cc"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/behavior/schema.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/behavior/schema.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/behavior/schema.py",
+    "sha256": "121eb1e29dd003fb89430df9b0ce451383400f87c56bcb33294bc14ab777437b"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/behavior_cli.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/behavior_cli.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/behavior_cli.py",
+    "sha256": "5224bb40858b1556e63365614595441999a06581ad65028ba6ad777217350624"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/classify.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/classify.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/classify.py",
+    "sha256": "1955c60ff673ad67e73f71036b50ad5de63dd92c2fdc64e142f4c204228b60bb"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/cli.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/cli.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/cli.py",
+    "sha256": "05c5fe5904eed14a73673279a458d604f8dc92101903021f8bc1736ed540a646"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/contracts.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/contracts.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/contracts.py",
+    "sha256": "dc78c658b45cee00b7c810ec113aea0cb8434a0513ed3d3fa0d2c042bf4f2d02"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/dataset.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/dataset.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/dataset.py",
+    "sha256": "5df6c9de621c86ab18eb0f88e133bc66f282cfa8f3997e9c013a56f33e8c1442"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/demo.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/demo.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/demo.py",
+    "sha256": "0a1ea4ec3fd05f2b6f1f7fbe750b0424ea8b0c48480da12084fde16aa60c8d14"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/edits.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/edits.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/edits.py",
+    "sha256": "548d790fdc8b27e69cd766dbf6aecef32dc7b00dc1c29611db70f9988377b45f"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/generate.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/generate.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/generate.py",
+    "sha256": "d15259cccd224370a52e5c6b3bd369807d9ca5ffcbd33eec7a60b758eb2ad7d1"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/prompts.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/prompts.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/prompts.py",
+    "sha256": "1b4f951bfb1202abc867d6f908839f073ed92a6cbe74b280828350a4d28a1b38"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/render.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/render.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/render.py",
+    "sha256": "90347b6088b8c3b3a2b145a4c594d09f5f99318670316bc6d58a33664ddf6e5b"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/splits.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/splits.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/splits.py",
+    "sha256": "320c129498f909c67c7a8bc07f9743c12b6f68fe40164c57c233776285a6cc40"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/src/visual_torque_toolkit/world.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/src/visual_torque_toolkit/world.py",
+    "destination": "support/deepseek_source/toolkit/src/visual_torque_toolkit/world.py",
+    "sha256": "082f48bcc93c28c66d46ee130f09539cb193176b8a5a1e41f39dd41ae8f3b72e"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/tests/test_behavior.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/tests/test_behavior.py",
+    "destination": "support/deepseek_source/toolkit/tests/test_behavior.py",
+    "sha256": "5cb9c44b94088ab19a094868df73d2e4ff95a04c49c05934125d84b8bec48552"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/tests/test_comparison.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/tests/test_comparison.py",
+    "destination": "support/deepseek_source/toolkit/tests/test_comparison.py",
+    "sha256": "28500124051c5518691dfbedaa95626194f650147ef68dbc0a8f78b101938ba1"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/tests/test_dataset.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/tests/test_dataset.py",
+    "destination": "support/deepseek_source/toolkit/tests/test_dataset.py",
+    "sha256": "282f1dac8122ab1a9e59f700c0afaa5ee3561cdba19354dc0dae18cffd3100a3"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/tests/test_edits.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/tests/test_edits.py",
+    "destination": "support/deepseek_source/toolkit/tests/test_edits.py",
+    "sha256": "decbcb487d5f33963c56a56efbcb0431203b3dd0b312aa85b6ddc36717c52bf0"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/tests/test_generation.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/tests/test_generation.py",
+    "destination": "support/deepseek_source/toolkit/tests/test_generation.py",
+    "sha256": "7ee67c01812be755a9123aac4184c7346b3ae0b1f2d4e2b126773b9a3a2feb22"
+  },
+  {
+    "source": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip::toolkit/tests/test_world.py",
+    "archive": "output/notebooks/VisualTorque_DeepSeekVL2_Small/experiment_source.zip",
+    "member": "toolkit/tests/test_world.py",
+    "destination": "support/deepseek_source/toolkit/tests/test_world.py",
+    "sha256": "e658826e212c9bf0c01c6e488ea9759ec09a50403ab43de5d7b577b1661b9991"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/calibration/completion.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/calibration/completion.json",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/calibration/completion.json",
+    "sha256": "a53b50983986f68a72f9c0172dc6bbccbd0ef9953d3efe390bf7e62c7fe65018"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/formats/analysis/format_error_change_descriptive.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/formats/analysis/format_error_change_descriptive.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/formats/analysis/format_error_change_descriptive.csv",
+    "sha256": "80b58d4864519961d8f9c2cf956fa379ec6db3080e98d51b876abfb174af74d1"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/formats/analysis/mapping_contrasts.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/formats/analysis/mapping_contrasts.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/formats/analysis/mapping_contrasts.csv",
+    "sha256": "f4429818c62dde586bc80dfbaba4f6553a4305fb0ffeff05d79da08c0e65448f"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/formats/analysis/mapping_family_gains.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/formats/analysis/mapping_family_gains.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/formats/analysis/mapping_family_gains.csv",
+    "sha256": "2c66c291be070bac6ac0cc0681e628eca9672f9901e857f6af66550fedd9a521"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/formats/analysis/mapping_gain_summary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/formats/analysis/mapping_gain_summary.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/formats/analysis/mapping_gain_summary.csv",
+    "sha256": "25ac983af7b3fab15b28725ddbf1723632df9d5b9cc0966721b5cbc6950a7d44"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/formats/analysis/prediction_summary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/formats/analysis/prediction_summary.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/formats/analysis/prediction_summary.csv",
+    "sha256": "e46c2e1e0dcc4e5cff54102f3ec667f02d223f90ba265b4dbd06617f417a4303"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/formats/analysis/primary_comparisons.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/formats/analysis/primary_comparisons.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/formats/analysis/primary_comparisons.csv",
+    "sha256": "d1a2636e8e7861d99945c14989a4ecffa3753b4f6b02c9f1b0ec62779ab4634d"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/formats/analysis/transition_events.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/formats/analysis/transition_events.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/formats/analysis/transition_events.csv",
+    "sha256": "763e56de559e84f095b0ae211d26c24074391c5f551118a3807d83bb2fe399c4"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/formats/completion.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/formats/completion.json",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/formats/completion.json",
+    "sha256": "54c5c4340a2be9cf6c45c0dad16b90f24dcf1a32c553a9a1f3d0d51e5fb12342"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/by_baseline_gap_bin.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/by_baseline_gap_bin.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/by_baseline_gap_bin.csv",
+    "sha256": "31e76f99855ddc772026e508d9260cd51e6de0ac887cd14399da59f1f53a96d2"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/by_mapping.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/by_mapping.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/by_mapping.csv",
+    "sha256": "718e999c17f9d7152834b960781b98617fdb22667f3203df9de7a7fc040edd88"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/by_source_argmax_stable.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/by_source_argmax_stable.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/by_source_argmax_stable.csv",
+    "sha256": "00cb0989b5c562ac2f90ebd1fa43555734787f65fef39066f5129dcd00bbcf26"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/changed_choice_summary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/changed_choice_summary.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/changed_choice_summary.csv",
+    "sha256": "7103f84c03c214c3e39677cec52834a4b511306b0b203da47c047e2de1c03ed1"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/distance_factorial_secondary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/distance_factorial_secondary.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/distance_factorial_secondary.csv",
+    "sha256": "00f0a816c7d730aaf4e95cf754a7dc55f43349553675c55e65f3e7fd428f6700"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/mapping_contrasts.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/mapping_contrasts.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/mapping_contrasts.csv",
+    "sha256": "d64d9453ad45a1cc9cf4c3015585d5b73d3475efe14d9caeeb8914fcf54e220c"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/mapping_family_gains.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/mapping_family_gains.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/mapping_family_gains.csv",
+    "sha256": "32344f9ada4af0bc5c7e238b1ce273a657db242d969c2adfa03ffdf0d9a635ec"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/mapping_gain_summary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/mapping_gain_summary.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/mapping_gain_summary.csv",
+    "sha256": "f981e968d676d3b7d9ac88ab40c6ea3904669d4c2a88883e82c94337964b2f72"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/mapping_trial_gains.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/mapping_trial_gains.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/mapping_trial_gains.csv",
+    "sha256": "e42df48ce0271ad6bf3a2040fd9d0d0728cb6a42e4fe085605600fa4589c93c7"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/natural_counterfactual_family_metrics.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/natural_counterfactual_family_metrics.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/natural_counterfactual_family_metrics.csv",
+    "sha256": "433eec398b4350ae4a0265338040a1080364ca7f3513633d8d845367acd97497"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/natural_counterfactual_summary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/natural_counterfactual_summary.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/natural_counterfactual_summary.csv",
+    "sha256": "e7ce5820771f45f52f3f0e7e1f7fd5365750abe342394d99fc16c214ce118817"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/prediction_summary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/prediction_summary.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/prediction_summary.csv",
+    "sha256": "f557ca039ea520ed4009a503d1297a306588bfdc91c43075ec171ba06e31143e"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/primary_comparisons.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/primary_comparisons.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/primary_comparisons.csv",
+    "sha256": "312fd924a1bc6398d71fbe3fa982aaea2b21f0662c0ed0b8ae36346dc735e2d8"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/random_specificity_secondary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/random_specificity_secondary.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/random_specificity_secondary.csv",
+    "sha256": "3e91defb1da51b3e8f82f33b57a783c02564d36c5ae67a3ccf94ccf4eb2243e8"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/transition_events.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/transition_events.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/transition_events.csv",
+    "sha256": "91907d95193123bc199dd991924cda365736648c939f3375725e9d2e83acc573"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/analysis/transition_macro_metrics.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/analysis/transition_macro_metrics.csv",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/analysis/transition_macro_metrics.csv",
+    "sha256": "72b29f1286644e8c14f41b09249d37b04c25b6323c34006827cbe6b26332390c"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::prediction/models/deepseek16b/validation/completion.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "prediction/models/deepseek16b/validation/completion.json",
+    "destination": "evidence/deepseek/results/prediction/models/deepseek16b/validation/completion.json",
+    "sha256": "8866b94001be3617de1e8627b959ef9f047de850e243db06cfd6234a9c543249"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::readout/completion.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "readout/completion.json",
+    "destination": "evidence/deepseek/results/readout/completion.json",
+    "sha256": "fb30a523a8de726f3a57835b5ce763315298389d4fa5023b7d03edd27fea523e"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::readout/correction_contrasts.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "readout/correction_contrasts.csv",
+    "destination": "evidence/deepseek/results/readout/correction_contrasts.csv",
+    "sha256": "fe25d20c404328ef2542c7e6063e94dce53292bfbf21ba66bdce3e8088ed5813"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::readout/correction_summary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "readout/correction_summary.csv",
+    "destination": "evidence/deepseek/results/readout/correction_summary.csv",
+    "sha256": "1745d34e9197230afa20fb3d62f698cdb97e88f6b098b3084b1ef8c54817a4a9"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::readout/development_grid.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "readout/development_grid.csv",
+    "destination": "evidence/deepseek/results/readout/development_grid.csv",
+    "sha256": "898a181dc0b3da4538dcd8e8b38106bed31d64e0e808de4826368c1d48a6b4c1"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::readout/fit_complete.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "readout/fit_complete.json",
+    "destination": "evidence/deepseek/results/readout/fit_complete.json",
+    "sha256": "02ec89e59b44ad1c25e51d0758cc185670c5ce362a68300a4c83682e98a61c02"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::readout/selection.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "readout/selection.json",
+    "destination": "evidence/deepseek/results/readout/selection.json",
+    "sha256": "856badb9eeefe468af4530882bd5ee27bb21531da290a2347e1e94f80fcae661"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::readout/technical_check.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "readout/technical_check.json",
+    "destination": "evidence/deepseek/results/readout/technical_check.json",
+    "sha256": "13aae28908ddfef9340b7d87d04acd451a63552da1d2524de468412c49edb6c0"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::readout/test_summary.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "readout/test_summary.csv",
+    "destination": "evidence/deepseek/results/readout/test_summary.csv",
+    "sha256": "16a8e59a4e729084f27f77756efd68dbede8483d20f425627050ccc7bf6f1d6b"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::repair/confirmation_capacity52_v1/capacity_amendment.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "repair/confirmation_capacity52_v1/capacity_amendment.json",
+    "destination": "evidence/deepseek/results/repair/confirmation_capacity52_v1/capacity_amendment.json",
+    "sha256": "409f21b2434227270d24123ce58f2325b5f34fc58ab19dda248f8224e41b0a61"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::repair/confirmation_capacity52_v1/capture_identity.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "repair/confirmation_capacity52_v1/capture_identity.json",
+    "destination": "evidence/deepseek/results/repair/confirmation_capacity52_v1/capture_identity.json",
+    "sha256": "17fe086ee043e6c896649f84b7fd97363d6f0e75eea0a0c83efe98e37822519e"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::repair/confirmation_capacity52_v1/completion.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "repair/confirmation_capacity52_v1/completion.json",
+    "destination": "evidence/deepseek/results/repair/confirmation_capacity52_v1/completion.json",
+    "sha256": "93cad1f975a0f7a6c3623115a767b7aff80878e2fe02344bbf43a7f41a7488ac"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::repair/confirmation_capacity52_v1/family_metrics.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "repair/confirmation_capacity52_v1/family_metrics.csv",
+    "destination": "evidence/deepseek/results/repair/confirmation_capacity52_v1/family_metrics.csv",
+    "sha256": "7a527c08439b6462d457c9b3071affa0b4ff4b8084d2dfb99663639055ae5bf7"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::repair/confirmation_capacity52_v1/primary_tests.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "repair/confirmation_capacity52_v1/primary_tests.csv",
+    "destination": "evidence/deepseek/results/repair/confirmation_capacity52_v1/primary_tests.csv",
+    "sha256": "059406b888fd0d7a65ab62f8c78e16c71a07aa162f5bad4291c975d576502cd5"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::repair/confirmation_capacity52_v1/protocol.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "repair/confirmation_capacity52_v1/protocol.json",
+    "destination": "evidence/deepseek/results/repair/confirmation_capacity52_v1/protocol.json",
+    "sha256": "18b161aa0fa582ddaf88a3e6d65a3b07c0ae0a27150aa6306f598361be1d18ce"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::repair/confirmation_capacity52_v1/repair_harm_counts.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "repair/confirmation_capacity52_v1/repair_harm_counts.csv",
+    "destination": "evidence/deepseek/results/repair/confirmation_capacity52_v1/repair_harm_counts.csv",
+    "sha256": "0ea367bef7b64de0912180e162432d33bb9f97e6387757005d42eb0ef853b176"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::repair/confirmation_capacity52_v1/technical_failures.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "repair/confirmation_capacity52_v1/technical_failures.csv",
+    "destination": "evidence/deepseek/results/repair/confirmation_capacity52_v1/technical_failures.csv",
+    "sha256": "7207b084c6f5ab0f6596ecd4c442270bad1a0ab2348689c3f08617fb9a54e9e5"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::repair/confirmation_capacity52_v1/valid_family_sensitivity.csv",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "repair/confirmation_capacity52_v1/valid_family_sensitivity.csv",
+    "destination": "evidence/deepseek/results/repair/confirmation_capacity52_v1/valid_family_sensitivity.csv",
+    "sha256": "57ca1af980ab1612bf385e99b8543e2cd241b0f3c6df4a664e4e1067cbba4c54"
+  },
+  {
+    "source": "Downloads/blackwell_cu128_results (2).zip::summary.json",
+    "archive": "Downloads/blackwell_cu128_results (2).zip",
+    "member": "summary.json",
+    "destination": "evidence/deepseek/results/summary.json",
+    "sha256": "35bd6ecd4d4acff995d770adaeb2d831c16fd2550fbf1c74fd0ccf14dc06d696"
+  },
+  {
+    "source": "VisualTorque_GitHub/.gitignore",
+    "destination": ".gitignore",
+    "sha256": "d15c2ef320e22c7b3bac5945e3d45062517e9a95ab81b1f9fd6e86dae42feedf"
+  },
+  {
+    "source": "VisualTorque_GitHub/.gitattributes",
+    "destination": ".gitattributes",
+    "sha256": "c4d316e5d7b905e53d1adddbb142012eeb43db0db1b552dd0a9ef24023ed6774",
+    "source_sha256": "9f5874acd1aab1c657de7291f31adbfe2e7fb3b742854769a4cdbd51235420af",
+    "change": "Disable Git newline conversion so experiment file hashes remain reproducible."
+  },
+  {
+    "source": "VisualTorque_GitHub/requirements.txt",
+    "destination": "requirements.txt",
+    "sha256": "cef70bbbe5c220d3a92957cf7f91cabad97fcfc8d800a32201d86556249d4dd5"
+  }
+]

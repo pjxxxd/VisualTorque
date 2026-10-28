@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visual-torque-toolkit"
+version = "0.3.0"
+description = "Validated dataset and experiment infrastructure for VisualTorque"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0"]
+
+[project.optional-dependencies]
+behavior = [
+    "accelerate>=1.0",
+    "torch>=2.4",
+    "torchvision>=0.19",
+    "transformers>=5.4.0",
+    "tqdm>=4.66",
+]
+
+[project.scripts]
+visual-torque = "visual_torque_toolkit.cli:main"
+visual-torque-behavior = "visual_torque_toolkit.behavior_cli:main"
+visual-torque-demo = "visual_torque_toolkit.demo:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

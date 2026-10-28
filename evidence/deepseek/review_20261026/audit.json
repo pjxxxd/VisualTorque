@@ -1,0 +1,387 @@
+{
+  "archive": {
+    "name": "blackwell_cu128_results.zip",
+    "sha256": "a8fd85d05c63050c4160ece164b27a19bba3f20282a71f745c62a8adb84eb665",
+    "files": 10509,
+    "crc_passed": true
+  },
+  "completion": [
+    {
+      "section": "4.2–4.3 ABC",
+      "complete": true,
+      "details": {
+        "status": "heldout_validation_complete",
+        "n_families": 192,
+        "n_trials": 3456,
+        "control_status": {
+          "random_writes": 3456,
+          "unmatched_random_writes": 0
+        },
+        "prediction_sha256": "50609023882bf277fbed30147f7ac47be54c992b92bfbb55ea252d4e3cdf00c1"
+      }
+    },
+    {
+      "section": "4.3 XYZ/digits",
+      "complete": true,
+      "details": {
+        "status": "heldout_format_validation_complete",
+        "trials": 3456,
+        "no_refit": true,
+        "families": 96,
+        "formats": [
+          "ABC",
+          "XYZ",
+          "DIGITS"
+        ]
+      }
+    },
+    {
+      "section": "4.4 readout/correction",
+      "complete": false,
+      "details": null
+    },
+    {
+      "section": "4.5 repair/removal",
+      "complete": false,
+      "details": null
+    }
+  ],
+  "runtime": {
+    "batch_size": 1,
+    "checkpoint": "6033e16432a1d771cf9fe4a6f894ff5e5e1459af",
+    "cuda": "12.8",
+    "cudnn_benchmark": false,
+    "dtype": "bfloat16",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "gpu_capability": [
+      12,
+      0
+    ],
+    "implementation": "d417f6419af55b3f9252238c4a43015fa95b54a21453ef671c93e4e98c3cb1a4",
+    "layer_path": "language.model.layers",
+    "numpy": "1.26.4",
+    "packages": {
+      "Pillow": "11.1.0",
+      "accelerate": "1.4.0",
+      "timm": "1.0.15",
+      "xformers": "0.0.33.post2"
+    },
+    "pandas": "2.2.3",
+    "python": "3.11.11",
+    "scipy": "1.15.2",
+    "sklearn": "1.6.1",
+    "source_revision": "ef9f91e2b6426536b83294c11742c27be66361b1",
+    "tf32": false,
+    "torch": "2.9.1+cu128",
+    "transformers": "4.38.2"
+  },
+  "gpu_check": {
+    "status": "passed_synthetic_gpu_checks_not_full_model",
+    "model_weights_loaded": false,
+    "python": "3.11.11",
+    "torch": "2.9.1+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "capability": [
+      12,
+      0
+    ],
+    "compiled_architectures": [
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ],
+    "vram_gib": 95.0,
+    "torchvision": "0.24.1+cu128",
+    "xformers": "0.0.33.post2",
+    "checks": [
+      "bool_mask_and_bf16_matmul",
+      "official_vision_attention_bf16_repeat"
+    ],
+    "vision_input_shape": [
+      1,
+      729,
+      1152
+    ]
+  },
+  "family_counts": {
+    "content:validation": 96,
+    "content:calibration": 32,
+    "physical:calibration": 32,
+    "physical:validation": 96
+  },
+  "calibration_validation_geometry_overlap": 0,
+  "support_provenance": {
+    "mode": "reuse_original_families",
+    "path": "/content/drive/MyDrive/VisualTorque/results/deepseek_vl2_small/main/prediction/support.json",
+    "sha256": "e25e6f3fb338d34cb8282cd2c56df3a3349d59f6030052f6b3193385548e8d49",
+    "upstream_provenance": {
+      "mode": "reuse_original_families",
+      "path": "/content/drive/MyDrive/VisualTorque/results/intervention_prediction_v1/main/support.json",
+      "sha256": "3b6450b21b26bf5823f7e876f5ad95963010996a77f0886fdd2ac568fc0a00a1"
+    }
+  },
+  "image_hashes_verified": 1280,
+  "calibration_selected": {
+    "content:L20": "source_letter",
+    "content:L26": "source_letter",
+    "physical:L20": "source_letter",
+    "physical:L26": "source_letter"
+  },
+  "calibration_pre_files_verified": 64,
+  "validation_pre_files_verified": 192,
+  "formats_pre_files_verified": 288,
+  "validation_audit": {
+    "trials": 3456,
+    "families": 192,
+    "sealed_at": "2026-10-26T06:43:18.511530+00:00",
+    "first_intervention": "2026-10-26T06:43:19.699265+00:00",
+    "last_intervention": "2026-10-26T07:06:29.763377+00:00",
+    "sealed_hashes_verified": true,
+    "all_predictions_precede_interventions": true,
+    "metrics_recomputed": 54144,
+    "max_target_write_relative_error": 0.0,
+    "baseline_top_ties": {
+      "('ABC', 'content:L20')": 54,
+      "('ABC', 'content:L26')": 54,
+      "('ABC', 'physical:L20')": 82,
+      "('ABC', 'physical:L26')": 82
+    }
+  },
+  "formats_audit": {
+    "trials": 3456,
+    "families": 96,
+    "sealed_at": "2026-10-26T07:15:53.360037+00:00",
+    "first_intervention": "2026-10-26T07:15:53.704643+00:00",
+    "last_intervention": "2026-10-26T07:28:03.289916+00:00",
+    "sealed_hashes_verified": true,
+    "all_predictions_precede_interventions": true,
+    "metrics_recomputed": 38016,
+    "max_target_write_relative_error": 0.0,
+    "baseline_top_ties": {
+      "('ABC', 'content:L20')": 54,
+      "('ABC', 'content:L26')": 54,
+      "('XYZ', 'content:L20')": 89,
+      "('XYZ', 'content:L26')": 89,
+      "('DIGITS', 'content:L20')": 88,
+      "('DIGITS', 'content:L26')": 88
+    }
+  },
+  "abc_repeat_exact_match": true,
+  "random_control_norm_checks": {
+    "calibration": {
+      "n": 1152,
+      "max_relative_error": 0.0172456053319073,
+      "unmatched": 0
+    },
+    "validation": {
+      "n": 3456,
+      "max_relative_error": 0.0176589099397329,
+      "unmatched": 0
+    }
+  },
+  "tail_replay": {
+    "trials": 1728,
+    "max_abs_error": 0.0833326975504558,
+    "choice_match": 0.9994212962962963
+  },
+  "tail_replay_exceptions": [
+    {
+      "trial_id": "fixed_449d5ac8539ff0b8a459__weight_less__identity__L26__DIGITS",
+      "family_id": "fixed_449d5ac8539ff0b8a459",
+      "codebook": "DIGITS",
+      "max_abs_error": 0.0833326975504558,
+      "post_answer_match": 0,
+      "head_scores": [
+        0.16666603088378906,
+        0.29166603088378906,
+        -0.45833396911621094
+      ],
+      "actual_candidate_logprobs": [
+        -0.9315882921218872,
+        -0.9315882921218872,
+        -1.5565882921218872
+      ],
+      "actual_label": "1"
+    }
+  ],
+  "selected_content_predictors": [
+    {
+      "codebook": "ABC",
+      "operation": "content:L20",
+      "mse": 0.03223924296222437,
+      "reduction_percent": 85.49981423099125,
+      "all_answer_match_percent": 92.36111111111111,
+      "changed_count": 159,
+      "changed_correct": 151,
+      "changed_match_percent": 94.9685534591195
+    },
+    {
+      "codebook": "ABC",
+      "operation": "content:L26",
+      "mse": 0.004050254810938166,
+      "reduction_percent": 98.2552085014873,
+      "all_answer_match_percent": 97.22222222222221,
+      "changed_count": 190,
+      "changed_correct": 186,
+      "changed_match_percent": 97.89473684210527
+    },
+    {
+      "codebook": "DIGITS",
+      "operation": "content:L20",
+      "mse": 0.016094071341811258,
+      "reduction_percent": 82.06584148744305,
+      "all_answer_match_percent": 89.23611111111111,
+      "changed_count": 198,
+      "changed_correct": 168,
+      "changed_match_percent": 84.84848484848484
+    },
+    {
+      "codebook": "DIGITS",
+      "operation": "content:L26",
+      "mse": 0.003958725478288686,
+      "reduction_percent": 96.9823660057236,
+      "all_answer_match_percent": 91.84027777777779,
+      "changed_count": 223,
+      "changed_correct": 209,
+      "changed_match_percent": 93.72197309417041
+    },
+    {
+      "codebook": "XYZ",
+      "operation": "content:L20",
+      "mse": 0.014001373064194474,
+      "reduction_percent": 83.68804146453573,
+      "all_answer_match_percent": 90.10416666666666,
+      "changed_count": 180,
+      "changed_correct": 161,
+      "changed_match_percent": 89.44444444444444
+    },
+    {
+      "codebook": "XYZ",
+      "operation": "content:L26",
+      "mse": 0.0026207967442217405,
+      "reduction_percent": 97.84815517409163,
+      "all_answer_match_percent": 95.13888888888889,
+      "changed_count": 210,
+      "changed_correct": 198,
+      "changed_match_percent": 94.28571428571428
+    }
+  ],
+  "deepseek_holm_all18": [
+    {
+      "model": "deepseek16b",
+      "codebook": "ABC",
+      "operation": "content:L20",
+      "mean": 0.2057291666666666,
+      "lower": 0.1145833333333333,
+      "upper": 0.2942708333333333,
+      "p_value": 9.999000099990002e-05,
+      "holm_p_all_18": 0.0017998200179982003
+    },
+    {
+      "model": "deepseek16b",
+      "codebook": "ABC",
+      "operation": "content:L26",
+      "mean": 0.1822916666666666,
+      "lower": 0.0807291666666666,
+      "upper": 0.28125,
+      "p_value": 0.0005999400059994,
+      "holm_p_all_18": 0.0077992200779921994
+    },
+    {
+      "model": "deepseek16b",
+      "codebook": "DIGITS",
+      "operation": "content:L20",
+      "mean": 0.03125,
+      "lower": -0.0729166666666666,
+      "upper": 0.1328125,
+      "p_value": 0.5821417858214178,
+      "holm_p_all_18": 1.0
+    },
+    {
+      "model": "deepseek16b",
+      "codebook": "DIGITS",
+      "operation": "content:L26",
+      "mean": 0.0677083333333333,
+      "lower": -0.03125,
+      "upper": 0.1614583333333333,
+      "p_value": 0.1962803719628037,
+      "holm_p_all_18": 1.0
+    },
+    {
+      "model": "deepseek16b",
+      "codebook": "XYZ",
+      "operation": "content:L20",
+      "mean": 0.1302083333333333,
+      "lower": 0.03125,
+      "upper": 0.2291666666666666,
+      "p_value": 0.0151984801519848,
+      "holm_p_all_18": 0.1367863213678632
+    },
+    {
+      "model": "deepseek16b",
+      "codebook": "XYZ",
+      "operation": "content:L26",
+      "mean": 0.109375,
+      "lower": 0.0052083333333333,
+      "upper": 0.2135416666666666,
+      "p_value": 0.0492950704929507,
+      "holm_p_all_18": 0.3943605639436056
+    }
+  ],
+  "log_failure_markers": {
+    "install": [],
+    "preflight": [],
+    "calibration": [],
+    "validation": [],
+    "formats": []
+  },
+  "software_sources_match": {
+    "adapter.py": true,
+    "core.py": true,
+    "gpu_check.py": true,
+    "install.py": true,
+    "kernels/aligned_readout_core.py": true,
+    "kernels/aligned_readout_gpu.py": true,
+    "kernels/followup_core.py": true,
+    "kernels/followup_gpu.py": true,
+    "kernels/frozen_format_transfer_core.py": true,
+    "kernels/frozen_format_transfer_gpu.py": true,
+    "kernels/independent_core.py": true,
+    "kernels/intervention_prediction_core.py": true,
+    "kernels/intervention_prediction_gpu.py": true,
+    "kernels/intervention_prediction_io.py": true,
+    "kernels/readout_edit_math.py": true,
+    "kernels/repair_examples.py": true,
+    "notebook_runner.py": true,
+    "prediction.py": true,
+    "readout.py": true,
+    "repair.py": true,
+    "run.py": true,
+    "toolkit/src/visual_torque_toolkit/__init__.py": true,
+    "toolkit/src/visual_torque_toolkit/behavior/__init__.py": true,
+    "toolkit/src/visual_torque_toolkit/behavior/adapter.py": true,
+    "toolkit/src/visual_torque_toolkit/behavior/comparison.py": true,
+    "toolkit/src/visual_torque_toolkit/behavior/data.py": true,
+    "toolkit/src/visual_torque_toolkit/behavior/metrics.py": true,
+    "toolkit/src/visual_torque_toolkit/behavior/parsing.py": true,
+    "toolkit/src/visual_torque_toolkit/behavior/runner.py": true,
+    "toolkit/src/visual_torque_toolkit/behavior/schema.py": true,
+    "toolkit/src/visual_torque_toolkit/behavior_cli.py": true,
+    "toolkit/src/visual_torque_toolkit/classify.py": true,
+    "toolkit/src/visual_torque_toolkit/cli.py": true,
+    "toolkit/src/visual_torque_toolkit/contracts.py": true,
+    "toolkit/src/visual_torque_toolkit/dataset.py": true,
+    "toolkit/src/visual_torque_toolkit/demo.py": true,
+    "toolkit/src/visual_torque_toolkit/edits.py": true,
+    "toolkit/src/visual_torque_toolkit/generate.py": true,
+    "toolkit/src/visual_torque_toolkit/prompts.py": true,
+    "toolkit/src/visual_torque_toolkit/render.py": true,
+    "toolkit/src/visual_torque_toolkit/splits.py": true,
+    "toolkit/src/visual_torque_toolkit/world.py": true
+  }
+}
