@@ -42,4 +42,4 @@ DeepSeek 的三份下载 notebook 保存了安装或容量报错，但最新结�
 
 [来源表](docs/source_to_copy.csv) 将 481 个原路径映射到 351 份副本；130 个字节完全一致的重复路径合并到同一副本，不同版本全部保留。[覆盖范围](docs/COVERAGE.md) 说明扫描位置和无法访问的目录，未声称覆盖整台电脑所有文件或压缩包。
 
-可运行 python scripts/verify_package.py 复核文件完整性，核验结果见 [VALIDATION](docs/VALIDATION.md)。本次整理未重新执行 GPU 实验，也未上传 GitHub。仓库包含代码、保存输出与精简结果；模型权重、完整中间缓存和全部外部数据需另行取得，详见运行指引。
+可运行 python scripts/verify_package.py 复核文件完整性，核验结果见 [VALIDATION](docs/VALIDATION.md)。本次整理未重新执行 GPU 实验。仓库包含代码、保存输出与精简结果；模型权重、完整中间缓存和全部外部数据需另行取得，详见运行指引。

@@ -182,7 +182,7 @@ def verify(original_root=None, downloads=None):
         re.compile(rb'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----'),
     ]
     flagged = []
-    files = [p for p in ROOT.rglob('*') if p.is_file()]
+    files = [p for p in ROOT.rglob('*') if p.is_file() and '.git' not in p.relative_to(ROOT).parts]
     for path in files:
         if path.suffix.lower() not in ('.ipynb', '.py', '.json', '.md', '.txt', '.csv', '.yaml', '.yml'):
             continue
