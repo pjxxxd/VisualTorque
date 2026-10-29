@@ -2,7 +2,7 @@
 
 论文 **Beyond Physical Readouts: Explaining Answer Changes in Vision–Language Models** 的实验代码。
 
-我们用可控的杠杆场景研究视觉语言模型中的物理信息读出、状态迁移与答案变化。这里包含论文中的 Qwen/Gemma 实验，以及 DeepSeek-VL2-small 的扩展实验。
+我们用可控的杠杆场景研究视觉语言模型中的物理信息读出、状态迁移与答案变化。
 
 [论文结论与实验对照](docs/CLAIM_TO_NOTEBOOK.md) · [运行说明](docs/RUNNING.md) · [实验设置](docs/EXPERIMENT_NOTES.md)
 
